@@ -1,0 +1,71 @@
+name: Archive GitHub Traffic & Deploy Pages
+
+on:
+  schedule:
+    # Runs daily at 00:00 UTC (and optionally 12:00 UTC)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI anytime!
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'data/**'
+      - 'README.md'
+
+# Permissions required for Git commit and GitHub Pages deployment
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  collect-and-archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Traffic Collector & Accumulator
+        env:
+          # PERSONAL_ACCESS_TOKEN secret with 'repo' scope is required to read traffic stats for user repos
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN || secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_OWNER: ${{ github.repository_owner }}
+          INCLUDE_FORKS: 'false'
+        run: |
+          python collector.py
+
+      - name: Commit and push updated archive data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No data changes detected."
+          else
+            git commit -m "chore(traffic): automated daily traffic archive [skip ci]"
+            git push origin main
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

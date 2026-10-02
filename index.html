@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Traffic & Repository Analytics Archive</title>
+  <meta name="description" content="Permanent historical traffic, clones, referrers, and audience analytics for all your GitHub repositories.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22 width=%22100%22 height=%22100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+            },
+            darkbg: '#0b0f17',
+            darkcard: '#111827',
+            darkborder: '#1f2937',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+
+  <style>
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #374151; border-radius: 9999px; }
+    ::-webkit-scrollbar-thumb:hover { background: #4b5563; }
+    .glass-card {
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-900 dark:bg-darkbg dark:text-gray-100 min-h-screen transition-colors duration-200 font-sans antialiased">
+
+  <!-- TOP NAV BAR -->
+  <header class="sticky top-0 z-40 w-full border-b border-gray-200 dark:border-darkborder bg-white/90 dark:bg-darkcard/90 glass-card">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      
+      <!-- Brand & Status -->
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center text-white shadow-lg shadow-blue-500/20">
+          <i class="fa-solid fa-chart-line text-lg"></i>
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <h1 class="font-bold text-lg tracking-tight text-gray-900 dark:text-white">Traffic Archive</h1>
+            <span id="syncBadge" class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 mr-1.5 animate-pulse"></span> Archived
+            </span>
+          </div>
+          <p id="lastUpdatedText" class="text-xs text-gray-500 dark:text-gray-400">Loading metrics...</p>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <nav class="hidden md:flex items-center space-x-1 p-1 bg-gray-100 dark:bg-gray-800/60 rounded-xl border border-gray-200 dark:border-gray-700/60 text-sm">
+        <button onclick="switchTab('overview')" id="tabBtn-overview" class="tab-btn px-3.5 py-1.5 font-medium rounded-lg transition-all text-blue-600 dark:text-blue-400 bg-white dark:bg-gray-700 shadow-sm">
+          <i class="fa-solid fa-chart-pie mr-1.5"></i> Overview
+        </button>
+        <button onclick="switchTab('explorer')" id="tabBtn-explorer" class="tab-btn px-3.5 py-1.5 font-medium rounded-lg transition-all text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+          <i class="fa-solid fa-folder-tree mr-1.5"></i> Repo Explorer
+        </button>
+        <button onclick="switchTab('compare')" id="tabBtn-compare" class="tab-btn px-3.5 py-1.5 font-medium rounded-lg transition-all text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+          <i class="fa-solid fa-code-compare mr-1.5"></i> Compare
+        </button>
+        <button onclick="switchTab('live')" id="tabBtn-live" class="tab-btn px-3.5 py-1.5 font-medium rounded-lg transition-all text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+          <i class="fa-solid fa-bolt mr-1.5"></i> On-Demand Live
+        </button>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center space-x-2">
+        <!-- Quick Export -->
+        <button onclick="exportDataJSON()" class="p-2 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition" title="Export Raw JSON Data">
+          <i class="fa-solid fa-download"></i>
+        </button>
+
+        <!-- Theme Toggle -->
+        <button onclick="toggleTheme()" class="p-2 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition" title="Toggle Dark/Light Mode">
+          <i id="themeIcon" class="fa-solid fa-sun"></i>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button onclick="toggleMobileMenu()" class="md:hidden p-2 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobileMenu" class="hidden md:hidden px-4 pt-2 pb-4 border-t border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard space-y-1 text-sm">
+      <button onclick="switchTab('overview'); toggleMobileMenu();" class="w-full text-left px-3 py-2 rounded-lg font-medium text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-gray-800">
+        <i class="fa-solid fa-chart-pie mr-2"></i> Overview
+      </button>
+      <button onclick="switchTab('explorer'); toggleMobileMenu();" class="w-full text-left px-3 py-2 rounded-lg font-medium text-gray-600 dark:text-gray-300">
+        <i class="fa-solid fa-folder-tree mr-2"></i> Repo Explorer
+      </button>
+      <button onclick="switchTab('compare'); toggleMobileMenu();" class="w-full text-left px-3 py-2 rounded-lg font-medium text-gray-600 dark:text-gray-300">
+        <i class="fa-solid fa-code-compare mr-2"></i> Compare Repos
+      </button>
+      <button onclick="switchTab('live'); toggleMobileMenu();" class="w-full text-left px-3 py-2 rounded-lg font-medium text-gray-600 dark:text-gray-300">
+        <i class="fa-solid fa-bolt mr-2"></i> On-Demand Live
+      </button>
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+
+    <!-- NOTICE / ZERO CONFIG BANNER -->
+    <div id="offlineNotice" class="hidden rounded-xl border border-amber-500/20 bg-amber-500/10 p-4 text-amber-800 dark:text-amber-300 text-sm flex items-start gap-3">
+      <i class="fa-solid fa-circle-info text-amber-500 mt-0.5"></i>
+      <div class="flex-1">
+        <p class="font-semibold">Displaying generated demo data.</p>
+        <p class="text-xs opacity-90 mt-0.5">Run <code class="bg-amber-500/20 px-1 py-0.5 rounded">python collector.py</code> or trigger the GitHub Action to populate your actual repository archives.</p>
+      </div>
+      <button onclick="document.getElementById('offlineNotice').classList.add('hidden')" class="text-amber-500 hover:text-amber-400">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- TAB 1: OVERVIEW -->
+    <!-- ========================================== -->
+    <section id="tab-overview" class="space-y-8">
+      
+      <!-- KPI Metric Cards Grid -->
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+        
+        <!-- Total Views -->
+        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-blue-500/50 transition">
+          <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 font-medium">
+            <span>All-Time Views</span>
+            <i class="fa-solid fa-eye text-blue-500"></i>
+          </div>
+          <div id="kpi-total-views" class="text-2xl font-bold tracking-tight mt-2 text-gray-900 dark:text-white">0</div>
+          <div id="kpi-views-14d-badge" class="mt-1 text-xs text-emerald-600 dark:text-emerald-400 font-medium flex items-center gap-1">
+            <i class="fa-solid fa-arrow-trend-up"></i> 0 in last 14d
+          </div>
+        </div>
+
+        <!-- Unique Visitors -->
+        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-indigo-500/50 transition">
+          <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 font-medium">
+            <span>Unique Visitors</span>
+            <i class="fa-solid fa-users text-indigo-500"></i>
+          </div>
+          <div id="kpi-unique-visitors" class="text-2xl font-bold tracking-tight mt-2 text-gray-900 dark:text-white">0</div>
+          <div id="kpi-uniques-14d-badge" class="mt-1 text-xs text-indigo-600 dark:text-indigo-400 font-medium">
+            Cumulative daily uniques
+          </div>
+        </div>
+
+        <!-- Git Clones -->
+        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-purple-500/50 transition">
+          <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 font-medium">
+            <span>All-Time Clones</span>
+            <i class="fa-solid fa-code-branch text-purple-500"></i>
+          </div>
+          <div id="kpi-total-clones" class="text-2xl font-bold tracking-tight mt-2 text-gray-900 dark:text-white">0</div>
+          <div id="kpi-clones-14d-badge" class="mt-1 text-xs text-purple-600 dark:text-purple-400 font-medium flex items-center gap-1">
+            <i class="fa-solid fa-download"></i> 0 in last 14d
+          </div>
+        </div>
+
+        <!-- Unique Cloners -->
+        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-pink-500/50 transition">
+          <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 font-medium">
+            <span>Unique Cloners</span>
+            <i class="fa-solid fa-user-check text-pink-500"></i>
+          </div>
+          <div id="kpi-unique-cloners" class="text-2xl font-bold tracking-tight mt-2 text-gray-900 dark:text-white">0</div>
+          <div class="mt-1 text-xs text-pink-600 dark:text-pink-400 font-medium">
+            Developers pulling code
+          </div>
+        </div>
+
+        <!-- Stars -->
+        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-amber-500/50 transition">
+          <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 font-medium">
+            <span>Total Stars</span>
+            <i class="fa-solid fa-star text-amber-500"></i>
+          </div>
+          <div id="kpi-total-stars" class="text-2xl font-bold tracking-tight mt-2 text-gray-900 dark:text-white">0</div>
+          <div class="mt-1 text-xs text-amber-600 dark:text-amber-400 font-medium">
+            Across all repos
+          </div>
+        </div>
+
+        <!-- Active Repos -->
+        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-teal-500/50 transition">
+          <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 font-medium">
+            <span>Tracked Repos</span>
+            <i class="fa-solid fa-box-archive text-teal-500"></i>
+          </div>
+          <div id="kpi-total-repos" class="text-2xl font-bold tracking-tight mt-2 text-gray-900 dark:text-white">0</div>
+          <div class="mt-1 text-xs text-teal-600 dark:text-teal-400 font-medium">
+            Archived permanently
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Main Aggregated Timeline Chart Card -->
+      <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-6 shadow-sm">
+        
+        <!-- Chart Controls -->
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+          <div>
+            <h2 class="text-lg font-bold text-gray-900 dark:text-white flex items-center gap-2">
+              <i class="fa-solid fa-chart-area text-blue-500"></i> Account Traffic Timeline
+            </h2>
+            <p class="text-xs text-gray-500 dark:text-gray-400">Aggregated daily engagement across all repositories over time.</p>
+          </div>
+
+          <div class="flex flex-wrap items-center gap-2">
+            <!-- Metric Toggle -->
+            <div class="inline-flex rounded-lg border border-gray-200 dark:border-gray-700 p-0.5 bg-gray-50 dark:bg-gray-800 text-xs">
+              <button onclick="setGlobalChartMetric('views')" id="chartMetric-views" class="px-3 py-1 rounded-md font-medium bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-400 shadow-sm">
+                Views & Uniques
+              </button>
+              <button onclick="setGlobalChartMetric('clones')" id="chartMetric-clones" class="px-3 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                Git Clones
+              </button>
+            </div>
+
+            <!-- Time Window Pills -->
+            <div class="inline-flex rounded-lg border border-gray-200 dark:border-gray-700 p-0.5 bg-gray-50 dark:bg-gray-800 text-xs">
+              <button onclick="setGlobalChartRange(7)" id="rangeBtn-7" class="px-2.5 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">7d</button>
+              <button onclick="setGlobalChartRange(14)" id="rangeBtn-14" class="px-2.5 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">14d</button>
+              <button onclick="setGlobalChartRange(30)" id="rangeBtn-30" class="px-2.5 py-1 rounded-md font-medium bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-400 shadow-sm">30d</button>
+              <button onclick="setGlobalChartRange(90)" id="rangeBtn-90" class="px-2.5 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">90d</button>
+              <button onclick="setGlobalChartRange(0)" id="rangeBtn-0" class="px-2.5 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">All</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Canvas Container -->
+        <div class="h-72 w-full relative">
+          <canvas id="globalTimelineChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Leaderboard & Repository Table -->
+      <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl shadow-sm overflow-hidden">
+        
+        <div class="p-6 border-b border-gray-200 dark:border-darkborder flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div>
+            <h2 class="text-lg font-bold text-gray-900 dark:text-white flex items-center gap-2">
+              <i class="fa-solid fa-trophy text-amber-500"></i> Repository Performance Leaderboard
+            </h2>
+            <p class="text-xs text-gray-500 dark:text-gray-400">Click any repository to inspect its deep-dive analytics.</p>
+          </div>
+
+          <!-- Table Search Filter -->
+          <div class="relative w-full sm:w-72">
+            <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-xs"></i>
+            <input type="text" id="repoSearchInput" oninput="filterRepoTable()" placeholder="Search repositories..." class="w-full pl-8 pr-3 py-1.5 text-xs bg-gray-50 dark:bg-gray-800/80 border border-gray-200 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+          </div>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs text-gray-600 dark:text-gray-300">
+            <thead class="bg-gray-50 dark:bg-gray-800/50 text-gray-700 dark:text-gray-400 uppercase font-semibold border-b border-gray-200 dark:border-darkborder">
+              <tr>
+                <th class="px-6 py-3 cursor-pointer hover:text-blue-500" onclick="sortRepoTable('name')">Repository <i class="fa-solid fa-sort ml-1"></i></th>
+                <th class="px-4 py-3 cursor-pointer hover:text-blue-500" onclick="sortRepoTable('stars')">Stars <i class="fa-solid fa-sort ml-1"></i></th>
+                <th class="px-4 py-3 cursor-pointer hover:text-blue-500" onclick="sortRepoTable('views_14d')">14d Views <i class="fa-solid fa-sort ml-1"></i></th>
+                <th class="px-4 py-3 cursor-pointer hover:text-blue-500" onclick="sortRepoTable('uniques_14d')">14d Visitors <i class="fa-solid fa-sort ml-1"></i></th>
+                <th class="px-4 py-3 cursor-pointer hover:text-blue-500" onclick="sortRepoTable('clones_14d')">14d Clones <i class="fa-solid fa-sort ml-1"></i></th>
+                <th class="px-4 py-3 cursor-pointer hover:text-blue-500" onclick="sortRepoTable('all_time_views')">All-Time Views <i class="fa-solid fa-sort ml-1"></i></th>
+                <th class="px-4 py-3 cursor-pointer hover:text-blue-500" onclick="sortRepoTable('all_time_clones')">All-Time Clones <i class="fa-solid fa-sort ml-1"></i></th>
+                <th class="px-6 py-3 text-right">Action</th>
+              </tr>
+            </thead>
+            <tbody id="repoTableBody" class="divide-y divide-gray-100 dark:divide-darkborder">
+              <!-- Dynamically populated rows -->
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+
+      <!-- Traffic Intelligence Dual Cards: Referrers & Popular Paths -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        
+        <!-- Top Referrers -->
+        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-6 shadow-sm">
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="font-bold text-base text-gray-900 dark:text-white flex items-center gap-2">
+              <i class="fa-solid fa-compass text-teal-500"></i> Top Traffic Sources (Referrers)
+            </h3>
+            <span class="text-xs text-gray-400">External domains driving views</span>
+          </div>
+
+          <div class="space-y-3" id="topReferrersList">
+            <!-- Dynamically populated referrers -->
+          </div>
+        </div>
+
+        <!-- Top Paths / Content -->
+        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-6 shadow-sm">
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="font-bold text-base text-gray-900 dark:text-white flex items-center gap-2">
+              <i class="fa-solid fa-file-lines text-indigo-500"></i> Popular Content & Paths
+            </h3>
+            <span class="text-xs text-gray-400">Most visited files & screens</span>
+          </div>
+
+          <div class="space-y-3" id="topPathsList">
+            <!-- Dynamically populated paths -->
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ========================================== -->
+    <!-- TAB 2: REPOSITORY EXPLORER (DEEP DIVE) -->
+    <!-- ========================================== -->
+    <section id="tab-explorer" class="hidden space-y-8">
+      
+      <!-- Repo Selector Card -->
+      <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-6 shadow-sm">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div>
+            <h2 class="text-lg font-bold text-gray-900 dark:text-white flex items-center gap-2">
+              <i class="fa-solid fa-folder-open text-blue-500"></i> Select Repository
+            </h2>
+            <p class="text-xs text-gray-500 dark:text-gray-400">Inspect historical traffic and file engagement for a specific repository.</p>
+          </div>
+
+          <div class="w-full sm:w-80">
+            <select id="repoDropdown" onchange="onRepoSelect(this.value)" class="w-full px-3 py-2 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl text-sm font-medium focus:ring-2 focus:ring-blue-500">
+              <!-- Dynamically populated options -->
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Selected Repo Info Banner -->
+      <div id="selectedRepoHeader" class="bg-gradient-to-r from-blue-900/20 via-indigo-900/20 to-purple-900/20 border border-blue-500/20 rounded-2xl p-6">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div>
+            <div class="flex items-center gap-3">
+              <h2 id="deepRepoName" class="text-2xl font-extrabold text-gray-900 dark:text-white">Repository Name</h2>
+              <a id="deepRepoLink" href="#" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-blue-500">
+                <i class="fa-solid fa-arrow-up-right-from-square text-sm"></i>
+              </a>
+            </div>
+            <p id="deepRepoDesc" class="text-sm text-gray-600 dark:text-gray-300 mt-1 max-w-2xl">Description...</p>
+            
+            <!-- Tags & Badges -->
+            <div id="deepRepoTags" class="flex flex-wrap items-center gap-2 mt-3 text-xs">
+              <!-- Language, stars, forks badges -->
+            </div>
+          </div>
+
+          <!-- Mini Stats -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 bg-white/60 dark:bg-darkcard/80 p-3 rounded-xl border border-gray-200/50 dark:border-darkborder/50 text-center">
+            <div>
+              <div class="text-xs text-gray-500 dark:text-gray-400">All-Time Views</div>
+              <div id="deepViewsTotal" class="text-lg font-bold text-blue-500">0</div>
+            </div>
+            <div>
+              <div class="text-xs text-gray-500 dark:text-gray-400">All-Time Clones</div>
+              <div id="deepClonesTotal" class="text-lg font-bold text-purple-500">0</div>
+            </div>
+            <div>
+              <div class="text-xs text-gray-500 dark:text-gray-400">14d Views</div>
+              <div id="deepViews14d" class="text-lg font-bold text-emerald-500">0</div>
+            </div>
+            <div>
+              <div class="text-xs text-gray-500 dark:text-gray-400">Clone Conversion</div>
+              <div id="deepConversionRate" class="text-lg font-bold text-pink-500">0%</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Selected Repo Charts: Views & Clones -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        
+        <!-- Repo Views Chart -->
+        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-6 shadow-sm">
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="font-bold text-base text-gray-900 dark:text-white flex items-center gap-2">
+              <i class="fa-solid fa-eye text-blue-500"></i> Views & Unique Visitors
+            </h3>
+            <span class="text-xs text-gray-400">Daily history</span>
+          </div>
+          <div class="h-64 relative">
+            <canvas id="repoViewsChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Repo Clones Chart -->
+        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-6 shadow-sm">
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="font-bold text-base text-gray-900 dark:text-white flex items-center gap-2">
+              <i class="fa-solid fa-code-branch text-purple-500"></i> Git Clones & Unique Cloners
+            </h3>
+            <span class="text-xs text-gray-400">Code checkouts</span>
+          </div>
+          <div class="h-64 relative">
+            <canvas id="repoClonesChart"></canvas>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Repo Specific Referrers & Paths -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        
+        <!-- Repo Referrers -->
+        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-6 shadow-sm">
+          <h3 class="font-bold text-base text-gray-900 dark:text-white flex items-center gap-2 mb-4">
+            <i class="fa-solid fa-link text-teal-500"></i> Top Referrers for this Repo
+          </h3>
+          <div class="space-y-3" id="repoReferrersList">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- Repo Paths -->
+        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-6 shadow-sm">
+          <h3 class="font-bold text-base text-gray-900 dark:text-white flex items-center gap-2 mb-4">
+            <i class="fa-solid fa-file-code text-indigo-500"></i> Popular Paths & Content
+          </h3>
+          <div class="space-y-3" id="repoPathsList">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ========================================== -->
+    <!-- TAB 3: COMPARE REPOSITORIES -->
+    <!-- ========================================== -->
+    <section id="tab-compare" class="hidden space-y-8">
+      
+      <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-6 shadow-sm">
+        <h2 class="text-lg font-bold text-gray-900 dark:text-white flex items-center gap-2 mb-2">
+          <i class="fa-solid fa-code-compare text-blue-500"></i> Compare Repositories Side-by-Side
+        </h2>
+        <p class="text-xs text-gray-500 dark:text-gray-400 mb-6">Select up to 4 repositories to overlay their daily traffic and engagement.</p>
+
+        <!-- Checkbox grid of repos -->
+        <div id="compareRepoCheckboxes" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+          <!-- Dynamically populated checkboxes -->
+        </div>
+      </div>
+
+      <!-- Comparison Chart -->
+      <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-6 shadow-sm">
+        <h3 class="font-bold text-base text-gray-900 dark:text-white mb-4">Daily Views Comparison</h3>
+        <div class="h-80 relative">
+          <canvas id="compareChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Comparison Metrics Grid -->
+      <div id="compareCardsGrid" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <!-- Dynamically populated compare cards -->
+      </div>
+
+    </section>
+
+    <!-- ========================================== -->
+    <!-- TAB 4: ON-DEMAND LIVE SYNC -->
+    <!-- ========================================== -->
+    <section id="tab-live" class="hidden space-y-8">
+      
+      <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-6 shadow-sm max-w-3xl mx-auto">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-500 flex items-center justify-center text-lg">
+            <i class="fa-solid fa-bolt"></i>
+          </div>
+          <div>
+            <h2 class="text-lg font-bold text-gray-900 dark:text-white">On-Demand Live Fetch</h2>
+            <p class="text-xs text-gray-500 dark:text-gray-400">Fetch real-time traffic stats directly into your browser right now.</p>
+          </div>
+        </div>
+
+        <div class="space-y-4 text-xs text-gray-600 dark:text-gray-300">
+          <div class="p-4 bg-gray-50 dark:bg-gray-800/60 rounded-xl border border-gray-200 dark:border-gray-700/60 space-y-2">
+            <p class="font-semibold text-gray-900 dark:text-white flex items-center gap-1.5">
+              <i class="fa-solid fa-shield-halved text-emerald-500"></i> Privacy & Security Guarantee
+            </p>
+            <p>Your Personal Access Token (PAT) is strictly stored in your browser's private <code class="bg-gray-200 dark:bg-gray-700 px-1 py-0.5 rounded">localStorage</code> and transmitted directly to <code class="bg-gray-200 dark:bg-gray-700 px-1 py-0.5 rounded">api.github.com</code> over HTTPS. It is never logged or sent to any third-party server.</p>
+          </div>
+
+          <div>
+            <label class="block font-medium mb-1 text-gray-700 dark:text-gray-200">GitHub Personal Access Token (PAT with <code class="text-blue-500">repo</code> scope)</label>
+            <div class="flex gap-2">
+              <input type="password" id="livePatInput" placeholder="ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" class="flex-1 px-3 py-2 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl text-xs font-mono focus:ring-2 focus:ring-blue-500 focus:outline-none">
+              <button onclick="saveLiveToken()" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-xl transition">Save</button>
+              <button onclick="clearLiveToken()" class="px-4 py-2 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-200 font-medium rounded-xl transition">Clear</button>
+            </div>
+            <p class="text-[11px] text-gray-400 mt-1">Need a token? <a href="https://github.com/settings/tokens/new?scopes=repo&description=traffic-archive" target="_blank" rel="noopener noreferrer" class="text-blue-500 underline">Generate token on GitHub with 'repo' scope</a>.</p>
+          </div>
+
+          <div class="pt-4 border-t border-gray-100 dark:border-darkborder flex items-center justify-between">
+            <button onclick="runLiveSync()" id="liveSyncBtn" class="px-5 py-2.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold rounded-xl shadow-lg shadow-blue-500/20 transition flex items-center gap-2">
+              <i class="fa-solid fa-arrows-rotate" id="liveSyncIcon"></i> Fetch Real-Time Traffic Now
+            </button>
+            <span id="liveStatusText" class="text-xs text-gray-500 dark:text-gray-400 font-medium">Ready</span>
+          </div>
+
+          <!-- Progress Log -->
+          <div id="liveProgressContainer" class="hidden mt-4 p-3 bg-gray-900 text-emerald-400 font-mono text-[11px] rounded-xl max-h-48 overflow-y-auto space-y-1">
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-gray-200 dark:border-darkborder py-6 text-center text-xs text-gray-500 dark:text-gray-400">
+    <p>Permanent GitHub Traffic Archiver &copy; 2026. Preserving repository metrics beyond the 14-day limit.</p>
+  </footer>
+
+  <!-- Main Application Logic Script -->
+  <script src="app.js"></script>
+</body>
+</html>
