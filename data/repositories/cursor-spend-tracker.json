@@ -17,10 +17,10 @@
   "created_at": "2026-07-18T17:35:28Z",
   "updated_at": "2026-07-19T14:33:04Z",
   "pushed_at": "2026-07-19T14:33:00Z",
-  "last_synced": "2026-10-02T19:04:26Z",
+  "last_synced": "2026-10-02T19:08:07Z",
   "summary": {
-    "all_time_views": 458,
-    "all_time_uniques": 225,
+    "all_time_views": 459,
+    "all_time_uniques": 226,
     "all_time_clones": 78,
     "all_time_unique_cloners": 50,
     "views_14d": 458,
@@ -28,9 +28,14 @@
     "clones_14d": 78,
     "unique_cloners_14d": 50,
     "clone_conversion_pct": 17.0,
-    "days_tracked": 14
+    "days_tracked": 15
   },
   "views": [
+    {
+      "date": "2026-09-18",
+      "count": 1,
+      "uniques": 1
+    },
     {
       "date": "2026-09-19",
       "count": 22,
@@ -103,6 +108,11 @@
     }
   ],
   "clones": [
+    {
+      "date": "2026-09-18",
+      "count": 0,
+      "uniques": 0
+    },
     {
       "date": "2026-09-19",
       "count": 4,
@@ -179,8 +189,8 @@
       "referrer": "github.com",
       "total_count": 210,
       "total_uniques": 120,
-      "latest_count": 210,
-      "latest_uniques": 120,
+      "latest_count": 4,
+      "latest_uniques": 3,
       "last_seen": "2026-10-02"
     },
     {
@@ -217,6 +227,15 @@
       "total_uniques": 110,
       "latest_count": 160,
       "latest_uniques": 110,
+      "last_seen": "2026-10-02"
+    },
+    {
+      "path": "/nathyBekele/cursor-spend-tracker",
+      "title": "Overview",
+      "total_count": 4,
+      "total_uniques": 3,
+      "latest_count": 4,
+      "latest_uniques": 3,
       "last_seen": "2026-10-02"
     }
   ]

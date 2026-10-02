@@ -23,21 +23,173 @@
   "created_at": "2024-02-06T17:47:02Z",
   "updated_at": "2025-05-12T20:45:46Z",
   "pushed_at": "2025-05-12T20:45:42Z",
-  "last_synced": "2026-10-02T19:04:26Z",
+  "last_synced": "2026-10-02T19:08:07Z",
   "summary": {
-    "all_time_views": 0,
-    "all_time_uniques": 0,
-    "all_time_clones": 0,
-    "all_time_unique_cloners": 0,
-    "views_14d": 0,
-    "uniques_14d": 0,
-    "clones_14d": 0,
-    "unique_cloners_14d": 0,
-    "clone_conversion_pct": 0.0,
-    "days_tracked": 0
+    "all_time_views": 1,
+    "all_time_uniques": 1,
+    "all_time_clones": 18,
+    "all_time_unique_cloners": 8,
+    "views_14d": 1,
+    "uniques_14d": 1,
+    "clones_14d": 18,
+    "unique_cloners_14d": 8,
+    "clone_conversion_pct": 1800.0,
+    "days_tracked": 14
   },
-  "views": [],
-  "clones": [],
+  "views": [
+    {
+      "date": "2026-09-18",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-19",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-20",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-21",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-22",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-23",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-24",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-25",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-26",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-27",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-28",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-29",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-30",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-01",
+      "count": 0,
+      "uniques": 0
+    }
+  ],
+  "clones": [
+    {
+      "date": "2026-09-18",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-19",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-20",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-21",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-22",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "date": "2026-09-23",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-24",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-25",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-26",
+      "count": 2,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-27",
+      "count": 10,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-28",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-29",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-30",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-01",
+      "count": 0,
+      "uniques": 0
+    }
+  ],
   "referrers": [],
-  "paths": []
+  "paths": [
+    {
+      "path": "/nathyBekele/logistics-dApp-on-ethereum",
+      "title": "Overview",
+      "total_count": 1,
+      "total_uniques": 1,
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-02"
+    }
+  ]
 }

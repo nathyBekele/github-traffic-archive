@@ -1,108 +1,115 @@
 {
-  "updated_at": "2026-10-02T19:04:26Z",
-  "total_repositories_tracked": 25,
+  "updated_at": "2026-10-02T19:08:07Z",
+  "total_repositories_tracked": 26,
   "kpis": {
-    "all_time_views": 1142,
-    "all_time_uniques": 565,
-    "all_time_clones": 130,
-    "all_time_unique_cloners": 86,
-    "views_14d": 1142,
-    "clones_14d": 130,
+    "all_time_views": 1235,
+    "all_time_uniques": 616,
+    "all_time_clones": 677,
+    "all_time_unique_cloners": 360,
+    "views_14d": 1234,
+    "clones_14d": 677,
     "total_stars": 33,
     "total_forks": 4,
     "total_open_issues": 3
   },
   "daily_timeline": [
     {
+      "date": "2026-09-18",
+      "views": 5,
+      "uniques": 5,
+      "clones": 15,
+      "unique_cloners": 13
+    },
+    {
       "date": "2026-09-19",
-      "views": 57,
-      "uniques": 29,
-      "clones": 6,
-      "unique_cloners": 5
+      "views": 60,
+      "uniques": 31,
+      "clones": 26,
+      "unique_cloners": 17
     },
     {
       "date": "2026-09-20",
-      "views": 67,
-      "uniques": 34,
-      "clones": 8,
-      "unique_cloners": 5
+      "views": 72,
+      "uniques": 38,
+      "clones": 27,
+      "unique_cloners": 9
     },
     {
       "date": "2026-09-21",
-      "views": 67,
-      "uniques": 34,
-      "clones": 10,
-      "unique_cloners": 7
+      "views": 76,
+      "uniques": 39,
+      "clones": 13,
+      "unique_cloners": 10
     },
     {
       "date": "2026-09-22",
-      "views": 79,
-      "uniques": 41,
-      "clones": 8,
-      "unique_cloners": 5
+      "views": 85,
+      "uniques": 47,
+      "clones": 37,
+      "unique_cloners": 21
     },
     {
       "date": "2026-09-23",
-      "views": 87,
-      "uniques": 45,
-      "clones": 12,
-      "unique_cloners": 7
+      "views": 91,
+      "uniques": 49,
+      "clones": 21,
+      "unique_cloners": 16
     },
     {
       "date": "2026-09-24",
-      "views": 77,
-      "uniques": 37,
-      "clones": 10,
-      "unique_cloners": 7
+      "views": 80,
+      "uniques": 39,
+      "clones": 15,
+      "unique_cloners": 12
     },
     {
       "date": "2026-09-25",
-      "views": 70,
-      "uniques": 33,
-      "clones": 7,
-      "unique_cloners": 5
+      "views": 74,
+      "uniques": 36,
+      "clones": 23,
+      "unique_cloners": 20
     },
     {
       "date": "2026-09-26",
-      "views": 64,
-      "uniques": 30,
-      "clones": 5,
-      "unique_cloners": 3
+      "views": 65,
+      "uniques": 31,
+      "clones": 14,
+      "unique_cloners": 11
     },
     {
       "date": "2026-09-27",
-      "views": 74,
-      "uniques": 38,
-      "clones": 8,
-      "unique_cloners": 5
+      "views": 76,
+      "uniques": 39,
+      "clones": 32,
+      "unique_cloners": 18
     },
     {
       "date": "2026-09-28",
-      "views": 96,
-      "uniques": 48,
-      "clones": 12,
-      "unique_cloners": 9
+      "views": 118,
+      "uniques": 49,
+      "clones": 122,
+      "unique_cloners": 76
     },
     {
       "date": "2026-09-29",
-      "views": 107,
-      "uniques": 52,
-      "clones": 14,
-      "unique_cloners": 9
+      "views": 111,
+      "uniques": 54,
+      "clones": 39,
+      "unique_cloners": 23
     },
     {
       "date": "2026-09-30",
-      "views": 86,
-      "uniques": 41,
-      "clones": 8,
-      "unique_cloners": 5
+      "views": 99,
+      "uniques": 51,
+      "clones": 23,
+      "unique_cloners": 17
     },
     {
       "date": "2026-10-01",
-      "views": 102,
-      "uniques": 49,
-      "clones": 11,
-      "unique_cloners": 7
+      "views": 114,
+      "uniques": 54,
+      "clones": 259,
+      "unique_cloners": 90
     },
     {
       "date": "2026-10-02",
@@ -125,11 +132,11 @@
       "open_issues": 0,
       "views_14d": 684,
       "uniques_14d": 340,
-      "clones_14d": 52,
+      "clones_14d": 307,
       "all_time_views": 684,
-      "all_time_clones": 52,
-      "clone_conversion_pct": 7.6,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "all_time_clones": 307,
+      "clone_conversion_pct": 44.9,
+      "last_synced": "2026-10-02T19:08:07Z"
     },
     {
       "name": "cursor-spend-tracker",
@@ -144,10 +151,28 @@
       "views_14d": 458,
       "uniques_14d": 225,
       "clones_14d": 78,
-      "all_time_views": 458,
+      "all_time_views": 459,
       "all_time_clones": 78,
       "clone_conversion_pct": 17.0,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "last_synced": "2026-10-02T19:08:07Z"
+    },
+    {
+      "name": "geometry-of-dormant-defection",
+      "full_name": "nathyBekele/geometry-of-dormant-defection",
+      "html_url": "https://github.com/nathyBekele/geometry-of-dormant-defection",
+      "description": "Official replication code for \"The Geometry of Dormant Defection: Layer-Wise Dynamics and Defensive Design of Linear Probes for Latent Sleeper Agents\"",
+      "language": "Python",
+      "topics": [],
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "views_14d": 35,
+      "uniques_14d": 5,
+      "clones_14d": 115,
+      "all_time_views": 35,
+      "all_time_clones": 115,
+      "clone_conversion_pct": 328.6,
+      "last_synced": "2026-10-02T19:08:07Z"
     },
     {
       "name": "promptKit",
@@ -163,13 +188,34 @@
       "stars": 8,
       "forks": 2,
       "open_issues": 1,
-      "views_14d": 0,
-      "uniques_14d": 0,
-      "clones_14d": 0,
-      "all_time_views": 0,
-      "all_time_clones": 0,
-      "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "views_14d": 34,
+      "uniques_14d": 26,
+      "clones_14d": 9,
+      "all_time_views": 34,
+      "all_time_clones": 9,
+      "clone_conversion_pct": 26.5,
+      "last_synced": "2026-10-02T19:08:07Z"
+    },
+    {
+      "name": "telecom-data-analysis",
+      "full_name": "nathyBekele/telecom-data-analysis",
+      "html_url": "https://github.com/nathyBekele/telecom-data-analysis",
+      "description": "A Python package for comprehensive telecom data analytics, focusing on four key areas: User Overview, User Engagement, User Experience, and User Satisfaction. Designed to provide actionable insights to improve telecom services and customer retention through detailed data analysis.",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "data-analysis-python",
+        "telecom-data-analysis"
+      ],
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "views_14d": 6,
+      "uniques_14d": 4,
+      "clones_14d": 6,
+      "all_time_views": 6,
+      "all_time_clones": 6,
+      "clone_conversion_pct": 100.0,
+      "last_synced": "2026-10-02T19:08:07Z"
     },
     {
       "name": "redash-chatbot-add-on",
@@ -191,60 +237,13 @@
       "stars": 5,
       "forks": 2,
       "open_issues": 1,
-      "views_14d": 0,
-      "uniques_14d": 0,
-      "clones_14d": 0,
-      "all_time_views": 0,
-      "all_time_clones": 0,
-      "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
-    },
-    {
-      "name": "algo-certify-dApp-nft",
-      "full_name": "nathyBekele/algo-certify-dApp-nft",
-      "html_url": "https://github.com/nathyBekele/algo-certify-dApp-nft",
-      "description": " AlgoCertify is a certification platform harnessing the power of Web3 technologies. Built on the secure Algorand Blockchain, it issues and verifies Non-Fungible Token (NFT) certificates, providing an upgraded alternative to static PDFs.",
-      "language": "Jupyter Notebook",
-      "topics": [
-        "algorand",
-        "blockchain",
-        "dapp",
-        "nfts"
-      ],
-      "stars": 3,
-      "forks": 0,
-      "open_issues": 0,
-      "views_14d": 0,
-      "uniques_14d": 0,
-      "clones_14d": 0,
-      "all_time_views": 0,
-      "all_time_clones": 0,
-      "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
-    },
-    {
-      "name": "logistics-dApp-on-ethereum",
-      "full_name": "nathyBekele/logistics-dApp-on-ethereum",
-      "html_url": "https://github.com/nathyBekele/logistics-dApp-on-ethereum",
-      "description": "An Ethereum-based logistics dApp that automates driver payments based on GPS compliance within delivery zones. It features an admin dashboard to manage drivers, assign tasks, and approve opt-in requests. Built with Hardhat, it ensures transparent, secure Web3 transactions to improve logistics efficiency.",
-      "language": "JavaScript",
-      "topics": [
-        "blockchain",
-        "dapp",
-        "ethereum-dapp",
-        "logistics-app",
-        "web3"
-      ],
-      "stars": 3,
-      "forks": 0,
-      "open_issues": 0,
-      "views_14d": 0,
-      "uniques_14d": 0,
-      "clones_14d": 0,
-      "all_time_views": 0,
-      "all_time_clones": 0,
-      "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "views_14d": 5,
+      "uniques_14d": 3,
+      "clones_14d": 17,
+      "all_time_views": 5,
+      "all_time_clones": 17,
+      "clone_conversion_pct": 340.0,
+      "last_synced": "2026-10-02T19:08:07Z"
     },
     {
       "name": "custom-data-warehouse",
@@ -263,52 +262,13 @@
       "stars": 2,
       "forks": 0,
       "open_issues": 0,
-      "views_14d": 0,
-      "uniques_14d": 0,
-      "clones_14d": 0,
-      "all_time_views": 0,
-      "all_time_clones": 0,
-      "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
-    },
-    {
-      "name": "geometry-of-dormant-defection",
-      "full_name": "nathyBekele/geometry-of-dormant-defection",
-      "html_url": "https://github.com/nathyBekele/geometry-of-dormant-defection",
-      "description": "Official replication code for \"The Geometry of Dormant Defection: Layer-Wise Dynamics and Defensive Design of Linear Probes for Latent Sleeper Agents\"",
-      "language": "Python",
-      "topics": [],
-      "stars": 2,
-      "forks": 0,
-      "open_issues": 0,
-      "views_14d": 0,
-      "uniques_14d": 0,
-      "clones_14d": 0,
-      "all_time_views": 0,
-      "all_time_clones": 0,
-      "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
-    },
-    {
-      "name": "telecom-data-analysis",
-      "full_name": "nathyBekele/telecom-data-analysis",
-      "html_url": "https://github.com/nathyBekele/telecom-data-analysis",
-      "description": "A Python package for comprehensive telecom data analytics, focusing on four key areas: User Overview, User Engagement, User Experience, and User Satisfaction. Designed to provide actionable insights to improve telecom services and customer retention through detailed data analysis.",
-      "language": "Jupyter Notebook",
-      "topics": [
-        "data-analysis-python",
-        "telecom-data-analysis"
-      ],
-      "stars": 2,
-      "forks": 0,
-      "open_issues": 0,
-      "views_14d": 0,
-      "uniques_14d": 0,
-      "clones_14d": 0,
-      "all_time_views": 0,
-      "all_time_clones": 0,
-      "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "views_14d": 4,
+      "uniques_14d": 4,
+      "clones_14d": 41,
+      "all_time_views": 4,
+      "all_time_clones": 41,
+      "clone_conversion_pct": 1025.0,
+      "last_synced": "2026-10-02T19:08:07Z"
     },
     {
       "name": "vitalAI",
@@ -326,13 +286,103 @@
       "stars": 2,
       "forks": 0,
       "open_issues": 0,
+      "views_14d": 3,
+      "uniques_14d": 3,
+      "clones_14d": 9,
+      "all_time_views": 3,
+      "all_time_clones": 9,
+      "clone_conversion_pct": 300.0,
+      "last_synced": "2026-10-02T19:08:07Z"
+    },
+    {
+      "name": "semantic-image-and-text-alignment",
+      "full_name": "nathyBekele/semantic-image-and-text-alignment",
+      "html_url": "https://github.com/nathyBekele/semantic-image-and-text-alignment",
+      "description": "Utilizing image-to-text generating machine learning models, the project automates the creation of visually engaging storyboards from ad descriptions. The repo includes data analysis, asset generation, composition, and storyboard construction. ",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "ad-generator",
+        "image-generation",
+        "semantic-image-synthesis"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "views_14d": 3,
+      "uniques_14d": 3,
+      "clones_14d": 2,
+      "all_time_views": 3,
+      "all_time_clones": 2,
+      "clone_conversion_pct": 66.7,
+      "last_synced": "2026-10-02T19:08:07Z"
+    },
+    {
+      "name": "logistics-dApp-on-ethereum",
+      "full_name": "nathyBekele/logistics-dApp-on-ethereum",
+      "html_url": "https://github.com/nathyBekele/logistics-dApp-on-ethereum",
+      "description": "An Ethereum-based logistics dApp that automates driver payments based on GPS compliance within delivery zones. It features an admin dashboard to manage drivers, assign tasks, and approve opt-in requests. Built with Hardhat, it ensures transparent, secure Web3 transactions to improve logistics efficiency.",
+      "language": "JavaScript",
+      "topics": [
+        "blockchain",
+        "dapp",
+        "ethereum-dapp",
+        "logistics-app",
+        "web3"
+      ],
+      "stars": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "views_14d": 1,
+      "uniques_14d": 1,
+      "clones_14d": 18,
+      "all_time_views": 1,
+      "all_time_clones": 18,
+      "clone_conversion_pct": 1800.0,
+      "last_synced": "2026-10-02T19:08:07Z"
+    },
+    {
+      "name": "contract-advisor-rag",
+      "full_name": "nathyBekele/contract-advisor-rag",
+      "html_url": "https://github.com/nathyBekele/contract-advisor-rag",
+      "description": "This project aims to develop an autonomous contract bot. It focuses on building, evaluating, and refining a RAG system for Contract Q&A, enabling independent contract drafting, review, and negotiation.",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "python-rag",
+        "rag-chatbot"
+      ],
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "views_14d": 1,
+      "uniques_14d": 1,
+      "clones_14d": 9,
+      "all_time_views": 1,
+      "all_time_clones": 9,
+      "clone_conversion_pct": 900.0,
+      "last_synced": "2026-10-02T19:08:07Z"
+    },
+    {
+      "name": "algo-certify-dApp-nft",
+      "full_name": "nathyBekele/algo-certify-dApp-nft",
+      "html_url": "https://github.com/nathyBekele/algo-certify-dApp-nft",
+      "description": " AlgoCertify is a certification platform harnessing the power of Web3 technologies. Built on the secure Algorand Blockchain, it issues and verifies Non-Fungible Token (NFT) certificates, providing an upgraded alternative to static PDFs.",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "algorand",
+        "blockchain",
+        "dapp",
+        "nfts"
+      ],
+      "stars": 3,
+      "forks": 0,
+      "open_issues": 0,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 0,
+      "clones_14d": 7,
       "all_time_views": 0,
-      "all_time_clones": 0,
+      "all_time_clones": 7,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "last_synced": "2026-10-02T19:08:07Z"
     },
     {
       "name": "a2sv-jan-practice-problem-solutions-cpp",
@@ -349,11 +399,11 @@
       "open_issues": 0,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 0,
+      "clones_14d": 3,
       "all_time_views": 0,
-      "all_time_clones": 0,
+      "all_time_clones": 3,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "last_synced": "2026-10-02T19:08:07Z"
     },
     {
       "name": "a2sv-mar-contest-solutions-cpp",
@@ -371,11 +421,11 @@
       "open_issues": 0,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 0,
+      "clones_14d": 3,
       "all_time_views": 0,
-      "all_time_clones": 0,
+      "all_time_clones": 3,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "last_synced": "2026-10-02T19:08:07Z"
     },
     {
       "name": "a2sv-mar-practice-problems-solutions-cpp",
@@ -392,32 +442,11 @@
       "open_issues": 0,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 0,
+      "clones_14d": 6,
       "all_time_views": 0,
-      "all_time_clones": 0,
+      "all_time_clones": 6,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
-    },
-    {
-      "name": "contract-advisor-rag",
-      "full_name": "nathyBekele/contract-advisor-rag",
-      "html_url": "https://github.com/nathyBekele/contract-advisor-rag",
-      "description": "This project aims to develop an autonomous contract bot. It focuses on building, evaluating, and refining a RAG system for Contract Q&A, enabling independent contract drafting, review, and negotiation.",
-      "language": "Jupyter Notebook",
-      "topics": [
-        "python-rag",
-        "rag-chatbot"
-      ],
-      "stars": 1,
-      "forks": 0,
-      "open_issues": 0,
-      "views_14d": 0,
-      "uniques_14d": 0,
-      "clones_14d": 0,
-      "all_time_views": 0,
-      "all_time_clones": 0,
-      "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "last_synced": "2026-10-02T19:08:07Z"
     },
     {
       "name": "dsa-problems-using-cpp",
@@ -435,11 +464,11 @@
       "open_issues": 0,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 0,
+      "clones_14d": 5,
       "all_time_views": 0,
-      "all_time_clones": 0,
+      "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "last_synced": "2026-10-02T19:08:07Z"
     },
     {
       "name": "slack-workspace-data-analysis",
@@ -456,11 +485,11 @@
       "open_issues": 0,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 0,
+      "clones_14d": 17,
       "all_time_views": 0,
-      "all_time_clones": 0,
+      "all_time_clones": 17,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "last_synced": "2026-10-02T19:08:07Z"
     },
     {
       "name": "a2sv-jan-contest-solutions-cpp",
@@ -478,11 +507,11 @@
       "open_issues": 0,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 0,
+      "clones_14d": 4,
       "all_time_views": 0,
-      "all_time_clones": 0,
+      "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "last_synced": "2026-10-02T19:08:07Z"
     },
     {
       "name": "abrehot-space-booking",
@@ -499,11 +528,11 @@
       "open_issues": 0,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 0,
+      "clones_14d": 4,
       "all_time_views": 0,
-      "all_time_clones": 0,
+      "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "last_synced": "2026-10-02T19:08:07Z"
     },
     {
       "name": "code-to-learn",
@@ -520,11 +549,29 @@
       "open_issues": 0,
       "views_14d": 0,
       "uniques_14d": 0,
+      "clones_14d": 4,
+      "all_time_views": 0,
+      "all_time_clones": 4,
+      "clone_conversion_pct": 0.0,
+      "last_synced": "2026-10-02T19:08:07Z"
+    },
+    {
+      "name": "github-traffic-archive",
+      "full_name": "nathyBekele/github-traffic-archive",
+      "html_url": "https://github.com/nathyBekele/github-traffic-archive",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "views_14d": 0,
+      "uniques_14d": 0,
       "clones_14d": 0,
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "last_synced": "2026-10-02T19:08:07Z"
     },
     {
       "name": "nathyBekeleH",
@@ -540,11 +587,11 @@
       "open_issues": 0,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 0,
+      "clones_14d": 4,
       "all_time_views": 0,
-      "all_time_clones": 0,
+      "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "last_synced": "2026-10-02T19:08:07Z"
     },
     {
       "name": "news-site-rpa-bot",
@@ -565,11 +612,11 @@
       "open_issues": 0,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 0,
+      "clones_14d": 3,
       "all_time_views": 0,
-      "all_time_clones": 0,
+      "all_time_clones": 3,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "last_synced": "2026-10-02T19:08:07Z"
     },
     {
       "name": "novel",
@@ -587,29 +634,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
-    },
-    {
-      "name": "semantic-image-and-text-alignment",
-      "full_name": "nathyBekele/semantic-image-and-text-alignment",
-      "html_url": "https://github.com/nathyBekele/semantic-image-and-text-alignment",
-      "description": "Utilizing image-to-text generating machine learning models, the project automates the creation of visually engaging storyboards from ad descriptions. The repo includes data analysis, asset generation, composition, and storyboard construction. ",
-      "language": "Jupyter Notebook",
-      "topics": [
-        "ad-generator",
-        "image-generation",
-        "semantic-image-synthesis"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 1,
-      "views_14d": 0,
-      "uniques_14d": 0,
-      "clones_14d": 0,
-      "all_time_views": 0,
-      "all_time_clones": 0,
-      "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "last_synced": "2026-10-02T19:08:07Z"
     },
     {
       "name": "streamlit-app-for-simplified-ai-recruiting",
@@ -629,11 +654,11 @@
       "open_issues": 0,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 0,
+      "clones_14d": 3,
       "all_time_views": 0,
-      "all_time_clones": 0,
+      "all_time_clones": 3,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "last_synced": "2026-10-02T19:08:07Z"
     },
     {
       "name": "to-do-app",
@@ -650,18 +675,18 @@
       "open_issues": 0,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 0,
+      "clones_14d": 3,
       "all_time_views": 0,
-      "all_time_clones": 0,
+      "all_time_clones": 3,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-02T19:04:26Z"
+      "last_synced": "2026-10-02T19:08:07Z"
     }
   ],
   "top_referrers": [
     {
       "referrer": "github.com",
-      "count": 362,
-      "uniques": 215
+      "count": 383,
+      "uniques": 227
     },
     {
       "referrer": "linkedin.com",
@@ -682,6 +707,16 @@
       "referrer": "reddit.com",
       "count": 83,
       "uniques": 55
+    },
+    {
+      "referrer": "medium.com",
+      "count": 2,
+      "uniques": 1
+    },
+    {
+      "referrer": "Google",
+      "count": 2,
+      "uniques": 2
     }
   ],
   "top_paths": [
@@ -708,6 +743,102 @@
       "title": "al-folio Config",
       "count": 95,
       "uniques": 60
+    },
+    {
+      "path": "/nathyBekele/geometry-of-dormant-defection",
+      "title": "Overview",
+      "count": 18,
+      "uniques": 3
+    },
+    {
+      "path": "/nathyBekele/promptKit",
+      "title": "Overview",
+      "count": 17,
+      "uniques": 6
+    },
+    {
+      "path": "/nathyBekele/nathyBekele.github.io",
+      "title": "Overview",
+      "count": 12,
+      "uniques": 3
+    },
+    {
+      "path": "/nathyBekele/nathyBekele.github.io/actions",
+      "title": "/actions",
+      "count": 8,
+      "uniques": 1
+    },
+    {
+      "path": "/nathyBekele/promptKit/pulls",
+      "title": "/pulls",
+      "count": 7,
+      "uniques": 4
+    },
+    {
+      "path": "/nathyBekele/promptKit/issues",
+      "title": "/issues",
+      "count": 6,
+      "uniques": 5
+    },
+    {
+      "path": "/nathyBekele/cursor-spend-tracker",
+      "title": "Overview",
+      "count": 4,
+      "uniques": 3
+    },
+    {
+      "path": "/nathyBekele/redash-chatbot-add-on",
+      "title": "Overview",
+      "count": 4,
+      "uniques": 3
+    },
+    {
+      "path": "/nathyBekele/geometry-of-dormant-defection/actions/workflows/tests.yml",
+      "title": "/actions/workflows/tests.yml",
+      "count": 3,
+      "uniques": 1
+    },
+    {
+      "path": "/nathyBekele/geometry-of-dormant-defection/commits/main",
+      "title": "/commits/main",
+      "count": 3,
+      "uniques": 1
+    },
+    {
+      "path": "/nathyBekele/Telecom-Data-Analysis",
+      "title": "Overview",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "path": "/nathyBekele/custom-data-warehouse",
+      "title": "Overview",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "path": "/nathyBekele/custom-data-warehouse/pulls",
+      "title": "/pulls",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "path": "/nathyBekele/nathyBekele.github.io/actions/runs/36847259023/job/110320248765",
+      "title": "/actions/runs/36847259023/job/110320248765",
+      "count": 2,
+      "uniques": 1
+    },
+    {
+      "path": "/nathyBekele/nathyBekele.github.io/actions/runs/36859037446",
+      "title": "/actions/runs/36859037446",
+      "count": 2,
+      "uniques": 1
+    },
+    {
+      "path": "/nathyBekele/nathyBekele.github.io/actions/workflows/render-cv.yml",
+      "title": "/actions/workflows/render-cv.yml",
+      "count": 2,
+      "uniques": 1
     }
   ],
   "languages": {
@@ -718,7 +849,7 @@
     "TypeScript": 1,
     "Shell": 1,
     "Python": 5,
-    "JavaScript": 2,
+    "JavaScript": 3,
     "HTML": 1
   }
 }
