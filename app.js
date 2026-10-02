@@ -157,44 +157,53 @@ async function loadData() {
 async function ensureAllRepoDetailsLoaded() {
   if (!state.summary || !state.summary.repositories) return;
   
-  // Basic concurrency limit (e.g. 5 concurrent requests)
   const CONCURRENCY_LIMIT = 5;
   let active = 0;
   let queue = [...state.summary.repositories];
-  let resolveAll;
   
-  const promise = new Promise(r => resolveAll = r);
+  await new Promise(resolveAll => {
+    const next = () => {
+      // Skip repos that are already fetched or currently fetching
+      while(queue.length > 0 && (state.repoDetails[queue[0].name] || state.inFlightFetches.has(queue[0].name))) {
+        queue.shift();
+      }
 
-  const next = async () => {
-    if (queue.length === 0 && active === 0) {
-      resolveAll();
-      return;
-    }
-    while (active < CONCURRENCY_LIMIT && queue.length > 0) {
-      const r = queue.shift();
-      if (state.repoDetails[r.name] || state.inFlightFetches.has(r.name)) continue;
-      
-      active++;
-      const fetchPromise = fetch(`./data/repositories/${r.name}.json`)
-        .then(res => {
-          if (res.ok) return res.json();
-          throw new Error('Failed');
-        })
-        .then(data => {
-          state.repoDetails[r.name] = data;
-        })
-        .catch(() => {})
-        .finally(() => {
-          active--;
-          next();
-        });
+      if (queue.length === 0 && active === 0) {
+        resolveAll();
+        return;
+      }
+
+      while (active < CONCURRENCY_LIMIT && queue.length > 0) {
+        const r = queue.shift();
         
-      state.inFlightFetches.set(r.name, fetchPromise);
-    }
-  };
+        active++;
+        const fetchPromise = fetch(`./data/repositories/${r.name}.json`)
+          .then(res => {
+            if (res.ok) return res.json();
+            throw new Error('Failed');
+          })
+          .then(data => {
+            state.repoDetails[r.name] = data;
+          })
+          .catch(() => {})
+          .finally(() => {
+            active--;
+            next();
+          });
+          
+        state.inFlightFetches.set(r.name, fetchPromise);
+      }
+    };
 
-  next();
-  return promise;
+    next();
+  });
+
+  // Wait for all active fetches to complete
+  const allPromises = state.summary.repositories
+    .map(r => state.inFlightFetches.get(r.name))
+    .filter(p => p);
+    
+  await Promise.all(allPromises);
 }
 
 function populateDashboard(data) {
