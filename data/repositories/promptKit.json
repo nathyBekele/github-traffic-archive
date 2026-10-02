@@ -13,6 +13,20 @@
   ],
   "stars": 8,
   "forks": 2,
+  "forker_list": [
+    {
+      "login": "stophobia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5157942?v=4",
+      "html_url": "https://github.com/stophobia",
+      "created_at": "2025-08-28"
+    },
+    {
+      "login": "acurtis517",
+      "avatar_url": "https://avatars.githubusercontent.com/u/141582971?v=4",
+      "html_url": "https://github.com/acurtis517",
+      "created_at": "2025-06-18"
+    }
+  ],
   "open_issues": 1,
   "watchers": 8,
   "license": null,
@@ -21,7 +35,7 @@
   "created_at": "2024-01-16T14:57:57Z",
   "updated_at": "2026-09-30T10:34:40Z",
   "pushed_at": "2025-05-12T20:54:03Z",
-  "last_synced": "2026-10-02T20:07:39Z",
+  "last_synced": "2026-10-02T20:53:21Z",
   "summary": {
     "all_time_views": 34,
     "all_time_uniques": 26,
