@@ -283,6 +283,26 @@ def process_repository(repo, token, run_date, run_iso):
     clones_data = github_api_request(f"{base_traffic_url}/clones?per=day", token) or {}
     referrers_data = github_api_request(f"{base_traffic_url}/popular/referrers", token) or []
     paths_data = github_api_request(f"{base_traffic_url}/popular/paths", token) or []
+    
+    # Fetch list of people who forked the repository
+    forks_data = github_api_request(f"https://api.github.com/repos/{owner}/{name}/forks?per_page=100&sort=newest", token) or []
+    
+    # Merge with existing forkers to not lose anyone past 100
+    existing_forkers = existing_record.get("forker_list", [])
+    forker_dict = {f["login"]: f for f in existing_forkers}
+    
+    if forks_data:
+        for f in forks_data:
+            login = f["owner"]["login"]
+            forker_dict[login] = {
+                "login": login,
+                "avatar_url": f["owner"]["avatar_url"],
+                "html_url": f["owner"]["html_url"],
+                "created_at": normalize_date(f.get("created_at", run_iso))
+            }
+            
+    # Sort forkers by creation date descending
+    forker_list = sorted(list(forker_dict.values()), key=lambda x: x["created_at"], reverse=True)
 
     # Merge time series
     incoming_views = views_data.get("views", [])
@@ -328,6 +348,7 @@ def process_repository(repo, token, run_date, run_iso):
         "topics": repo.get("topics") or [],
         "stars": repo.get("stargazers_count", 0),
         "forks": repo.get("forks_count", 0),
+        "forker_list": forker_list,
         "open_issues": repo.get("open_issues_count", 0),
         "watchers": repo.get("watchers_count", 0),
         "license": repo.get("license", {}).get("name") if repo.get("license") else None,

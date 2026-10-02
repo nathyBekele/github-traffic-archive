@@ -12,6 +12,7 @@ const state = {
   globalRange: 30, // days (0 = all time)
   selectedRepo: null,
   comparedRepos: [],
+  leaderboardRange: { type: 'days', value: 14, start: null, end: null },
   charts: {
     global: null,
     repoViews: null,
@@ -19,10 +20,11 @@ const state = {
     compare: null
   },
   tableSort: {
-    column: 'views_14d',
+    column: 'range_views',
     asc: false
   },
-  searchQuery: ''
+  searchQuery: '',
+  inFlightFetches: new Map() // Track ongoing requests
 };
 
 // ============================================================================
@@ -36,7 +38,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function initTheme() {
   const saved = localStorage.getItem('theme');
-  const isDark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+  // Default to dark mode if nothing is saved
+  const isDark = saved ? saved === 'dark' : true;
   applyTheme(isDark);
 }
 
@@ -72,10 +75,19 @@ function getChartColors() {
   return {
     grid: dark ? 'rgba(75, 85, 99, 0.2)' : 'rgba(229, 231, 235, 0.8)',
     text: dark ? '#9ca3af' : '#6b7280',
-    tooltipBg: dark ? '#111827' : '#ffffff',
-    tooltipBorder: dark ? '#374151' : '#e5e7eb',
+    tooltipBg: dark ? '#181b21' : '#ffffff',
+    tooltipBorder: dark ? '#272b36' : '#e5e7eb',
     tooltipText: dark ? '#f9fafb' : '#111827'
   };
+}
+
+function formatDateLabel(dateString) {
+  if (!dateString) return '';
+  // Parse 'YYYY-MM-DD' as local time to avoid timezone offset issues
+  const [year, month, day] = dateString.split('-');
+  const date = new Date(year, month - 1, day);
+  if (isNaN(date)) return dateString;
+  return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 }
 
 // ============================================================================
@@ -124,14 +136,65 @@ async function loadData() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     state.summary = data;
+    computeLeaderboardStats();
     populateDashboard(data);
+    // Fetch in background for faster custom date range interactions
+    ensureAllRepoDetailsLoaded().then(() => {
+      // Re-compute and re-render once all background data arrives
+      computeLeaderboardStats();
+      renderRepoTable();
+    });
   } catch (err) {
     console.warn('Could not load ./data/summary.json, generating preview dataset:', err);
     document.getElementById('offlineNotice').classList.remove('hidden');
     const demoData = generatePreviewData();
     state.summary = demoData;
+    computeLeaderboardStats();
     populateDashboard(demoData);
   }
+}
+
+async function ensureAllRepoDetailsLoaded() {
+  if (!state.summary || !state.summary.repositories) return;
+  
+  // Basic concurrency limit (e.g. 5 concurrent requests)
+  const CONCURRENCY_LIMIT = 5;
+  let active = 0;
+  let queue = [...state.summary.repositories];
+  let resolveAll;
+  
+  const promise = new Promise(r => resolveAll = r);
+
+  const next = async () => {
+    if (queue.length === 0 && active === 0) {
+      resolveAll();
+      return;
+    }
+    while (active < CONCURRENCY_LIMIT && queue.length > 0) {
+      const r = queue.shift();
+      if (state.repoDetails[r.name] || state.inFlightFetches.has(r.name)) continue;
+      
+      active++;
+      const fetchPromise = fetch(`./data/repositories/${r.name}.json`)
+        .then(res => {
+          if (res.ok) return res.json();
+          throw new Error('Failed');
+        })
+        .then(data => {
+          state.repoDetails[r.name] = data;
+        })
+        .catch(() => {})
+        .finally(() => {
+          active--;
+          next();
+        });
+        
+      state.inFlightFetches.set(r.name, fetchPromise);
+    }
+  };
+
+  next();
+  return promise;
 }
 
 function populateDashboard(data) {
@@ -151,6 +214,8 @@ function populateDashboard(data) {
   document.getElementById('kpi-clones-14d-badge').innerHTML = `<i class="fa-solid fa-download"></i> ${(k.clones_14d || 0).toLocaleString()} in last 14d`;
 
   document.getElementById('kpi-unique-cloners').textContent = (k.all_time_unique_cloners || 0).toLocaleString();
+  const forkNode = document.getElementById('kpi-total-forks');
+  if (forkNode) forkNode.textContent = (k.total_forks || 0).toLocaleString();
   document.getElementById('kpi-total-stars').textContent = (k.total_stars || 0).toLocaleString();
   document.getElementById('kpi-total-repos').textContent = (data.total_repositories_tracked || data.repositories?.length || 0).toLocaleString();
 
@@ -213,7 +278,7 @@ function renderGlobalChart() {
     timeline = timeline.slice(-state.globalRange);
   }
 
-  const labels = timeline.map(t => t.date);
+  const labels = timeline.map(t => formatDateLabel(t.date));
   const colors = getChartColors();
 
   let datasets = [];
@@ -222,24 +287,25 @@ function renderGlobalChart() {
       {
         label: 'Total Views',
         data: timeline.map(t => t.views),
-        borderColor: '#3b82f6',
-        backgroundColor: 'rgba(59, 130, 246, 0.1)',
+        borderColor: '#3b82f6', // blue-500
+        backgroundColor: 'rgba(59, 130, 246, 0.15)',
         fill: true,
-        tension: 0.35,
+        tension: 0.4,
         borderWidth: 2.5,
         pointRadius: timeline.length > 40 ? 0 : 3,
-        pointHoverRadius: 5
+        pointHoverRadius: 6
       },
       {
         label: 'Unique Visitors',
         data: timeline.map(t => t.uniques),
-        borderColor: '#6366f1',
-        backgroundColor: 'rgba(99, 102, 241, 0.05)',
+        borderColor: '#10b981', // emerald-500
+        backgroundColor: 'rgba(16, 185, 129, 0.1)',
         fill: true,
-        tension: 0.35,
-        borderWidth: 2,
+        tension: 0.4,
+        borderWidth: 2.5,
+        borderDash: [5, 5], // Differentiate with a dashed line
         pointRadius: timeline.length > 40 ? 0 : 3,
-        pointHoverRadius: 5
+        pointHoverRadius: 6
       }
     ];
   } else {
@@ -247,24 +313,25 @@ function renderGlobalChart() {
       {
         label: 'Git Clones',
         data: timeline.map(t => t.clones),
-        borderColor: '#a855f7',
-        backgroundColor: 'rgba(168, 85, 247, 0.12)',
+        borderColor: '#f59e0b', // amber-500
+        backgroundColor: 'rgba(245, 158, 11, 0.15)',
         fill: true,
-        tension: 0.35,
+        tension: 0.4,
         borderWidth: 2.5,
         pointRadius: timeline.length > 40 ? 0 : 3,
-        pointHoverRadius: 5
+        pointHoverRadius: 6
       },
       {
         label: 'Unique Cloners',
         data: timeline.map(t => t.unique_cloners),
-        borderColor: '#ec4899',
-        backgroundColor: 'rgba(236, 72, 153, 0.05)',
+        borderColor: '#ef4444', // red-500
+        backgroundColor: 'rgba(239, 68, 68, 0.1)',
         fill: true,
-        tension: 0.35,
-        borderWidth: 2,
+        tension: 0.4,
+        borderWidth: 2.5,
+        borderDash: [5, 5],
         pointRadius: timeline.length > 40 ? 0 : 3,
-        pointHoverRadius: 5
+        pointHoverRadius: 6
       }
     ];
   }
@@ -328,6 +395,144 @@ function sortRepoTable(col) {
   renderRepoTable();
 }
 
+async function setLeaderboardRange(type, value) {
+  const customDiv = document.getElementById('leaderboardCustomDateRange');
+  
+  // Reset pill styles
+  [1, 3, 7, 14, 30, 90, 0, 'custom'].forEach(v => {
+    const el = document.getElementById(`lbr-${v}`);
+    if (el) {
+      el.className = 'px-2.5 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white';
+    }
+  });
+
+  if (type === 'custom') {
+    const el = document.getElementById(`lbr-custom`);
+    if (el) el.className = 'px-2.5 py-1 rounded-md font-medium bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-400 shadow-sm';
+    customDiv.style.display = 'flex';
+    customDiv.classList.remove('hidden');
+    return;
+  } else {
+    const el = document.getElementById(`lbr-${value}`);
+    if (el) el.className = 'px-2.5 py-1 rounded-md font-medium bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-400 shadow-sm';
+    customDiv.style.display = 'none';
+    customDiv.classList.add('hidden');
+    state.leaderboardRange = { type: 'days', value: parseInt(value, 10) };
+  }
+  
+  await ensureAllRepoDetailsLoaded();
+  computeLeaderboardStats();
+  renderRepoTable();
+}
+
+async function applyCustomLeaderboardRange() {
+  const start = document.getElementById('leaderboardStartDate').value;
+  const end = document.getElementById('leaderboardEndDate').value;
+  if (!start || !end) {
+    alert('Please select both start and end dates.');
+    return;
+  }
+  if (new Date(start) > new Date(end)) {
+    alert('Start date must be before or equal to end date.');
+    return;
+  }
+  
+  state.leaderboardRange = { type: 'custom', start, end };
+  await ensureAllRepoDetailsLoaded();
+  computeLeaderboardStats();
+  renderRepoTable();
+}
+
+function computeLeaderboardStats() {
+  if (!state.summary || !state.summary.repositories) return;
+  const { type, value, start, end } = state.leaderboardRange;
+  
+  // Update Header Titles
+  let headerPrefix = 'All-Time';
+  if (type === 'days' && value > 0) {
+    headerPrefix = `${value}d`;
+  } else if (type === 'custom') {
+    headerPrefix = `Custom`;
+  }
+  const thViews = document.getElementById('thRangeViews');
+  const thUniques = document.getElementById('thRangeUniques');
+  const thClones = document.getElementById('thRangeClones');
+  if (thViews) thViews.textContent = `${headerPrefix} Views`;
+  if (thUniques) thUniques.textContent = `${headerPrefix} Visitors`;
+  if (thClones) thClones.textContent = `${headerPrefix} Clones`;
+
+  // Compute stats for each repo
+  let cutoffDateStr = '';
+  let startDateStr = '';
+  let endDateStr = '';
+  
+  if (type === 'days' && value > 0) {
+    let baseTime = new Date().getTime();
+    if (state.summary && state.summary.updated_at) {
+      baseTime = new Date(state.summary.updated_at).getTime();
+    }
+    // value of 1 means 1 day ago up until today. 
+    // We calculate cutoffDateStr by subtracting (value - 1) days since the current day is included.
+    const cutoffTime = baseTime - ((value - 1) * 24 * 60 * 60 * 1000);
+    cutoffDateStr = new Date(cutoffTime).toISOString().split('T')[0];
+  } else if (type === 'custom') {
+    startDateStr = start;
+    endDateStr = end;
+  }
+
+  state.summary.repositories.forEach(r => {
+    // If all time or no detailed info, fallback to existing pre-calculated ones if possible
+    // Note: We used to fallback to 14d pre-calculated stats here, but we now calculate 
+    // it dynamically to ensure the numbers are 100% accurate based on the time range.
+    if (type === 'days' && value === 0 && r.all_time_views !== undefined) {
+      r.range_views = r.all_time_views;
+      r.range_uniques = "-"; 
+      r.range_clones = r.all_time_clones;
+      return;
+    }
+    
+    // Otherwise calculate dynamically from repoDetails
+    const details = state.repoDetails[r.name];
+    if (!details) {
+      // If we don't have details, and we're not asking for 14d, we must show 0.
+      r.range_views = 0;
+      r.range_uniques = 0;
+      r.range_clones = 0;
+      return;
+    }
+
+    let range_views = 0, range_uniques = 0, range_clones = 0;
+
+    const inRange = (dStr) => {
+      if (type === 'days' && value === 0) return true;
+      if (type === 'days') return dStr >= cutoffDateStr;
+      return dStr >= startDateStr && dStr <= endDateStr;
+    };
+
+    // Optimization: Array is chronological. 
+    for (let i = 0; i < (details.views || []).length; i++) {
+      const v = details.views[i];
+      if (type === 'custom' && v.date > endDateStr) break; // skip future dates
+      if (inRange(v.date)) {
+        range_views += (v.count || 0);
+        range_uniques += (v.uniques || 0);
+      }
+    }
+    
+    for (let i = 0; i < (details.clones || []).length; i++) {
+      const c = details.clones[i];
+      if (type === 'custom' && c.date > endDateStr) break;
+      if (inRange(c.date)) {
+        range_clones += (c.count || 0);
+      }
+    }
+
+    r.range_views = range_views;
+    r.range_uniques = range_uniques;
+    r.range_clones = range_clones;
+  });
+}
+
 function renderRepoTable() {
   const tbody = document.getElementById('repoTableBody');
   if (!tbody || !state.summary) return;
@@ -353,35 +558,38 @@ function renderRepoTable() {
   });
 
   tbody.innerHTML = repos.map((r, idx) => `
-    <tr class="hover:bg-blue-50/50 dark:hover:bg-gray-800/40 cursor-pointer transition" onclick="viewRepoDeepDive('${r.name}')">
-      <td class="px-6 py-3.5">
+    <tr class="hover:bg-blue-50/40 dark:hover:bg-gray-800/40 cursor-pointer transition-colors group" onclick="viewRepoDeepDive('${r.name}')">
+      <td class="px-5 py-4">
         <div class="flex items-center gap-2">
-          <span class="font-bold text-gray-900 dark:text-white hover:text-blue-500">${r.name}</span>
-          ${r.language ? `<span class="px-2 py-0.5 rounded-full text-[10px] font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-700">${r.language}</span>` : ''}
+          <a href="${r.html_url || '#'}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" class="font-semibold text-gray-900 dark:text-gray-100 group-hover:text-blue-500 hover:underline transition-colors">${r.name}</a>
+          ${r.language ? `<span class="px-2 py-0.5 rounded-full text-[9px] uppercase tracking-wider font-bold bg-gray-100 dark:bg-gray-700/50 text-gray-500 dark:text-gray-400 border border-gray-200 dark:border-gray-600">${r.language}</span>` : ''}
         </div>
-        ${r.description ? `<p class="text-[11px] text-gray-500 dark:text-gray-400 truncate max-w-xs mt-0.5">${r.description}</p>` : ''}
+        ${r.description ? `<p class="text-[11px] text-gray-500 dark:text-gray-400 truncate max-w-xs mt-1 leading-relaxed">${r.description}</p>` : ''}
       </td>
-      <td class="px-4 py-3.5 font-medium text-amber-500">
-        <i class="fa-solid fa-star text-[10px] mr-1"></i>${(r.stars || 0).toLocaleString()}
+      <td class="px-3 py-4 font-medium text-amber-600 dark:text-amber-400/90">
+        <div class="flex items-center gap-1.5"><i class="fa-solid fa-star text-[10px] opacity-75"></i>${(r.stars || 0).toLocaleString()}</div>
       </td>
-      <td class="px-4 py-3.5 font-semibold text-blue-600 dark:text-blue-400">
-        ${(r.views_14d || 0).toLocaleString()}
+      <td class="px-3 py-4 font-medium text-orange-600 dark:text-orange-400/90">
+        <div class="flex items-center gap-1.5"><i class="fa-solid fa-code-fork text-[10px] opacity-75"></i>${(r.forks || 0).toLocaleString()}</div>
       </td>
-      <td class="px-4 py-3.5 font-medium text-gray-700 dark:text-gray-300">
-        ${(r.uniques_14d || 0).toLocaleString()}
+      <td class="px-3 py-4 font-semibold text-blue-600 dark:text-blue-400">
+        ${typeof r.range_views === 'number' ? r.range_views.toLocaleString() : (r.range_views || 0)}
       </td>
-      <td class="px-4 py-3.5 font-medium text-purple-600 dark:text-purple-400">
-        ${(r.clones_14d || 0).toLocaleString()}
+      <td class="px-3 py-4 font-medium text-emerald-600 dark:text-emerald-400/90 hidden sm:table-cell">
+        ${typeof r.range_uniques === 'number' ? r.range_uniques.toLocaleString() : (r.range_uniques || 0)}
       </td>
-      <td class="px-4 py-3.5 font-medium text-gray-900 dark:text-white">
+      <td class="px-3 py-4 font-medium text-purple-600 dark:text-purple-400/90 hidden sm:table-cell">
+        ${typeof r.range_clones === 'number' ? r.range_clones.toLocaleString() : (r.range_clones || 0)}
+      </td>
+      <td class="px-3 py-4 font-medium text-gray-700 dark:text-gray-300 hidden md:table-cell">
         ${(r.all_time_views || 0).toLocaleString()}
       </td>
-      <td class="px-4 py-3.5 font-medium text-gray-900 dark:text-white">
+      <td class="px-3 py-4 font-medium text-gray-700 dark:text-gray-300 hidden md:table-cell">
         ${(r.all_time_clones || 0).toLocaleString()}
       </td>
-      <td class="px-6 py-3.5 text-right">
-        <button class="px-2.5 py-1 rounded bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 hover:bg-blue-100 dark:hover:bg-blue-900/50 text-[11px] font-medium transition">
-          Inspect <i class="fa-solid fa-chevron-right ml-1 text-[9px]"></i>
+      <td class="px-5 py-4 text-right">
+        <button class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 group-hover:bg-blue-50 dark:group-hover:bg-blue-900/30 group-hover:text-blue-600 dark:group-hover:text-blue-400 text-[11px] font-semibold transition-colors flex items-center gap-1.5 ml-auto">
+          Inspect <i class="fa-solid fa-arrow-right text-[10px]"></i>
         </button>
       </td>
     </tr>
@@ -522,6 +730,9 @@ function renderRepoDeepDive(repo) {
   // Charts
   renderRepoCharts(repo);
 
+  // Forkers
+  renderRepoForkers(repo.forker_list || []);
+
   // Referrers & Paths
   renderRepoReferrers(repo.referrers || []);
   renderRepoPaths(repo.paths || []);
@@ -541,24 +752,26 @@ function renderRepoCharts(repo) {
   state.charts.repoViews = new Chart(viewsCanvas, {
     type: 'line',
     data: {
-      labels: views.map(v => v.date),
+      labels: views.map(v => formatDateLabel(v.date)),
       datasets: [
         {
           label: 'Views',
           data: views.map(v => v.count),
           borderColor: '#3b82f6',
-          backgroundColor: 'rgba(59, 130, 246, 0.1)',
+          backgroundColor: 'rgba(59, 130, 246, 0.15)',
           fill: true,
-          tension: 0.3,
-          borderWidth: 2
+          tension: 0.4,
+          borderWidth: 2.5
         },
         {
           label: 'Uniques',
           data: views.map(v => v.uniques),
-          borderColor: '#6366f1',
-          backgroundColor: 'transparent',
-          tension: 0.3,
-          borderWidth: 2
+          borderColor: '#10b981',
+          backgroundColor: 'rgba(16, 185, 129, 0.1)',
+          fill: true,
+          tension: 0.4,
+          borderWidth: 2.5,
+          borderDash: [5, 5]
         }
       ]
     },
@@ -580,18 +793,18 @@ function renderRepoCharts(repo) {
   state.charts.repoClones = new Chart(clonesCanvas, {
     type: 'bar',
     data: {
-      labels: clones.map(c => c.date),
+      labels: clones.map(c => formatDateLabel(c.date)),
       datasets: [
         {
           label: 'Clones',
           data: clones.map(c => c.count),
-          backgroundColor: '#a855f7',
+          backgroundColor: '#f59e0b', // amber-500
           borderRadius: 4
         },
         {
           label: 'Unique Cloners',
           data: clones.map(c => c.uniques),
-          backgroundColor: '#ec4899',
+          backgroundColor: '#ef4444', // red-500
           borderRadius: 4
         }
       ]
@@ -608,6 +821,25 @@ function renderRepoCharts(repo) {
       }
     }
   });
+}
+
+function renderRepoForkers(forkers) {
+  const c = document.getElementById('repoForkersList');
+  if (!c) return;
+  if (!forkers || forkers.length === 0) {
+    c.innerHTML = '<div class="text-sm text-gray-500 dark:text-gray-400">No fork data available yet.</div>';
+    return;
+  }
+
+  c.innerHTML = forkers.map(f => `
+    <a href="${f.html_url}" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800/50 transition border border-transparent hover:border-gray-200 dark:hover:border-gray-700">
+      <img src="${f.avatar_url}&s=40" alt="${f.login}" class="w-8 h-8 rounded-full bg-gray-200 dark:bg-gray-700">
+      <div class="overflow-hidden">
+        <div class="font-medium text-sm text-gray-900 dark:text-white truncate">${f.login}</div>
+        <div class="text-[10px] text-gray-500 dark:text-gray-400">${formatDateLabel(f.created_at)}</div>
+      </div>
+    </a>
+  `).join('');
 }
 
 function renderRepoReferrers(referrers) {
@@ -702,11 +934,11 @@ function renderCompareChart() {
   if (!canvas || !state.summary) return;
 
   const colors = getChartColors();
-  const palette = ['#3b82f6', '#10b981', '#f59e0b', '#ec4899'];
+  const palette = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444'];
 
   // Gather dates from the summary timeline (last 30 days)
   const timeline = (state.summary.daily_timeline || []).slice(-30);
-  const labels = timeline.map(t => t.date);
+  const labels = timeline.map(t => formatDateLabel(t.date));
 
   // For each compared repo, get view history
   const datasets = state.comparedRepos.map((repoName, idx) => {
@@ -716,7 +948,7 @@ function renderCompareChart() {
       repo = summaryItem ? createSimulatedRepoRecord(summaryItem) : { views: [] };
     }
 
-    const viewsMap = Object.fromEntries((repo.views || []).map(v => [v.date, v.count]));
+    const viewsMap = Object.fromEntries((repo.views || []).map(v => [formatDateLabel(v.date), v.count]));
     const data = labels.map(d => viewsMap[d] || 0);
 
     return {

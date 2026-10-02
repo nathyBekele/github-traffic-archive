@@ -1,77 +1,46 @@
-# 📈 GitHub Traffic & Repository Analytics Archive
+# GitHub Traffic Archive
 
-> **Never lose your repository traffic data again.** GitHub permanently discards views, clones, referrers, and path metrics after **14 days**. This standalone archive repository collects, aggregates, and permanently preserves your repository traffic forever, paired with an interactive **GitHub Pages** analytics dashboard.
+A tool to automatically collect and save your GitHub repository traffic data before GitHub deletes it (which happens every 14 days). It includes a web dashboard to view your historical traffic.
 
----
+## How to Use This for Your Own Account
 
-## ✨ Features
+Follow these steps to set up the archive for your GitHub account:
 
-- 🏛️ **Permanent Archiving**: Daily historical snapshots are merged and accumulated into clean JSON files (`data/repositories/{repo}.json` and `data/summary.json`).
-- 📊 **Executive Dashboard**:
-  - **Account-Wide KPIs**: All-time views, unique visitors, git clones, unique cloners, stars, and conversion rate.
-  - **Interactive Chart**: Switch between Views/Uniques vs Clones/Cloners with rolling time windows (7d, 14d, 30d, 90d, All-Time).
-  - **Leaderboard Table**: Sortable multi-repo performance table with instant search filtering.
-  - **Traffic Attribution**: Top referrers (e.g., LinkedIn, Google, Reddit, Hacker News) and top paths/files.
-- 🔍 **Repository Explorer (Deep Dive)**: Detailed view of each repository's daily traffic, cloners, conversion percentages, and unique content views.
-- ⚖️ **Side-by-Side Comparison**: Overlay up to 4 repositories to compare audience growth trends.
-- ⚡ **On-Demand Live Fetch**: Run real-time traffic queries directly in your browser anytime using a Personal Access Token without waiting for GitHub Actions.
-- 🎨 **Modern UX**: Tailwind CSS, Chart.js, dark/light mode toggle, mobile responsive, zero build tooling required.
+### 1. Create your repository
+Create a new public or private repository on GitHub (e.g., `github-traffic-archive`).
 
----
+### 2. Push this code
+Push the contents of this project to your new repository.
 
-## 🚀 Quick Setup & Deployment (In 3 Minutes)
+### 3. Add your access token
+The tool needs permission to read your repository traffic.
+1. Generate a GitHub Personal Access Token (classic) with the `repo` scope.
+2. Go to your new repository's settings on GitHub.
+3. Under **Secrets and variables** -> **Actions**, add a new repository secret.
+4. Name the secret `PERSONAL_ACCESS_TOKEN` and paste your token as the value.
 
-### Step 1: Create a New Repository on GitHub
-1. Go to [github.com/new](https://github.com/new).
-2. Name it (for example: `github-traffic-archive` or `traffic-dashboard`).
-3. Set it to **Public** (or **Private** with GitHub Pages enabled).
+### 4. Enable the dashboard
+1. In your repository settings, go to **Pages**.
+2. Under **Build and deployment**, set the source to **GitHub Actions**.
+3. Go to the **Actions** tab in your repository and manually run the "Archive GitHub Traffic & Deploy Pages" workflow.
 
-### Step 2: Push This Folder to Your New Repository
-In your terminal:
+Your dashboard will now be automatically updated every day and will be visible at `https://[YOUR_USERNAME].github.io/[YOUR_REPO_NAME]/`.
+
+## Running Locally
+
+To test or view the dashboard on your own computer, you can run a local web server. 
+
+Open your terminal in this project's folder and run the following command (using port 8080 to avoid conflicts):
+
 ```bash
-cd github-traffic-archive
-git init
-git add .
-git commit -m "feat: initial commit of GitHub Traffic Archive system"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/github-traffic-archive.git
-git push -u origin main
+python3 -m http.server 3030
 ```
 
-### Step 3: Add Your Personal Access Token (PAT)
-Traffic endpoints require a Personal Access Token with repository read permissions:
-1. Generate a GitHub PAT (classic) with `repo` scope at: [github.com/settings/tokens/new?scopes=repo&description=traffic-archive](https://github.com/settings/tokens/new?scopes=repo&description=traffic-archive)
-2. In your newly created `github-traffic-archive` repository on GitHub:
-   - Go to **Settings** → **Secrets and variables** → **Actions**.
-   - Click **New repository secret**.
-   - **Name**: `PERSONAL_ACCESS_TOKEN`
-   - **Secret**: Paste your token.
+Then, open `http://localhost:3030` in your web browser.
 
-### Step 4: Enable GitHub Pages
-1. Go to **Settings** → **Pages**.
-2. Under **Build and deployment** → **Source**, select **GitHub Actions**.
-3. Go to the **Actions** tab, click **Archive GitHub Traffic & Deploy Pages**, and click **Run workflow**.
+## How It Works
 
-Your analytics site will immediately be live at:
-`https://YOUR_USERNAME.github.io/github-traffic-archive/`
-
----
-
-## 🛠️ How It Works
-
-1. **Daily Automation**: At `00:00 UTC` daily, GitHub Actions runs `collector.py`.
-2. **Lossless Merging**: Fetches the rolling 14-day data from GitHub Traffic APIs (`/traffic/views`, `/traffic/clones`, `/traffic/popular/referrers`, `/traffic/popular/paths`) and merges it with existing records. Any day older than 14 days is retained forever.
-3. **Automated Commit**: If new traffic is detected, GitHub Actions commits the updated `data/` folder back to `main`.
-4. **Instant Deployment**: Deploys the static HTML5 dashboard to GitHub Pages.
-
----
-
-## 🔒 Security & Privacy
-
-- Your PAT is stored securely in GitHub repository secrets and never exposed in the generated client files.
-- In the on-demand live fetch tool, tokens are stored solely in your browser's private `localStorage` and sent directly to `api.github.com` over HTTPS.
-
----
-
-## 📜 License
-MIT License. Free to use, adapt, and customize for personal and enterprise portfolios.
+1. A scheduled task runs every day using GitHub Actions.
+2. It fetches your latest traffic data using the GitHub API.
+3. It saves and merges this new data into the `data/` folder, keeping your old data safe.
+4. It updates the web dashboard so you can view your combined historical data.

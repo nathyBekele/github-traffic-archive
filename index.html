@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GitHub Traffic & Repository Analytics Archive</title>
+  
+  <!-- Inter Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <meta name="description" content="Permanent historical traffic, clones, referrers, and audience analytics for all your GitHub repositories.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22 width=%22100%22 height=%22100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>">
 
@@ -14,6 +19,9 @@
       darkMode: 'class',
       theme: {
         extend: {
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+          },
           colors: {
             brand: {
               50: '#eff6ff',
@@ -22,9 +30,9 @@
               600: '#2563eb',
               700: '#1d4ed8',
             },
-            darkbg: '#0b0f17',
-            darkcard: '#111827',
-            darkborder: '#1f2937',
+            darkbg: '#0f1115',
+            darkcard: '#181b21',
+            darkborder: '#272b36',
           }
         }
       }
@@ -49,7 +57,7 @@
   </style>
 </head>
 
-<body class="bg-gray-50 text-gray-900 dark:bg-darkbg dark:text-gray-100 min-h-screen transition-colors duration-200 font-sans antialiased">
+<body class="bg-gray-50 text-gray-900 dark:bg-darkbg dark:text-gray-100 min-h-screen transition-colors duration-200">
 
   <!-- TOP NAV BAR -->
   <header class="sticky top-0 z-40 w-full border-b border-gray-200 dark:border-darkborder bg-white/90 dark:bg-darkcard/90 glass-card">
@@ -72,17 +80,17 @@
       </div>
 
       <!-- Navigation Tabs -->
-      <nav class="hidden md:flex items-center space-x-1 p-1 bg-gray-100 dark:bg-gray-800/60 rounded-xl border border-gray-200 dark:border-gray-700/60 text-sm">
-        <button onclick="switchTab('overview')" id="tabBtn-overview" class="tab-btn px-3.5 py-1.5 font-medium rounded-lg transition-all text-blue-600 dark:text-blue-400 bg-white dark:bg-gray-700 shadow-sm">
+      <nav aria-label="Main Navigation" class="hidden md:flex items-center space-x-1 p-1 bg-gray-100 dark:bg-gray-800/60 rounded-xl border border-gray-200 dark:border-gray-700/60 text-sm">
+        <button onclick="switchTab('overview')" id="tabBtn-overview" role="tab" aria-selected="true" class="tab-btn px-3.5 py-1.5 font-medium rounded-lg transition-all text-blue-600 dark:text-blue-400 bg-white dark:bg-gray-700 shadow-sm">
           <i class="fa-solid fa-chart-pie mr-1.5"></i> Overview
         </button>
-        <button onclick="switchTab('explorer')" id="tabBtn-explorer" class="tab-btn px-3.5 py-1.5 font-medium rounded-lg transition-all text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+        <button onclick="switchTab('explorer')" id="tabBtn-explorer" role="tab" aria-selected="false" class="tab-btn px-3.5 py-1.5 font-medium rounded-lg transition-all text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
           <i class="fa-solid fa-folder-tree mr-1.5"></i> Repo Explorer
         </button>
-        <button onclick="switchTab('compare')" id="tabBtn-compare" class="tab-btn px-3.5 py-1.5 font-medium rounded-lg transition-all text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+        <button onclick="switchTab('compare')" id="tabBtn-compare" role="tab" aria-selected="false" class="tab-btn px-3.5 py-1.5 font-medium rounded-lg transition-all text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
           <i class="fa-solid fa-code-compare mr-1.5"></i> Compare
         </button>
-        <button onclick="switchTab('live')" id="tabBtn-live" class="tab-btn px-3.5 py-1.5 font-medium rounded-lg transition-all text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+        <button onclick="switchTab('live')" id="tabBtn-live" role="tab" aria-selected="false" class="tab-btn px-3.5 py-1.5 font-medium rounded-lg transition-all text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
           <i class="fa-solid fa-bolt mr-1.5"></i> On-Demand Live
         </button>
       </nav>
@@ -90,17 +98,17 @@
       <!-- Action Buttons -->
       <div class="flex items-center space-x-2">
         <!-- Quick Export -->
-        <button onclick="exportDataJSON()" class="p-2 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition" title="Export Raw JSON Data">
+        <button onclick="exportDataJSON()" aria-label="Export Raw JSON Data" class="p-2 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition" title="Export Raw JSON Data">
           <i class="fa-solid fa-download"></i>
         </button>
 
         <!-- Theme Toggle -->
-        <button onclick="toggleTheme()" class="p-2 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition" title="Toggle Dark/Light Mode">
+        <button onclick="toggleTheme()" aria-label="Toggle Dark or Light Mode" class="p-2 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition" title="Toggle Dark/Light Mode">
           <i id="themeIcon" class="fa-solid fa-sun"></i>
         </button>
 
         <!-- Mobile Menu Toggle -->
-        <button onclick="toggleMobileMenu()" class="md:hidden p-2 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+        <button onclick="toggleMobileMenu()" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobileMenu" class="md:hidden p-2 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition">
           <i class="fa-solid fa-bars"></i>
         </button>
       </div>
@@ -108,7 +116,7 @@
     </div>
 
     <!-- Mobile Navigation Drawer -->
-    <div id="mobileMenu" class="hidden md:hidden px-4 pt-2 pb-4 border-t border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard space-y-1 text-sm">
+    <div id="mobileMenu" class="hidden px-4 pt-2 pb-4 border-t border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard space-y-1 text-sm">
       <button onclick="switchTab('overview'); toggleMobileMenu();" class="w-full text-left px-3 py-2 rounded-lg font-medium text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-gray-800">
         <i class="fa-solid fa-chart-pie mr-2"></i> Overview
       </button>
@@ -134,7 +142,7 @@
         <p class="font-semibold">Displaying generated demo data.</p>
         <p class="text-xs opacity-90 mt-0.5">Run <code class="bg-amber-500/20 px-1 py-0.5 rounded">python collector.py</code> or trigger the GitHub Action to populate your actual repository archives.</p>
       </div>
-      <button onclick="document.getElementById('offlineNotice').classList.add('hidden')" class="text-amber-500 hover:text-amber-400">
+      <button onclick="document.getElementById('offlineNotice').classList.add('hidden')" aria-label="Dismiss offline notice" class="text-amber-500 hover:text-amber-400">
         <i class="fa-solid fa-xmark"></i>
       </button>
     </div>
@@ -142,14 +150,14 @@
     <!-- ========================================== -->
     <!-- TAB 1: OVERVIEW -->
     <!-- ========================================== -->
-    <section id="tab-overview" class="space-y-8">
+    <section id="tab-overview" role="tabpanel" class="space-y-8">
       
       <!-- KPI Metric Cards Grid -->
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4">
         
         <!-- Total Views -->
         <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-blue-500/50 transition">
-          <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 font-medium">
+          <div class="flex items-center justify-between text-xs text-gray-600 dark:text-gray-300 font-medium">
             <span>All-Time Views</span>
             <i class="fa-solid fa-eye text-blue-500"></i>
           </div>
@@ -161,7 +169,7 @@
 
         <!-- Unique Visitors -->
         <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-indigo-500/50 transition">
-          <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 font-medium">
+          <div class="flex items-center justify-between text-xs text-gray-600 dark:text-gray-300 font-medium">
             <span>Unique Visitors</span>
             <i class="fa-solid fa-users text-indigo-500"></i>
           </div>
@@ -173,7 +181,7 @@
 
         <!-- Git Clones -->
         <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-purple-500/50 transition">
-          <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 font-medium">
+          <div class="flex items-center justify-between text-xs text-gray-600 dark:text-gray-300 font-medium">
             <span>All-Time Clones</span>
             <i class="fa-solid fa-code-branch text-purple-500"></i>
           </div>
@@ -185,7 +193,7 @@
 
         <!-- Unique Cloners -->
         <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-pink-500/50 transition">
-          <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 font-medium">
+          <div class="flex items-center justify-between text-xs text-gray-600 dark:text-gray-300 font-medium">
             <span>Unique Cloners</span>
             <i class="fa-solid fa-user-check text-pink-500"></i>
           </div>
@@ -195,9 +203,21 @@
           </div>
         </div>
 
+        <!-- Total Forks -->
+        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-orange-500/50 transition">
+          <div class="flex items-center justify-between text-xs text-gray-600 dark:text-gray-300 font-medium">
+            <span>Total Forks</span>
+            <i class="fa-solid fa-code-fork text-orange-500"></i>
+          </div>
+          <div id="kpi-total-forks" class="text-2xl font-bold tracking-tight mt-2 text-gray-900 dark:text-white">0</div>
+          <div class="mt-1 text-xs text-orange-600 dark:text-orange-400 font-medium">
+            Across all repos
+          </div>
+        </div>
+
         <!-- Stars -->
         <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-amber-500/50 transition">
-          <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 font-medium">
+          <div class="flex items-center justify-between text-xs text-gray-600 dark:text-gray-300 font-medium">
             <span>Total Stars</span>
             <i class="fa-solid fa-star text-amber-500"></i>
           </div>
@@ -209,7 +229,7 @@
 
         <!-- Active Repos -->
         <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-teal-500/50 transition">
-          <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 font-medium">
+          <div class="flex items-center justify-between text-xs text-gray-600 dark:text-gray-300 font-medium">
             <span>Tracked Repos</span>
             <i class="fa-solid fa-box-archive text-teal-500"></i>
           </div>
@@ -245,12 +265,12 @@
             </div>
 
             <!-- Time Window Pills -->
-            <div class="inline-flex rounded-lg border border-gray-200 dark:border-gray-700 p-0.5 bg-gray-50 dark:bg-gray-800 text-xs">
-              <button onclick="setGlobalChartRange(7)" id="rangeBtn-7" class="px-2.5 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">7d</button>
-              <button onclick="setGlobalChartRange(14)" id="rangeBtn-14" class="px-2.5 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">14d</button>
-              <button onclick="setGlobalChartRange(30)" id="rangeBtn-30" class="px-2.5 py-1 rounded-md font-medium bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-400 shadow-sm">30d</button>
-              <button onclick="setGlobalChartRange(90)" id="rangeBtn-90" class="px-2.5 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">90d</button>
-              <button onclick="setGlobalChartRange(0)" id="rangeBtn-0" class="px-2.5 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">All</button>
+            <div class="inline-flex rounded-lg border border-gray-200 dark:border-gray-700 p-0.5 bg-gray-50 dark:bg-gray-800 text-xs w-full sm:w-auto overflow-x-auto">
+              <button onclick="setGlobalChartRange(7)" id="rangeBtn-7" aria-label="Last 7 days" class="flex-1 sm:flex-none px-2.5 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">7d</button>
+              <button onclick="setGlobalChartRange(14)" id="rangeBtn-14" aria-label="Last 14 days" class="flex-1 sm:flex-none px-2.5 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">14d</button>
+              <button onclick="setGlobalChartRange(30)" id="rangeBtn-30" aria-label="Last 30 days" class="flex-1 sm:flex-none px-2.5 py-1 rounded-md font-medium bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-400 shadow-sm">30d</button>
+              <button onclick="setGlobalChartRange(90)" id="rangeBtn-90" aria-label="Last 90 days" class="flex-1 sm:flex-none px-2.5 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">90d</button>
+              <button onclick="setGlobalChartRange(0)" id="rangeBtn-0" aria-label="All time" class="flex-1 sm:flex-none px-2.5 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">All</button>
             </div>
           </div>
         </div>
@@ -262,38 +282,63 @@
       </div>
 
       <!-- Leaderboard & Repository Table -->
-      <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl shadow-sm overflow-hidden">
+      <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl shadow-sm overflow-hidden flex flex-col">
         
-        <div class="p-6 border-b border-gray-200 dark:border-darkborder flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div class="p-5 border-b border-gray-200 dark:border-darkborder flex flex-col xl:flex-row xl:items-center justify-between gap-4 bg-gray-50/30 dark:bg-gray-800/20">
           <div>
             <h2 class="text-lg font-bold text-gray-900 dark:text-white flex items-center gap-2">
               <i class="fa-solid fa-trophy text-amber-500"></i> Repository Performance Leaderboard
             </h2>
-            <p class="text-xs text-gray-500 dark:text-gray-400">Click any repository to inspect its deep-dive analytics.</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Click any repository to inspect its deep-dive analytics.</p>
           </div>
 
-          <!-- Table Search Filter -->
-          <div class="relative w-full sm:w-72">
-            <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-xs"></i>
-            <input type="text" id="repoSearchInput" oninput="filterRepoTable()" placeholder="Search repositories..." class="w-full pl-8 pr-3 py-1.5 text-xs bg-gray-50 dark:bg-gray-800/80 border border-gray-200 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <!-- Table Filters -->
+          <div class="flex flex-col xl:flex-row items-center gap-3 w-full xl:w-auto">
+            
+            <!-- Time Window Pills for Leaderboard -->
+            <div class="flex flex-wrap sm:inline-flex items-center rounded-lg border border-gray-200 dark:border-gray-700 p-0.5 bg-gray-100 dark:bg-gray-800/80 text-[11px] w-full sm:w-auto overflow-hidden">
+              <button onclick="setLeaderboardRange('days', 1)" id="lbr-1" aria-label="Last 1 day" class="flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">1d</button>
+              <button onclick="setLeaderboardRange('days', 3)" id="lbr-3" aria-label="Last 3 days" class="flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">3d</button>
+              <button onclick="setLeaderboardRange('days', 7)" id="lbr-7" aria-label="Last 7 days" class="flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">7d</button>
+              <button onclick="setLeaderboardRange('days', 14)" id="lbr-14" aria-label="Last 14 days" class="flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-400 shadow-sm transition-colors">14d</button>
+              <button onclick="setLeaderboardRange('days', 30)" id="lbr-30" aria-label="Last 30 days" class="flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">30d</button>
+              <button onclick="setLeaderboardRange('days', 90)" id="lbr-90" aria-label="Last 90 days" class="flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">90d</button>
+              <button onclick="setLeaderboardRange('days', 0)" id="lbr-0" aria-label="All time" class="flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">All</button>
+              <button onclick="setLeaderboardRange('custom', 'toggle')" id="lbr-custom" class="flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors" title="Custom Date Range" aria-label="Select custom date range"><i class="fa-solid fa-calendar-alt"></i></button>
+            </div>
+            
+            <!-- Custom Date Range Picker (Hidden by default) -->
+            <div id="leaderboardCustomDateRange" class="hidden flex-col sm:flex-row items-center gap-2 bg-gray-50 dark:bg-gray-800/80 border border-gray-200 dark:border-gray-700 rounded-lg p-1.5 text-xs shadow-sm">
+              <input type="date" aria-label="Start date" id="leaderboardStartDate" class="bg-transparent border border-gray-300 dark:border-gray-600 rounded px-2 py-1 text-gray-700 dark:text-gray-300 outline-none focus:border-blue-500 transition-colors w-full sm:w-auto">
+              <span class="text-gray-400 font-medium hidden sm:inline">to</span>
+              <input type="date" aria-label="End date" id="leaderboardEndDate" class="bg-transparent border border-gray-300 dark:border-gray-600 rounded px-2 py-1 text-gray-700 dark:text-gray-300 outline-none focus:border-blue-500 transition-colors w-full sm:w-auto">
+              <button onclick="applyCustomLeaderboardRange()" aria-label="Apply custom date range" class="w-full sm:w-auto mt-1 sm:mt-0 ml-0 sm:ml-1 px-3 py-1 bg-blue-500 hover:bg-blue-600 text-white rounded font-semibold transition-colors shadow-sm">Apply</button>
+            </div>
+
+            <!-- Table Search Filter -->
+            <div class="relative w-full xl:w-64">
+              <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-xs"></i>
+              <input type="text" aria-label="Search repositories" id="repoSearchInput" oninput="filterRepoTable()" placeholder="Search repositories..." class="w-full pl-9 pr-3 py-2 text-xs bg-white dark:bg-darkcard border border-gray-200 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 transition-all shadow-sm">
+            </div>
           </div>
         </div>
 
         <div class="overflow-x-auto">
-          <table class="w-full text-left text-xs text-gray-600 dark:text-gray-300">
-            <thead class="bg-gray-50 dark:bg-gray-800/50 text-gray-700 dark:text-gray-400 uppercase font-semibold border-b border-gray-200 dark:border-darkborder">
+          <table class="w-full text-left text-sm text-gray-600 dark:text-gray-300 border-collapse">
+            <thead class="bg-gray-50/90 dark:bg-[#151921]/90 text-gray-700 dark:text-gray-400 uppercase text-[11px] font-bold tracking-wider border-b border-gray-200 dark:border-darkborder sticky top-0 backdrop-blur-md z-10 shadow-sm">
               <tr>
-                <th class="px-6 py-3 cursor-pointer hover:text-blue-500" onclick="sortRepoTable('name')">Repository <i class="fa-solid fa-sort ml-1"></i></th>
-                <th class="px-4 py-3 cursor-pointer hover:text-blue-500" onclick="sortRepoTable('stars')">Stars <i class="fa-solid fa-sort ml-1"></i></th>
-                <th class="px-4 py-3 cursor-pointer hover:text-blue-500" onclick="sortRepoTable('views_14d')">14d Views <i class="fa-solid fa-sort ml-1"></i></th>
-                <th class="px-4 py-3 cursor-pointer hover:text-blue-500" onclick="sortRepoTable('uniques_14d')">14d Visitors <i class="fa-solid fa-sort ml-1"></i></th>
-                <th class="px-4 py-3 cursor-pointer hover:text-blue-500" onclick="sortRepoTable('clones_14d')">14d Clones <i class="fa-solid fa-sort ml-1"></i></th>
-                <th class="px-4 py-3 cursor-pointer hover:text-blue-500" onclick="sortRepoTable('all_time_views')">All-Time Views <i class="fa-solid fa-sort ml-1"></i></th>
-                <th class="px-4 py-3 cursor-pointer hover:text-blue-500" onclick="sortRepoTable('all_time_clones')">All-Time Clones <i class="fa-solid fa-sort ml-1"></i></th>
-                <th class="px-6 py-3 text-right">Action</th>
+                <th class="px-5 py-4 cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 transition-colors" onclick="sortRepoTable('name')">Repository <i class="fa-solid fa-sort ml-1 opacity-40"></i></th>
+                <th class="px-3 py-4 cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 transition-colors" onclick="sortRepoTable('stars')">Stars <i class="fa-solid fa-sort ml-1 opacity-40"></i></th>
+                <th class="px-3 py-4 cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 transition-colors" onclick="sortRepoTable('forks')">Forks <i class="fa-solid fa-sort ml-1 opacity-40"></i></th>
+                <th class="px-3 py-4 cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 transition-colors" onclick="sortRepoTable('range_views')"><span id="thRangeViews">14d Views</span> <i class="fa-solid fa-sort ml-1 opacity-40"></i></th>
+                <th class="px-3 py-4 cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 transition-colors hidden sm:table-cell" onclick="sortRepoTable('range_uniques')"><span id="thRangeUniques">14d Visitors</span> <i class="fa-solid fa-sort ml-1 opacity-40"></i></th>
+                <th class="px-3 py-4 cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 transition-colors hidden sm:table-cell" onclick="sortRepoTable('range_clones')"><span id="thRangeClones">14d Clones</span> <i class="fa-solid fa-sort ml-1 opacity-40"></i></th>
+                <th class="px-3 py-4 cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 transition-colors hidden md:table-cell" onclick="sortRepoTable('all_time_views')">All-Time Views <i class="fa-solid fa-sort ml-1 opacity-40"></i></th>
+                <th class="px-3 py-4 cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 transition-colors hidden md:table-cell" onclick="sortRepoTable('all_time_clones')">All-Time Clones <i class="fa-solid fa-sort ml-1 opacity-40"></i></th>
+                <th class="px-5 py-4 text-right">Action</th>
               </tr>
             </thead>
-            <tbody id="repoTableBody" class="divide-y divide-gray-100 dark:divide-darkborder">
+            <tbody id="repoTableBody" class="divide-y divide-gray-100 dark:divide-gray-800/60">
               <!-- Dynamically populated rows -->
             </tbody>
           </table>
@@ -339,7 +384,7 @@
     <!-- ========================================== -->
     <!-- TAB 2: REPOSITORY EXPLORER (DEEP DIVE) -->
     <!-- ========================================== -->
-    <section id="tab-explorer" class="hidden space-y-8">
+    <section id="tab-explorer" role="tabpanel" class="hidden space-y-8">
       
       <!-- Repo Selector Card -->
       <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-6 shadow-sm">
@@ -352,7 +397,7 @@
           </div>
 
           <div class="w-full sm:w-80">
-            <select id="repoDropdown" onchange="onRepoSelect(this.value)" class="w-full px-3 py-2 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl text-sm font-medium focus:ring-2 focus:ring-blue-500">
+            <select id="repoDropdown" aria-label="Select Repository" onchange="onRepoSelect(this.value)" class="w-full px-3 py-2 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl text-sm font-medium focus:ring-2 focus:ring-blue-500">
               <!-- Dynamically populated options -->
             </select>
           </div>
@@ -401,7 +446,7 @@
       </div>
 
       <!-- Selected Repo Charts: Views & Clones -->
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
         
         <!-- Repo Views Chart -->
         <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-6 shadow-sm">
@@ -430,6 +475,7 @@
         </div>
 
       </div>
+
 
       <!-- Repo Specific Referrers & Paths -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -461,7 +507,7 @@
     <!-- ========================================== -->
     <!-- TAB 3: COMPARE REPOSITORIES -->
     <!-- ========================================== -->
-    <section id="tab-compare" class="hidden space-y-8">
+    <section id="tab-compare" role="tabpanel" class="hidden space-y-8">
       
       <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-6 shadow-sm">
         <h2 class="text-lg font-bold text-gray-900 dark:text-white flex items-center gap-2 mb-2">
@@ -493,7 +539,7 @@
     <!-- ========================================== -->
     <!-- TAB 4: ON-DEMAND LIVE SYNC -->
     <!-- ========================================== -->
-    <section id="tab-live" class="hidden space-y-8">
+    <section id="tab-live" role="tabpanel" class="hidden space-y-8">
       
       <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-6 shadow-sm max-w-3xl mx-auto">
         <div class="flex items-center gap-3 mb-4">
