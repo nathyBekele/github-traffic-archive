@@ -1,0 +1,256 @@
+{
+  "name": "promptKit",
+  "full_name": "nathyBekele/promptKit",
+  "owner": "nathyBekele",
+  "description": "An application that transforms prompt engineering for LLMs  by automating prompt generation, creating diverse test cases, and evaluating and ranking prompts.",
+  "html_url": "https://github.com/nathyBekele/promptKit",
+  "homepage": "",
+  "language": "Jupyter Notebook",
+  "topics": [
+    "llm-prompting",
+    "prompt-engineering",
+    "prompt-toolkit"
+  ],
+  "stars": 8,
+  "forks": 2,
+  "open_issues": 1,
+  "watchers": 8,
+  "license": null,
+  "is_private": false,
+  "is_fork": false,
+  "created_at": "2024-01-16T14:57:57Z",
+  "updated_at": "2026-09-30T10:34:40Z",
+  "pushed_at": "2025-05-12T20:54:03Z",
+  "last_synced": "2026-10-02T20:02:19Z",
+  "summary": {
+    "all_time_views": 34,
+    "all_time_uniques": 26,
+    "all_time_clones": 9,
+    "all_time_unique_cloners": 9,
+    "views_14d": 34,
+    "uniques_14d": 26,
+    "clones_14d": 9,
+    "unique_cloners_14d": 9,
+    "clone_conversion_pct": 26.5,
+    "days_tracked": 14
+  },
+  "views": [
+    {
+      "date": "2026-09-18",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "date": "2026-09-19",
+      "count": 2,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-20",
+      "count": 5,
+      "uniques": 4
+    },
+    {
+      "date": "2026-09-21",
+      "count": 5,
+      "uniques": 3
+    },
+    {
+      "date": "2026-09-22",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "date": "2026-09-23",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "date": "2026-09-24",
+      "count": 2,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-25",
+      "count": 2,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-26",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-27",
+      "count": 2,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-28",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-29",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-30",
+      "count": 5,
+      "uniques": 4
+    },
+    {
+      "date": "2026-10-01",
+      "count": 3,
+      "uniques": 3
+    }
+  ],
+  "clones": [
+    {
+      "date": "2026-09-18",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-19",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-20",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-21",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-22",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "date": "2026-09-23",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-24",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-25",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "date": "2026-09-26",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-27",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "date": "2026-09-28",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "date": "2026-09-29",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-30",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-01",
+      "count": 1,
+      "uniques": 1
+    }
+  ],
+  "referrers": [
+    {
+      "referrer": "github.com",
+      "total_count": 3,
+      "total_uniques": 3,
+      "latest_count": 3,
+      "latest_uniques": 3,
+      "last_seen": "2026-10-02"
+    }
+  ],
+  "paths": [
+    {
+      "path": "/nathyBekele/promptKit",
+      "title": "Overview",
+      "total_count": 17,
+      "total_uniques": 6,
+      "latest_count": 17,
+      "latest_uniques": 6,
+      "last_seen": "2026-10-02"
+    },
+    {
+      "path": "/nathyBekele/promptKit/pulls",
+      "title": "/pulls",
+      "total_count": 7,
+      "total_uniques": 4,
+      "latest_count": 7,
+      "latest_uniques": 4,
+      "last_seen": "2026-10-02"
+    },
+    {
+      "path": "/nathyBekele/promptKit/issues",
+      "title": "/issues",
+      "total_count": 6,
+      "total_uniques": 5,
+      "latest_count": 6,
+      "latest_uniques": 5,
+      "last_seen": "2026-10-02"
+    },
+    {
+      "path": "/nathyBekele/promptKit/commit/0fa4bd3e2b576a7e773b2f244a9b47fe61a57963",
+      "title": "/commit/0fa4bd3e2b576a7e773b2f244a9b47fe61a57963",
+      "total_count": 1,
+      "total_uniques": 1,
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-02"
+    },
+    {
+      "path": "/nathyBekele/promptKit/commit/8078da468201765cc8411368871c519207e06ccb",
+      "title": "/commit/8078da468201765cc8411368871c519207e06ccb",
+      "total_count": 1,
+      "total_uniques": 1,
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-02"
+    },
+    {
+      "path": "/nathyBekele/promptKit/commit/e079751af8a588cfeaa77da712022a08d60c3fc6",
+      "title": "/commit/e079751af8a588cfeaa77da712022a08d60c3fc6",
+      "total_count": 1,
+      "total_uniques": 1,
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-02"
+    },
+    {
+      "path": "/nathyBekele/promptKit/releases",
+      "title": "/releases",
+      "total_count": 1,
+      "total_uniques": 1,
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-02"
+    }
+  ]
+}

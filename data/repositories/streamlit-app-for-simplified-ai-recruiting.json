@@ -1,0 +1,185 @@
+{
+  "name": "streamlit-app-for-simplified-ai-recruiting",
+  "full_name": "nathyBekele/streamlit-app-for-simplified-ai-recruiting",
+  "owner": "nathyBekele",
+  "description": "Recruiter Lite is an AI-powered tool that matches resumes with job descriptions. Using the Gemini Pro API for NLP, it calculates a match score, highlights candidate strengths, and identifies gaps. Built with Streamlit, it offers a simple interface for quick and easy candidate evaluation.",
+  "html_url": "https://github.com/nathyBekele/streamlit-app-for-simplified-ai-recruiting",
+  "homepage": "",
+  "language": "Other",
+  "topics": [
+    "ai-recruiter",
+    "gemini-api",
+    "nlp",
+    "resume-matcher",
+    "streamlit-webapp"
+  ],
+  "stars": 0,
+  "forks": 0,
+  "open_issues": 0,
+  "watchers": 0,
+  "license": null,
+  "is_private": false,
+  "is_fork": false,
+  "created_at": "2024-09-26T20:52:04Z",
+  "updated_at": "2025-05-12T20:35:35Z",
+  "pushed_at": "2024-09-26T20:59:39Z",
+  "last_synced": "2026-10-02T20:02:19Z",
+  "summary": {
+    "all_time_views": 0,
+    "all_time_uniques": 0,
+    "all_time_clones": 3,
+    "all_time_unique_cloners": 3,
+    "views_14d": 0,
+    "uniques_14d": 0,
+    "clones_14d": 3,
+    "unique_cloners_14d": 3,
+    "clone_conversion_pct": 0.0,
+    "days_tracked": 14
+  },
+  "views": [
+    {
+      "date": "2026-09-18",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-19",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-20",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-21",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-22",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-23",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-24",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-25",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-26",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-27",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-28",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-29",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-30",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-01",
+      "count": 0,
+      "uniques": 0
+    }
+  ],
+  "clones": [
+    {
+      "date": "2026-09-18",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-19",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-20",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-21",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-22",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-23",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-24",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-25",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-26",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-27",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-28",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-29",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-30",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-01",
+      "count": 0,
+      "uniques": 0
+    }
+  ],
+  "referrers": [],
+  "paths": []
+}

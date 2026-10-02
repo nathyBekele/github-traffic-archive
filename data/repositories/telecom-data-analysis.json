@@ -1,0 +1,236 @@
+{
+  "name": "telecom-data-analysis",
+  "full_name": "nathyBekele/telecom-data-analysis",
+  "owner": "nathyBekele",
+  "description": "A Python package for comprehensive telecom data analytics, focusing on four key areas: User Overview, User Engagement, User Experience, and User Satisfaction. Designed to provide actionable insights to improve telecom services and customer retention through detailed data analysis.",
+  "html_url": "https://github.com/nathyBekele/telecom-data-analysis",
+  "homepage": "",
+  "language": "Jupyter Notebook",
+  "topics": [
+    "data-analysis-python",
+    "telecom-data-analysis"
+  ],
+  "stars": 2,
+  "forks": 0,
+  "open_issues": 0,
+  "watchers": 2,
+  "license": null,
+  "is_private": false,
+  "is_fork": false,
+  "created_at": "2023-12-12T10:10:12Z",
+  "updated_at": "2025-10-11T19:42:38Z",
+  "pushed_at": "2025-10-11T19:42:34Z",
+  "last_synced": "2026-10-02T20:02:19Z",
+  "summary": {
+    "all_time_views": 6,
+    "all_time_uniques": 4,
+    "all_time_clones": 6,
+    "all_time_unique_cloners": 6,
+    "views_14d": 6,
+    "uniques_14d": 4,
+    "clones_14d": 6,
+    "unique_cloners_14d": 6,
+    "clone_conversion_pct": 100.0,
+    "days_tracked": 14
+  },
+  "views": [
+    {
+      "date": "2026-09-18",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-19",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-20",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-21",
+      "count": 3,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-22",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-23",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-24",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-25",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-26",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-27",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-28",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-29",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-30",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-01",
+      "count": 0,
+      "uniques": 0
+    }
+  ],
+  "clones": [
+    {
+      "date": "2026-09-18",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-19",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-20",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-21",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-22",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-23",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-24",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-25",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-26",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-27",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "date": "2026-09-28",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-29",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-30",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-01",
+      "count": 1,
+      "uniques": 1
+    }
+  ],
+  "referrers": [
+    {
+      "referrer": "github.com",
+      "total_count": 3,
+      "total_uniques": 2,
+      "latest_count": 3,
+      "latest_uniques": 2,
+      "last_seen": "2026-10-02"
+    },
+    {
+      "referrer": "Google",
+      "total_count": 2,
+      "total_uniques": 2,
+      "latest_count": 2,
+      "latest_uniques": 2,
+      "last_seen": "2026-10-02"
+    }
+  ],
+  "paths": [
+    {
+      "path": "/nathyBekele/Telecom-Data-Analysis",
+      "title": "Overview",
+      "total_count": 3,
+      "total_uniques": 3,
+      "latest_count": 3,
+      "latest_uniques": 3,
+      "last_seen": "2026-10-02"
+    },
+    {
+      "path": "/nathyBekele/telecom-data-analysis",
+      "title": "Overview",
+      "total_count": 1,
+      "total_uniques": 1,
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-02"
+    },
+    {
+      "path": "/nathyBekele/telecom-data-analysis/blob/main/requirements.txt",
+      "title": "/blob/main/requirements.txt",
+      "total_count": 1,
+      "total_uniques": 1,
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-02"
+    },
+    {
+      "path": "/nathyBekele/telecom-data-analysis/tree/main/Notebooks",
+      "title": "/tree/main/Notebooks",
+      "total_count": 1,
+      "total_uniques": 1,
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-02"
+    }
+  ]
+}

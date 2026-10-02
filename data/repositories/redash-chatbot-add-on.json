@@ -1,0 +1,217 @@
+{
+  "name": "redash-chatbot-add-on",
+  "full_name": "nathyBekele/redash-chatbot-add-on",
+  "owner": "nathyBekele",
+  "description": "A Redash dashboard extension that integrates a chatbot powered by NLP and ChatGPT. It enables users to interact with data using natural language queries, generate SQL queries, and visualize results directly within the chat interface. This enhances data exploration and decision-making through conversational analytics.",
+  "html_url": "https://github.com/nathyBekele/redash-chatbot-add-on",
+  "homepage": "",
+  "language": "Python",
+  "topics": [
+    "chatbot",
+    "flask",
+    "llm",
+    "nlp",
+    "openai",
+    "postgresql",
+    "redash",
+    "redash-extension",
+    "vector-database"
+  ],
+  "stars": 5,
+  "forks": 2,
+  "open_issues": 1,
+  "watchers": 5,
+  "license": "BSD 2-Clause \"Simplified\" License",
+  "is_private": false,
+  "is_fork": false,
+  "created_at": "2024-01-03T15:15:00Z",
+  "updated_at": "2026-09-30T10:34:49Z",
+  "pushed_at": "2025-03-23T08:13:55Z",
+  "last_synced": "2026-10-02T20:02:19Z",
+  "summary": {
+    "all_time_views": 5,
+    "all_time_uniques": 3,
+    "all_time_clones": 17,
+    "all_time_unique_cloners": 16,
+    "views_14d": 5,
+    "uniques_14d": 3,
+    "clones_14d": 17,
+    "unique_cloners_14d": 16,
+    "clone_conversion_pct": 340.0,
+    "days_tracked": 14
+  },
+  "views": [
+    {
+      "date": "2026-09-18",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-19",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-20",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-21",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-22",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-23",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-24",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-25",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-26",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-27",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-28",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-29",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-30",
+      "count": 4,
+      "uniques": 2
+    },
+    {
+      "date": "2026-10-01",
+      "count": 0,
+      "uniques": 0
+    }
+  ],
+  "clones": [
+    {
+      "date": "2026-09-18",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-19",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "date": "2026-09-20",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-21",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-22",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-23",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-24",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-25",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-26",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-27",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-09-28",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-29",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "date": "2026-09-30",
+      "count": 4,
+      "uniques": 3
+    },
+    {
+      "date": "2026-10-01",
+      "count": 4,
+      "uniques": 4
+    }
+  ],
+  "referrers": [
+    {
+      "referrer": "github.com",
+      "total_count": 4,
+      "total_uniques": 3,
+      "latest_count": 4,
+      "latest_uniques": 3,
+      "last_seen": "2026-10-02"
+    }
+  ],
+  "paths": [
+    {
+      "path": "/nathyBekele/redash-chatbot-add-on",
+      "title": "Overview",
+      "total_count": 4,
+      "total_uniques": 3,
+      "latest_count": 4,
+      "latest_uniques": 3,
+      "last_seen": "2026-10-02"
+    },
+    {
+      "path": "/nathyBekele/redash-chatbot-add-on/fork",
+      "title": "/fork",
+      "total_count": 1,
+      "total_uniques": 1,
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-02"
+    }
+  ]
+}
