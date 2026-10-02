@@ -1,0 +1,40 @@
+{
+  "name": "abrehot-space-booking",
+  "full_name": "nathyBekele/abrehot-space-booking",
+  "owner": "nathyBekele",
+  "description": "This repository primarily contains the space booking console for Abrehot Library, built with Vue.js. The console appears when users click \"Book Space\" and handles the booking process. The rest of the app is sample code from other sources; only the booking console is custom-built and intended for use.",
+  "html_url": "https://github.com/nathyBekele/abrehot-space-booking",
+  "homepage": "https://abrehot-space-booking.netlify.app/",
+  "language": "Vue",
+  "topics": [
+    "space-booking",
+    "vuejs"
+  ],
+  "stars": 0,
+  "forks": 0,
+  "open_issues": 0,
+  "watchers": 0,
+  "license": null,
+  "is_private": false,
+  "is_fork": false,
+  "created_at": "2025-04-13T13:49:17Z",
+  "updated_at": "2025-05-12T20:24:44Z",
+  "pushed_at": "2025-04-13T14:37:23Z",
+  "last_synced": "2026-10-02T19:04:26Z",
+  "summary": {
+    "all_time_views": 0,
+    "all_time_uniques": 0,
+    "all_time_clones": 0,
+    "all_time_unique_cloners": 0,
+    "views_14d": 0,
+    "uniques_14d": 0,
+    "clones_14d": 0,
+    "unique_cloners_14d": 0,
+    "clone_conversion_pct": 0.0,
+    "days_tracked": 0
+  },
+  "views": [],
+  "clones": [],
+  "referrers": [],
+  "paths": []
+}

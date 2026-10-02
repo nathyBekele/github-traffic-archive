@@ -1,0 +1,40 @@
+{
+  "name": "telecom-data-analysis",
+  "full_name": "nathyBekele/telecom-data-analysis",
+  "owner": "nathyBekele",
+  "description": "A Python package for comprehensive telecom data analytics, focusing on four key areas: User Overview, User Engagement, User Experience, and User Satisfaction. Designed to provide actionable insights to improve telecom services and customer retention through detailed data analysis.",
+  "html_url": "https://github.com/nathyBekele/telecom-data-analysis",
+  "homepage": "",
+  "language": "Jupyter Notebook",
+  "topics": [
+    "data-analysis-python",
+    "telecom-data-analysis"
+  ],
+  "stars": 2,
+  "forks": 0,
+  "open_issues": 0,
+  "watchers": 2,
+  "license": null,
+  "is_private": false,
+  "is_fork": false,
+  "created_at": "2023-12-12T10:10:12Z",
+  "updated_at": "2025-10-11T19:42:38Z",
+  "pushed_at": "2025-10-11T19:42:34Z",
+  "last_synced": "2026-10-02T19:04:26Z",
+  "summary": {
+    "all_time_views": 0,
+    "all_time_uniques": 0,
+    "all_time_clones": 0,
+    "all_time_unique_cloners": 0,
+    "views_14d": 0,
+    "uniques_14d": 0,
+    "clones_14d": 0,
+    "unique_cloners_14d": 0,
+    "clone_conversion_pct": 0.0,
+    "days_tracked": 0
+  },
+  "views": [],
+  "clones": [],
+  "referrers": [],
+  "paths": []
+}

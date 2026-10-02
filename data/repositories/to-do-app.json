@@ -1,0 +1,40 @@
+{
+  "name": "to-do-app",
+  "full_name": "nathyBekele/to-do-app",
+  "owner": "nathyBekele",
+  "description": "A simple web-based To-Do app built with Next.js and TypeScript. Users can add, edit, delete, and mark tasks as complete or pending. Features a clean UI and efficient task management. To run locally, install dependencies and start the server to access the app at http://localhost:3000.",
+  "html_url": "https://github.com/nathyBekele/to-do-app",
+  "homepage": "",
+  "language": "JavaScript",
+  "topics": [
+    "nextjs",
+    "todoapp"
+  ],
+  "stars": 0,
+  "forks": 0,
+  "open_issues": 0,
+  "watchers": 0,
+  "license": null,
+  "is_private": false,
+  "is_fork": false,
+  "created_at": "2024-02-15T14:56:29Z",
+  "updated_at": "2025-05-12T20:37:39Z",
+  "pushed_at": "2024-02-19T08:30:10Z",
+  "last_synced": "2026-10-02T19:04:26Z",
+  "summary": {
+    "all_time_views": 0,
+    "all_time_uniques": 0,
+    "all_time_clones": 0,
+    "all_time_unique_cloners": 0,
+    "views_14d": 0,
+    "uniques_14d": 0,
+    "clones_14d": 0,
+    "unique_cloners_14d": 0,
+    "clone_conversion_pct": 0.0,
+    "days_tracked": 0
+  },
+  "views": [],
+  "clones": [],
+  "referrers": [],
+  "paths": []
+}

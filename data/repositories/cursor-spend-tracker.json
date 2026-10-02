@@ -2,72 +2,222 @@
   "name": "cursor-spend-tracker",
   "full_name": "nathyBekele/cursor-spend-tracker",
   "owner": "nathyBekele",
-  "description": "Lightweight Chrome extension & real-time cost intelligence dashboard for Cursor AI API spend.",
+  "description": "",
   "html_url": "https://github.com/nathyBekele/cursor-spend-tracker",
+  "homepage": "https://cursor-spend-tracker.vercel.app",
   "language": "TypeScript",
-  "topics": ["cursor-ai", "chrome-extension", "spend-tracker", "analytics"],
-  "stars": 28,
-  "forks": 6,
-  "open_issues": 1,
-  "watchers": 28,
-  "license": "Apache-2.0",
+  "topics": [],
+  "stars": 0,
+  "forks": 0,
+  "open_issues": 0,
+  "watchers": 0,
+  "license": null,
   "is_private": false,
   "is_fork": false,
-  "created_at": "2024-03-15T10:00:00Z",
-  "updated_at": "2026-10-02T16:00:00Z",
-  "pushed_at": "2026-10-02T16:00:00Z",
-  "last_synced": "2026-10-02T18:45:00Z",
+  "created_at": "2026-07-18T17:35:28Z",
+  "updated_at": "2026-07-19T14:33:04Z",
+  "pushed_at": "2026-07-19T14:33:00Z",
+  "last_synced": "2026-10-02T19:04:26Z",
   "summary": {
-    "all_time_views": 2450,
-    "all_time_uniques": 1380,
-    "all_time_clones": 340,
-    "all_time_unique_cloners": 210,
-    "views_14d": 418,
-    "uniques_14d": 195,
-    "clones_14d": 72,
-    "unique_cloners_14d": 45,
-    "clone_conversion_pct": 13.9,
+    "all_time_views": 458,
+    "all_time_uniques": 225,
+    "all_time_clones": 78,
+    "all_time_unique_cloners": 50,
+    "views_14d": 458,
+    "uniques_14d": 225,
+    "clones_14d": 78,
+    "unique_cloners_14d": 50,
+    "clone_conversion_pct": 17.0,
     "days_tracked": 14
   },
   "views": [
-    { "date": "2026-09-19", "count": 22, "uniques": 11 },
-    { "date": "2026-09-20", "count": 25, "uniques": 13 },
-    { "date": "2026-09-21", "count": 28, "uniques": 14 },
-    { "date": "2026-09-22", "count": 31, "uniques": 16 },
-    { "date": "2026-09-23", "count": 35, "uniques": 18 },
-    { "date": "2026-09-24", "count": 32, "uniques": 15 },
-    { "date": "2026-09-25", "count": 29, "uniques": 14 },
-    { "date": "2026-09-26", "count": 26, "uniques": 12 },
-    { "date": "2026-09-27", "count": 30, "uniques": 15 },
-    { "date": "2026-09-28", "count": 38, "uniques": 19 },
-    { "date": "2026-09-29", "count": 42, "uniques": 20 },
-    { "date": "2026-09-30", "count": 36, "uniques": 17 },
-    { "date": "2026-10-01", "count": 40, "uniques": 19 },
-    { "date": "2026-10-02", "count": 44, "uniques": 22 }
+    {
+      "date": "2026-09-19",
+      "count": 22,
+      "uniques": 11
+    },
+    {
+      "date": "2026-09-20",
+      "count": 25,
+      "uniques": 13
+    },
+    {
+      "date": "2026-09-21",
+      "count": 28,
+      "uniques": 14
+    },
+    {
+      "date": "2026-09-22",
+      "count": 31,
+      "uniques": 16
+    },
+    {
+      "date": "2026-09-23",
+      "count": 35,
+      "uniques": 18
+    },
+    {
+      "date": "2026-09-24",
+      "count": 32,
+      "uniques": 15
+    },
+    {
+      "date": "2026-09-25",
+      "count": 29,
+      "uniques": 14
+    },
+    {
+      "date": "2026-09-26",
+      "count": 26,
+      "uniques": 12
+    },
+    {
+      "date": "2026-09-27",
+      "count": 30,
+      "uniques": 15
+    },
+    {
+      "date": "2026-09-28",
+      "count": 38,
+      "uniques": 19
+    },
+    {
+      "date": "2026-09-29",
+      "count": 42,
+      "uniques": 20
+    },
+    {
+      "date": "2026-09-30",
+      "count": 36,
+      "uniques": 17
+    },
+    {
+      "date": "2026-10-01",
+      "count": 40,
+      "uniques": 19
+    },
+    {
+      "date": "2026-10-02",
+      "count": 44,
+      "uniques": 22
+    }
   ],
   "clones": [
-    { "date": "2026-09-19", "count": 4, "uniques": 3 },
-    { "date": "2026-09-20", "count": 5, "uniques": 3 },
-    { "date": "2026-09-21", "count": 6, "uniques": 4 },
-    { "date": "2026-09-22", "count": 5, "uniques": 3 },
-    { "date": "2026-09-23", "count": 7, "uniques": 4 },
-    { "date": "2026-09-24", "count": 6, "uniques": 4 },
-    { "date": "2026-09-25", "count": 4, "uniques": 3 },
-    { "date": "2026-09-26", "count": 3, "uniques": 2 },
-    { "date": "2026-09-27", "count": 5, "uniques": 3 },
-    { "date": "2026-09-28", "count": 7, "uniques": 5 },
-    { "date": "2026-09-29", "count": 8, "uniques": 5 },
-    { "date": "2026-09-30", "count": 5, "uniques": 3 },
-    { "date": "2026-10-01", "count": 6, "uniques": 4 },
-    { "date": "2026-10-02", "count": 7, "uniques": 4 }
+    {
+      "date": "2026-09-19",
+      "count": 4,
+      "uniques": 3
+    },
+    {
+      "date": "2026-09-20",
+      "count": 5,
+      "uniques": 3
+    },
+    {
+      "date": "2026-09-21",
+      "count": 6,
+      "uniques": 4
+    },
+    {
+      "date": "2026-09-22",
+      "count": 5,
+      "uniques": 3
+    },
+    {
+      "date": "2026-09-23",
+      "count": 7,
+      "uniques": 4
+    },
+    {
+      "date": "2026-09-24",
+      "count": 6,
+      "uniques": 4
+    },
+    {
+      "date": "2026-09-25",
+      "count": 4,
+      "uniques": 3
+    },
+    {
+      "date": "2026-09-26",
+      "count": 3,
+      "uniques": 2
+    },
+    {
+      "date": "2026-09-27",
+      "count": 5,
+      "uniques": 3
+    },
+    {
+      "date": "2026-09-28",
+      "count": 7,
+      "uniques": 5
+    },
+    {
+      "date": "2026-09-29",
+      "count": 8,
+      "uniques": 5
+    },
+    {
+      "date": "2026-09-30",
+      "count": 5,
+      "uniques": 3
+    },
+    {
+      "date": "2026-10-01",
+      "count": 6,
+      "uniques": 4
+    },
+    {
+      "date": "2026-10-02",
+      "count": 7,
+      "uniques": 4
+    }
   ],
   "referrers": [
-    { "referrer": "github.com", "total_count": 210, "total_uniques": 120, "latest_count": 210, "latest_uniques": 120 },
-    { "referrer": "t.co (Twitter/X)", "total_count": 125, "total_uniques": 85, "latest_count": 125, "latest_uniques": 85 },
-    { "referrer": "reddit.com", "total_count": 83, "total_uniques": 55, "latest_count": 83, "latest_uniques": 55 }
+    {
+      "referrer": "github.com",
+      "total_count": 210,
+      "total_uniques": 120,
+      "latest_count": 210,
+      "latest_uniques": 120,
+      "last_seen": "2026-10-02"
+    },
+    {
+      "referrer": "t.co (Twitter/X)",
+      "total_count": 125,
+      "total_uniques": 85,
+      "latest_count": 125,
+      "latest_uniques": 85,
+      "last_seen": "2026-10-02"
+    },
+    {
+      "referrer": "reddit.com",
+      "total_count": 83,
+      "total_uniques": 55,
+      "latest_count": 83,
+      "latest_uniques": 55,
+      "last_seen": "2026-10-02"
+    }
   ],
   "paths": [
-    { "path": "/README.md", "title": "Extension Docs", "total_count": 310, "total_uniques": 170, "latest_count": 310, "latest_uniques": 170 },
-    { "path": "/releases", "title": "Extension CRX Releases", "total_count": 160, "total_uniques": 110, "latest_count": 160, "latest_uniques": 110 }
+    {
+      "path": "/README.md",
+      "title": "Extension Docs",
+      "total_count": 310,
+      "total_uniques": 170,
+      "latest_count": 310,
+      "latest_uniques": 170,
+      "last_seen": "2026-10-02"
+    },
+    {
+      "path": "/releases",
+      "title": "Extension CRX Releases",
+      "total_count": 160,
+      "total_uniques": 110,
+      "latest_count": 160,
+      "latest_uniques": 110,
+      "last_seen": "2026-10-02"
+    }
   ]
 }

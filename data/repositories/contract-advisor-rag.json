@@ -1,0 +1,40 @@
+{
+  "name": "contract-advisor-rag",
+  "full_name": "nathyBekele/contract-advisor-rag",
+  "owner": "nathyBekele",
+  "description": "This project aims to develop an autonomous contract bot. It focuses on building, evaluating, and refining a RAG system for Contract Q&A, enabling independent contract drafting, review, and negotiation.",
+  "html_url": "https://github.com/nathyBekele/contract-advisor-rag",
+  "homepage": "",
+  "language": "Jupyter Notebook",
+  "topics": [
+    "python-rag",
+    "rag-chatbot"
+  ],
+  "stars": 1,
+  "forks": 0,
+  "open_issues": 0,
+  "watchers": 1,
+  "license": null,
+  "is_private": false,
+  "is_fork": false,
+  "created_at": "2024-02-20T07:23:19Z",
+  "updated_at": "2025-06-30T20:30:51Z",
+  "pushed_at": "2025-03-23T08:19:15Z",
+  "last_synced": "2026-10-02T19:04:26Z",
+  "summary": {
+    "all_time_views": 0,
+    "all_time_uniques": 0,
+    "all_time_clones": 0,
+    "all_time_unique_cloners": 0,
+    "views_14d": 0,
+    "uniques_14d": 0,
+    "clones_14d": 0,
+    "unique_cloners_14d": 0,
+    "clone_conversion_pct": 0.0,
+    "days_tracked": 0
+  },
+  "views": [],
+  "clones": [],
+  "referrers": [],
+  "paths": []
+}
