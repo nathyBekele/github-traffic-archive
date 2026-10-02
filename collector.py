@@ -301,12 +301,16 @@ def process_repository(repo, token, run_date, run_iso):
     all_time_clones = sum(c["count"] for c in merged_clones)
     all_time_unique_cloners = sum(c["uniques"] for c in merged_clones)
 
-    # 14d rolling totals from merged data
-    last_14_views = merged_views[-14:] if len(merged_views) >= 14 else merged_views
+    # Calculate exact 14-day rolling window based on calendar date
+    cutoff_dt = datetime.fromisoformat(run_iso.replace("Z", "+00:00"))
+    from datetime import timedelta
+    cutoff_date = (cutoff_dt - timedelta(days=14)).strftime("%Y-%m-%d")
+
+    last_14_views = [v for v in merged_views if v["date"] >= cutoff_date]
     views_14d = sum(v["count"] for v in last_14_views)
     uniques_14d = sum(v["uniques"] for v in last_14_views)
 
-    last_14_clones = merged_clones[-14:] if len(merged_clones) >= 14 else merged_clones
+    last_14_clones = [c for c in merged_clones if c["date"] >= cutoff_date]
     clones_14d = sum(c["count"] for c in last_14_clones)
     unique_cloners_14d = sum(c["uniques"] for c in last_14_clones)
 
