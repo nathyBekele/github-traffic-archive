@@ -295,6 +295,14 @@
           <!-- Table Filters -->
           <div class="flex flex-col xl:flex-row items-center gap-3 w-full xl:w-auto">
             
+            <!-- Refresh & Rate Limit -->
+            <div class="flex items-center gap-2">
+              <span class="rate-limit-badge hidden text-[10px] font-mono text-gray-500 bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded-md border border-gray-200 dark:border-gray-700" title="GitHub API Rate Limit Remaining"></span>
+              <button onclick="triggerLeaderboardRefresh()" class="flex items-center justify-center w-8 h-8 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-gray-50 dark:hover:bg-gray-700 shadow-sm transition-colors" title="Fetch latest data from GitHub API">
+                <i class="fa-solid fa-arrows-rotate" id="lbrRefreshIcon"></i>
+              </button>
+            </div>
+            
             <!-- Time Window Pills for Leaderboard -->
             <div class="flex flex-wrap sm:inline-flex items-center rounded-lg border border-gray-200 dark:border-gray-700 p-0.5 bg-gray-100 dark:bg-gray-800/80 text-[11px] w-full sm:w-auto overflow-hidden">
               <button onclick="setLeaderboardRange('days', 1)" id="lbr-1" aria-label="Last 1 day" class="flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">1d</button>
@@ -574,7 +582,10 @@
             <button onclick="runLiveSync()" id="liveSyncBtn" class="px-5 py-2.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold rounded-xl shadow-lg shadow-blue-500/20 transition flex items-center gap-2">
               <i class="fa-solid fa-arrows-rotate" id="liveSyncIcon"></i> Fetch Real-Time Traffic Now
             </button>
-            <span id="liveStatusText" class="text-xs text-gray-500 dark:text-gray-400 font-medium">Ready</span>
+            <div class="flex items-center gap-3">
+              <span class="rate-limit-badge hidden text-[10px] font-mono text-gray-500 bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded-md border border-gray-200 dark:border-gray-700" title="GitHub API Rate Limit Remaining"></span>
+              <span id="liveStatusText" class="text-xs text-gray-500 dark:text-gray-400 font-medium">Ready</span>
+            </div>
           </div>
 
           <!-- Progress Log -->

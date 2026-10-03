@@ -1046,6 +1046,7 @@ function initPatInput() {
     const input = document.getElementById('livePatInput');
     if (input) input.value = token;
   }
+  updateRateLimitDisplay();
 }
 
 function saveLiveToken() {
@@ -1055,13 +1056,65 @@ function saveLiveToken() {
     return;
   }
   localStorage.setItem('traffic_pat', val);
+  updateRateLimitDisplay();
   alert('Token saved locally in browser.');
 }
 
 function clearLiveToken() {
   localStorage.removeItem('traffic_pat');
   document.getElementById('livePatInput').value = '';
+  updateRateLimitDisplay();
   alert('Token removed.');
+}
+
+async function updateRateLimitDisplay() {
+  const token = localStorage.getItem('traffic_pat') || document.getElementById('livePatInput')?.value?.trim();
+  const badges = document.querySelectorAll('.rate-limit-badge');
+  if (badges.length === 0) return;
+  
+  if (!token) {
+    badges.forEach(b => b.classList.add('hidden'));
+    return;
+  }
+  
+  try {
+    const res = await fetch('https://api.github.com/rate_limit', {
+      headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github.v3+json' }
+    });
+    if (res.ok) {
+      const data = await res.json();
+      const remaining = data.resources.core.remaining;
+      const limit = data.resources.core.limit;
+      badges.forEach(badge => {
+        badge.textContent = `${remaining}/${limit}`;
+        badge.title = `GitHub API Rate Limit: ${remaining} requests remaining out of ${limit} per hour`;
+        badge.classList.remove('hidden');
+      });
+    } else {
+      badges.forEach(b => b.classList.add('hidden'));
+    }
+  } catch (e) {
+    badges.forEach(b => b.classList.add('hidden'));
+  }
+}
+
+async function triggerLeaderboardRefresh() {
+  const token = localStorage.getItem('traffic_pat') || document.getElementById('livePatInput')?.value?.trim();
+  if (!token) {
+    alert('Please configure your GitHub Personal Access Token in the "On-Demand Sync" tab first.');
+    switchTab('tab-live');
+    return;
+  }
+  
+  const refreshIcon = document.getElementById('lbrRefreshIcon');
+  if (refreshIcon) refreshIcon.classList.add('animate-spin');
+  
+  try {
+    await runLiveSync(true); // pass true to indicate silent mode (no alerts if we want, but alerts are okay)
+  } finally {
+    if (refreshIcon) refreshIcon.classList.remove('animate-spin');
+    updateRateLimitDisplay();
+  }
 }
 
 function appendLiveLog(msg) {
@@ -1179,6 +1232,7 @@ async function runLiveSync() {
   } finally {
     btn.disabled = false;
     icon.classList.remove('animate-spin');
+    updateRateLimitDisplay();
   }
 }
 
