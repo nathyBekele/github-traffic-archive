@@ -12,7 +12,7 @@ const state = {
   globalRange: 30, // days (0 = all time)
   selectedRepo: null,
   comparedRepos: [],
-  leaderboardRange: { type: 'days', value: 14, start: null, end: null },
+  leaderboardRange: { type: 'days', value: 1, start: null, end: null },
   charts: {
     global: null,
     repoViews: null,
