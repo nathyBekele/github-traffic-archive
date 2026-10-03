@@ -208,7 +208,20 @@ async function ensureAllRepoDetailsLoaded() {
 
 function populateDashboard(data) {
   // Update Header
-  const updatedDate = data.updated_at ? new Date(data.updated_at).toLocaleString() : 'Just now';
+  let updatedDate = 'Just now';
+  if (data.updated_at) {
+    const d = new Date(data.updated_at);
+    updatedDate = d.toLocaleString('en-US', {
+      timeZone: 'Africa/Nairobi',
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+      second: '2-digit',
+      hour12: true
+    }) + ' EAT';
+  }
   document.getElementById('lastUpdatedText').textContent = `Last synchronized: ${updatedDate}`;
 
   // Update KPIs
@@ -411,19 +424,19 @@ async function setLeaderboardRange(type, value) {
   [1, 3, 7, 14, 30, 90, 0, 'custom'].forEach(v => {
     const el = document.getElementById(`lbr-${v}`);
     if (el) {
-      el.className = 'px-2.5 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white';
+      el.className = 'flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors';
     }
   });
 
   if (type === 'custom') {
     const el = document.getElementById(`lbr-custom`);
-    if (el) el.className = 'px-2.5 py-1 rounded-md font-medium bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-400 shadow-sm';
+    if (el) el.className = 'flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-400 shadow-sm transition-colors';
     customDiv.style.display = 'flex';
     customDiv.classList.remove('hidden');
     return;
   } else {
     const el = document.getElementById(`lbr-${value}`);
-    if (el) el.className = 'px-2.5 py-1 rounded-md font-medium bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-400 shadow-sm';
+    if (el) el.className = 'flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-400 shadow-sm transition-colors';
     customDiv.style.display = 'none';
     customDiv.classList.add('hidden');
     state.leaderboardRange = { type: 'days', value: parseInt(value, 10) };
