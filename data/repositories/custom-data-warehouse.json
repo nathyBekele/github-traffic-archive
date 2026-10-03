@@ -25,18 +25,18 @@
   "created_at": "2023-12-20T06:56:15Z",
   "updated_at": "2025-05-12T20:59:37Z",
   "pushed_at": "2023-12-28T13:22:59Z",
-  "last_synced": "2026-10-03T08:11:14Z",
+  "last_synced": "2026-10-03T11:12:58Z",
   "summary": {
-    "all_time_views": 4,
-    "all_time_uniques": 4,
+    "all_time_views": 5,
+    "all_time_uniques": 5,
     "all_time_clones": 41,
     "all_time_unique_cloners": 16,
-    "views_14d": 4,
-    "uniques_14d": 4,
+    "views_14d": 5,
+    "uniques_14d": 5,
     "clones_14d": 31,
     "unique_cloners_14d": 8,
-    "clone_conversion_pct": 1025.0,
-    "days_tracked": 14
+    "clone_conversion_pct": 820.0,
+    "days_tracked": 15
   },
   "views": [
     {
@@ -108,6 +108,11 @@
       "date": "2026-10-01",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-02",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "clones": [
@@ -180,6 +185,11 @@
       "date": "2026-10-01",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-02",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [],
@@ -200,6 +210,15 @@
       "total_uniques": 2,
       "latest_count": 2,
       "latest_uniques": 2,
+      "last_seen": "2026-10-03"
+    },
+    {
+      "path": "/nathyBekele/custom-data-warehouse/issues",
+      "title": "/issues",
+      "total_count": 1,
+      "total_uniques": 1,
+      "latest_count": 1,
+      "latest_uniques": 1,
       "last_seen": "2026-10-03"
     }
   ]
