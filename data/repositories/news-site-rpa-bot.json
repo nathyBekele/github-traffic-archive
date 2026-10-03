@@ -25,7 +25,7 @@
   "created_at": "2024-04-18T07:36:28Z",
   "updated_at": "2025-05-12T20:36:49Z",
   "pushed_at": "2024-04-26T09:49:14Z",
-  "last_synced": "2026-10-02T21:04:22Z",
+  "last_synced": "2026-10-03T02:50:07Z",
   "summary": {
     "all_time_views": 0,
     "all_time_uniques": 0,
@@ -33,8 +33,8 @@
     "all_time_unique_cloners": 3,
     "views_14d": 0,
     "uniques_14d": 0,
-    "clones_14d": 3,
-    "unique_cloners_14d": 3,
+    "clones_14d": 2,
+    "unique_cloners_14d": 2,
     "clone_conversion_pct": 0.0,
     "days_tracked": 14
   },
