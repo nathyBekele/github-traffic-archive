@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T02:50:07Z",
+  "updated_at": "2026-10-03T08:11:14Z",
   "total_repositories_tracked": 26,
   "kpis": {
     "all_time_views": 132,
@@ -143,7 +143,7 @@
       "all_time_views": 36,
       "all_time_clones": 277,
       "clone_conversion_pct": 769.4,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "geometry-of-dormant-defection",
@@ -161,7 +161,7 @@
       "all_time_views": 35,
       "all_time_clones": 115,
       "clone_conversion_pct": 328.6,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "promptKit",
@@ -183,7 +183,7 @@
       "all_time_views": 34,
       "all_time_clones": 9,
       "clone_conversion_pct": 26.5,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "telecom-data-analysis",
@@ -204,7 +204,7 @@
       "all_time_views": 6,
       "all_time_clones": 6,
       "clone_conversion_pct": 100.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "redash-chatbot-add-on",
@@ -232,7 +232,7 @@
       "all_time_views": 5,
       "all_time_clones": 17,
       "clone_conversion_pct": 340.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "custom-data-warehouse",
@@ -257,7 +257,7 @@
       "all_time_views": 4,
       "all_time_clones": 41,
       "clone_conversion_pct": 1025.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "cursor-spend-tracker",
@@ -275,7 +275,7 @@
       "all_time_views": 4,
       "all_time_clones": 7,
       "clone_conversion_pct": 175.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "vitalAI",
@@ -299,7 +299,7 @@
       "all_time_views": 3,
       "all_time_clones": 9,
       "clone_conversion_pct": 300.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "semantic-image-and-text-alignment",
@@ -321,7 +321,7 @@
       "all_time_views": 3,
       "all_time_clones": 2,
       "clone_conversion_pct": 66.7,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "contract-advisor-rag",
@@ -342,7 +342,7 @@
       "all_time_views": 1,
       "all_time_clones": 9,
       "clone_conversion_pct": 900.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "logistics-dApp-on-ethereum",
@@ -366,7 +366,7 @@
       "all_time_views": 1,
       "all_time_clones": 18,
       "clone_conversion_pct": 1800.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "algo-certify-dApp-nft",
@@ -389,7 +389,7 @@
       "all_time_views": 0,
       "all_time_clones": 7,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "a2sv-jan-practice-problem-solutions-cpp",
@@ -410,7 +410,7 @@
       "all_time_views": 0,
       "all_time_clones": 3,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "a2sv-mar-contest-solutions-cpp",
@@ -432,7 +432,7 @@
       "all_time_views": 0,
       "all_time_clones": 3,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "a2sv-mar-practice-problems-solutions-cpp",
@@ -453,7 +453,7 @@
       "all_time_views": 0,
       "all_time_clones": 6,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "dsa-problems-using-cpp",
@@ -475,7 +475,7 @@
       "all_time_views": 0,
       "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "slack-workspace-data-analysis",
@@ -496,7 +496,7 @@
       "all_time_views": 0,
       "all_time_clones": 17,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "a2sv-jan-contest-solutions-cpp",
@@ -518,7 +518,7 @@
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "abrehot-space-booking",
@@ -539,7 +539,7 @@
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "code-to-learn",
@@ -560,7 +560,7 @@
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "github-traffic-archive",
@@ -578,7 +578,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "nathyBekeleH",
@@ -598,7 +598,7 @@
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "news-site-rpa-bot",
@@ -623,7 +623,7 @@
       "all_time_views": 0,
       "all_time_clones": 3,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "novel",
@@ -641,7 +641,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "streamlit-app-for-simplified-ai-recruiting",
@@ -665,7 +665,7 @@
       "all_time_views": 0,
       "all_time_clones": 3,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     },
     {
       "name": "to-do-app",
@@ -686,7 +686,7 @@
       "all_time_views": 0,
       "all_time_clones": 3,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-03T02:50:07Z"
+      "last_synced": "2026-10-03T08:11:14Z"
     }
   ],
   "top_referrers": [
