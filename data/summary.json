@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-04T03:19:49Z",
+  "updated_at": "2026-10-04T15:51:45Z",
   "total_repositories_tracked": 26,
   "kpis": {
-    "all_time_views": 193,
-    "all_time_uniques": 68,
-    "all_time_clones": 831,
-    "all_time_unique_cloners": 404,
-    "views_14d": 185,
-    "clones_14d": 796,
-    "total_stars": 33,
+    "all_time_views": 205,
+    "all_time_uniques": 72,
+    "all_time_clones": 948,
+    "all_time_unique_cloners": 469,
+    "views_14d": 197,
+    "clones_14d": 913,
+    "total_stars": 34,
     "total_forks": 4,
     "total_open_issues": 3
   },
@@ -120,6 +120,13 @@
     },
     {
       "date": "2026-10-03",
+      "views": 12,
+      "uniques": 4,
+      "clones": 117,
+      "unique_cloners": 65
+    },
+    {
+      "date": "2026-10-04",
       "views": 0,
       "uniques": 0,
       "clones": 0,
@@ -137,13 +144,13 @@
       "stars": 2,
       "forks": 0,
       "open_issues": 0,
-      "views_14d": 47,
-      "uniques_14d": 6,
-      "clones_14d": 117,
-      "all_time_views": 47,
-      "all_time_clones": 117,
-      "clone_conversion_pct": 248.9,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "views_14d": 53,
+      "uniques_14d": 7,
+      "clones_14d": 128,
+      "all_time_views": 53,
+      "all_time_clones": 128,
+      "clone_conversion_pct": 241.5,
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "nathyBekele.github.io",
@@ -157,11 +164,11 @@
       "open_issues": 0,
       "views_14d": 40,
       "uniques_14d": 8,
-      "clones_14d": 419,
+      "clones_14d": 467,
       "all_time_views": 40,
-      "all_time_clones": 419,
-      "clone_conversion_pct": 1047.5,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "all_time_clones": 467,
+      "clone_conversion_pct": 1167.5,
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "github-traffic-archive",
@@ -173,13 +180,13 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "views_14d": 34,
-      "uniques_14d": 1,
-      "clones_14d": 103,
-      "all_time_views": 34,
-      "all_time_clones": 103,
-      "clone_conversion_pct": 302.9,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "views_14d": 37,
+      "uniques_14d": 2,
+      "clones_14d": 156,
+      "all_time_views": 37,
+      "all_time_clones": 156,
+      "clone_conversion_pct": 421.6,
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "promptKit",
@@ -192,16 +199,16 @@
         "prompt-engineering",
         "prompt-toolkit"
       ],
-      "stars": 8,
+      "stars": 9,
       "forks": 2,
       "open_issues": 1,
-      "views_14d": 32,
-      "uniques_14d": 23,
-      "clones_14d": 9,
-      "all_time_views": 37,
-      "all_time_clones": 9,
-      "clone_conversion_pct": 24.3,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "views_14d": 34,
+      "uniques_14d": 24,
+      "clones_14d": 11,
+      "all_time_views": 39,
+      "all_time_clones": 11,
+      "clone_conversion_pct": 28.2,
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "redash-chatbot-add-on",
@@ -229,7 +236,7 @@
       "all_time_views": 8,
       "all_time_clones": 19,
       "clone_conversion_pct": 237.5,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "cursor-spend-tracker",
@@ -247,7 +254,7 @@
       "all_time_views": 7,
       "all_time_clones": 7,
       "clone_conversion_pct": 100.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "telecom-data-analysis",
@@ -268,7 +275,7 @@
       "all_time_views": 6,
       "all_time_clones": 7,
       "clone_conversion_pct": 116.7,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "custom-data-warehouse",
@@ -293,7 +300,7 @@
       "all_time_views": 5,
       "all_time_clones": 41,
       "clone_conversion_pct": 820.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "vitalAI",
@@ -317,7 +324,28 @@
       "all_time_views": 3,
       "all_time_clones": 9,
       "clone_conversion_pct": 300.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
+    },
+    {
+      "name": "contract-advisor-rag",
+      "full_name": "nathyBekele/contract-advisor-rag",
+      "html_url": "https://github.com/nathyBekele/contract-advisor-rag",
+      "description": "This project aims to develop an autonomous contract bot. It focuses on building, evaluating, and refining a RAG system for Contract Q&A, enabling independent contract drafting, review, and negotiation.",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "python-rag",
+        "rag-chatbot"
+      ],
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "views_14d": 3,
+      "uniques_14d": 3,
+      "clones_14d": 9,
+      "all_time_views": 3,
+      "all_time_clones": 9,
+      "clone_conversion_pct": 300.0,
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "semantic-image-and-text-alignment",
@@ -339,28 +367,7 @@
       "all_time_views": 3,
       "all_time_clones": 2,
       "clone_conversion_pct": 66.7,
-      "last_synced": "2026-10-04T03:19:49Z"
-    },
-    {
-      "name": "contract-advisor-rag",
-      "full_name": "nathyBekele/contract-advisor-rag",
-      "html_url": "https://github.com/nathyBekele/contract-advisor-rag",
-      "description": "This project aims to develop an autonomous contract bot. It focuses on building, evaluating, and refining a RAG system for Contract Q&A, enabling independent contract drafting, review, and negotiation.",
-      "language": "Jupyter Notebook",
-      "topics": [
-        "python-rag",
-        "rag-chatbot"
-      ],
-      "stars": 1,
-      "forks": 0,
-      "open_issues": 0,
-      "views_14d": 2,
-      "uniques_14d": 2,
-      "clones_14d": 9,
-      "all_time_views": 2,
-      "all_time_clones": 9,
-      "clone_conversion_pct": 450.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "logistics-dApp-on-ethereum",
@@ -380,11 +387,11 @@
       "open_issues": 0,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 17,
+      "clones_14d": 18,
       "all_time_views": 1,
-      "all_time_clones": 18,
-      "clone_conversion_pct": 1800.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "all_time_clones": 19,
+      "clone_conversion_pct": 1900.0,
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "algo-certify-dApp-nft",
@@ -407,7 +414,7 @@
       "all_time_views": 0,
       "all_time_clones": 7,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "a2sv-jan-practice-problem-solutions-cpp",
@@ -428,7 +435,7 @@
       "all_time_views": 0,
       "all_time_clones": 3,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "a2sv-mar-contest-solutions-cpp",
@@ -450,7 +457,7 @@
       "all_time_views": 0,
       "all_time_clones": 3,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "a2sv-mar-practice-problems-solutions-cpp",
@@ -471,7 +478,7 @@
       "all_time_views": 0,
       "all_time_clones": 6,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "dsa-problems-using-cpp",
@@ -493,7 +500,7 @@
       "all_time_views": 0,
       "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "slack-workspace-data-analysis",
@@ -514,7 +521,7 @@
       "all_time_views": 0,
       "all_time_clones": 19,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "a2sv-jan-contest-solutions-cpp",
@@ -536,7 +543,7 @@
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "abrehot-space-booking",
@@ -553,11 +560,11 @@
       "open_issues": 0,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 2,
+      "clones_14d": 3,
       "all_time_views": 0,
-      "all_time_clones": 4,
+      "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "code-to-learn",
@@ -578,7 +585,7 @@
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "nathyBekeleH",
@@ -598,7 +605,7 @@
       "all_time_views": 0,
       "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "news-site-rpa-bot",
@@ -619,11 +626,11 @@
       "open_issues": 0,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 3,
+      "clones_14d": 4,
       "all_time_views": 0,
-      "all_time_clones": 4,
+      "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "novel",
@@ -641,7 +648,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "streamlit-app-for-simplified-ai-recruiting",
@@ -665,7 +672,7 @@
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     },
     {
       "name": "to-do-app",
@@ -686,7 +693,7 @@
       "all_time_views": 0,
       "all_time_clones": 3,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-04T03:19:49Z"
+      "last_synced": "2026-10-04T15:51:45Z"
     }
   ],
   "top_referrers": [
@@ -710,13 +717,13 @@
     {
       "path": "/nathyBekele/geometry-of-dormant-defection",
       "title": "Overview",
-      "count": 24,
+      "count": 25,
       "uniques": 3
     },
     {
       "path": "/nathyBekele/promptKit",
       "title": "Overview",
-      "count": 18,
+      "count": 19,
       "uniques": 6
     },
     {
@@ -728,7 +735,7 @@
     {
       "path": "/nathyBekele/github-traffic-archive",
       "title": "Overview",
-      "count": 10,
+      "count": 12,
       "uniques": 1
     },
     {
@@ -750,6 +757,12 @@
       "uniques": 5
     },
     {
+      "path": "/nathyBekele/github-traffic-archive/actions/workflows/traffic.yml",
+      "title": "/actions/workflows/traffic.yml",
+      "count": 5,
+      "uniques": 1
+    },
+    {
       "path": "/nathyBekele/redash-chatbot-add-on",
       "title": "Overview",
       "count": 5,
@@ -762,8 +775,14 @@
       "uniques": 3
     },
     {
-      "path": "/nathyBekele/github-traffic-archive/actions/workflows/traffic.yml",
-      "title": "/actions/workflows/traffic.yml",
+      "path": "/nathyBekele/geometry-of-dormant-defection/graphs/traffic",
+      "title": "/graphs/traffic",
+      "count": 4,
+      "uniques": 1
+    },
+    {
+      "path": "/nathyBekele/geometry-of-dormant-defection/pulse",
+      "title": "/pulse",
       "count": 4,
       "uniques": 1
     },
@@ -780,12 +799,6 @@
       "uniques": 1
     },
     {
-      "path": "/nathyBekele/geometry-of-dormant-defection/graphs/traffic",
-      "title": "/graphs/traffic",
-      "count": 3,
-      "uniques": 1
-    },
-    {
       "path": "/nathyBekele/github-traffic-archive/actions",
       "title": "/actions",
       "count": 3,
@@ -796,6 +809,12 @@
       "title": "Overview",
       "count": 3,
       "uniques": 3
+    },
+    {
+      "path": "/nathyBekele/contract-advisor-rag",
+      "title": "Overview",
+      "count": 2,
+      "uniques": 2
     },
     {
       "path": "/nathyBekele/custom-data-warehouse",
@@ -812,18 +831,6 @@
     {
       "path": "/nathyBekele/github-traffic-archive/commit/098846e344dc023b73ca1f1c57622f55c3ca8faf",
       "title": "/commit/098846e344dc023b73ca1f1c57622f55c3ca8faf",
-      "count": 2,
-      "uniques": 1
-    },
-    {
-      "path": "/nathyBekele/github-traffic-archive/commits/main",
-      "title": "/commits/main",
-      "count": 2,
-      "uniques": 1
-    },
-    {
-      "path": "/nathyBekele/nathyBekele.github.io/actions/runs/36847259023/job/110320248765",
-      "title": "/actions/runs/36847259023/job/110320248765",
       "count": 2,
       "uniques": 1
     }

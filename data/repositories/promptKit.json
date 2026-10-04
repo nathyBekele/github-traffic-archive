@@ -11,7 +11,7 @@
     "prompt-engineering",
     "prompt-toolkit"
   ],
-  "stars": 8,
+  "stars": 9,
   "forks": 2,
   "forker_list": [
     {
@@ -28,25 +28,25 @@
     }
   ],
   "open_issues": 1,
-  "watchers": 8,
+  "watchers": 9,
   "license": null,
   "is_private": false,
   "is_fork": false,
   "created_at": "2024-01-16T14:57:57Z",
-  "updated_at": "2026-09-30T10:34:40Z",
+  "updated_at": "2026-10-04T11:56:22Z",
   "pushed_at": "2025-05-12T20:54:03Z",
-  "last_synced": "2026-10-04T03:19:49Z",
+  "last_synced": "2026-10-04T15:51:45Z",
   "summary": {
-    "all_time_views": 37,
-    "all_time_uniques": 27,
-    "all_time_clones": 9,
-    "all_time_unique_cloners": 9,
-    "views_14d": 32,
-    "uniques_14d": 23,
-    "clones_14d": 9,
-    "unique_cloners_14d": 9,
-    "clone_conversion_pct": 24.3,
-    "days_tracked": 15
+    "all_time_views": 39,
+    "all_time_uniques": 28,
+    "all_time_clones": 11,
+    "all_time_unique_cloners": 11,
+    "views_14d": 34,
+    "uniques_14d": 24,
+    "clones_14d": 11,
+    "unique_cloners_14d": 11,
+    "clone_conversion_pct": 28.2,
+    "days_tracked": 16
   },
   "views": [
     {
@@ -122,6 +122,11 @@
     {
       "date": "2026-10-02",
       "count": 3,
+      "uniques": 1
+    },
+    {
+      "date": "2026-10-03",
+      "count": 2,
       "uniques": 1
     }
   ],
@@ -200,6 +205,11 @@
       "date": "2026-10-02",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-03",
+      "count": 2,
+      "uniques": 2
     }
   ],
   "referrers": [
@@ -216,9 +226,9 @@
     {
       "path": "/nathyBekele/promptKit",
       "title": "Overview",
-      "total_count": 18,
+      "total_count": 19,
       "total_uniques": 6,
-      "latest_count": 18,
+      "latest_count": 19,
       "latest_uniques": 6,
       "last_seen": "2026-10-04"
     },
@@ -227,7 +237,7 @@
       "title": "/pulls",
       "total_count": 7,
       "total_uniques": 4,
-      "latest_count": 6,
+      "latest_count": 5,
       "latest_uniques": 4,
       "last_seen": "2026-10-04"
     },
