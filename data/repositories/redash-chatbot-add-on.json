@@ -41,7 +41,7 @@
   "created_at": "2024-01-03T15:15:00Z",
   "updated_at": "2026-09-30T10:34:49Z",
   "pushed_at": "2025-03-23T08:13:55Z",
-  "last_synced": "2026-10-03T11:12:58Z",
+  "last_synced": "2026-10-04T03:19:49Z",
   "summary": {
     "all_time_views": 8,
     "all_time_uniques": 4,
@@ -49,8 +49,8 @@
     "all_time_unique_cloners": 18,
     "views_14d": 8,
     "uniques_14d": 4,
-    "clones_14d": 19,
-    "unique_cloners_14d": 18,
+    "clones_14d": 16,
+    "unique_cloners_14d": 15,
     "clone_conversion_pct": 237.5,
     "days_tracked": 15
   },
@@ -215,7 +215,7 @@
       "total_uniques": 3,
       "latest_count": 5,
       "latest_uniques": 3,
-      "last_seen": "2026-10-03"
+      "last_seen": "2026-10-04"
     }
   ],
   "paths": [
@@ -226,7 +226,7 @@
       "total_uniques": 3,
       "latest_count": 5,
       "latest_uniques": 3,
-      "last_seen": "2026-10-03"
+      "last_seen": "2026-10-04"
     },
     {
       "path": "/nathyBekele/redash-chatbot-add-on/fork",
@@ -235,7 +235,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-03"
+      "last_seen": "2026-10-04"
     },
     {
       "path": "/nathyBekele/redash-chatbot-add-on/graphs/traffic",
@@ -244,7 +244,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-03"
+      "last_seen": "2026-10-04"
     },
     {
       "path": "/nathyBekele/redash-chatbot-add-on/pulse",
@@ -253,7 +253,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-03"
+      "last_seen": "2026-10-04"
     }
   ]
 }
