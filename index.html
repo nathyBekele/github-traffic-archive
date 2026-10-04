@@ -154,177 +154,143 @@
       
       <!-- KPI Metric Cards Grid -->
       <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4">
+      <!-- Top KPI Grid -->
+      <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-7 gap-4">
         
-        <!-- Total Views -->
-        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-blue-500/50 transition">
-          <div class="flex items-center justify-between text-xs text-gray-600 dark:text-gray-300 font-medium">
-            <span>All-Time Views</span>
-            <i class="fa-solid fa-eye text-blue-500"></i>
+        <!-- All-Time Views -->
+        <div class="group bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-blue-500/30 transition-all duration-300 hover:-translate-y-1 relative overflow-hidden flex flex-col justify-between">
+          <div class="absolute top-0 right-0 p-4 opacity-5 pointer-events-none transition-transform group-hover:scale-110">
+            <i class="fa-solid fa-eye text-6xl text-blue-500"></i>
           </div>
-          <div id="kpi-total-views" class="text-2xl font-bold tracking-tight mt-2 text-gray-900 dark:text-white">0</div>
-          <div id="kpi-views-14d-badge" class="mt-1 text-xs text-emerald-600 dark:text-emerald-400 font-medium flex items-center gap-1">
+          <div>
+            <div class="flex items-center gap-2.5 text-xs text-gray-500 dark:text-gray-400 font-semibold mb-3">
+              <div class="w-7 h-7 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-500">
+                <i class="fa-solid fa-eye"></i>
+              </div>
+              All-Time Views
+            </div>
+            <div id="kpi-total-views" class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white relative z-10">0</div>
+          </div>
+          <div id="kpi-views-14d-badge" class="mt-4 text-[11px] text-emerald-600 dark:text-emerald-400 font-medium flex items-center gap-1 relative z-10 bg-emerald-500/10 w-fit px-2 py-1 rounded-md">
             <i class="fa-solid fa-arrow-trend-up"></i> 0 in last 14d
           </div>
         </div>
 
         <!-- Unique Visitors -->
-        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-indigo-500/50 transition">
-          <div class="flex items-center justify-between text-xs text-gray-600 dark:text-gray-300 font-medium">
-            <span>Unique Visitors</span>
-            <i class="fa-solid fa-users text-indigo-500"></i>
+        <div class="group bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-indigo-500/30 transition-all duration-300 hover:-translate-y-1 relative overflow-hidden flex flex-col justify-between">
+          <div class="absolute top-0 right-0 p-4 opacity-5 pointer-events-none transition-transform group-hover:scale-110">
+            <i class="fa-solid fa-users text-6xl text-indigo-500"></i>
           </div>
-          <div id="kpi-unique-visitors" class="text-2xl font-bold tracking-tight mt-2 text-gray-900 dark:text-white">0</div>
-          <div id="kpi-uniques-14d-badge" class="mt-1 text-xs text-indigo-600 dark:text-indigo-400 font-medium">
+          <div>
+            <div class="flex items-center gap-2.5 text-xs text-gray-500 dark:text-gray-400 font-semibold mb-3">
+              <div class="w-7 h-7 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-500">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              Unique Visitors
+            </div>
+            <div id="kpi-unique-visitors" class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white relative z-10">0</div>
+          </div>
+          <div id="kpi-uniques-14d-badge" class="mt-4 text-[11px] text-indigo-600 dark:text-indigo-400 font-medium relative z-10 bg-indigo-500/10 w-fit px-2 py-1 rounded-md">
             Cumulative daily uniques
           </div>
         </div>
 
         <!-- Git Clones -->
-        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-purple-500/50 transition">
-          <div class="flex items-center justify-between text-xs text-gray-600 dark:text-gray-300 font-medium">
-            <span>All-Time Clones</span>
-            <i class="fa-solid fa-code-branch text-purple-500"></i>
+        <div class="group bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-purple-500/30 transition-all duration-300 hover:-translate-y-1 relative overflow-hidden flex flex-col justify-between">
+          <div class="absolute top-0 right-0 p-4 opacity-5 pointer-events-none transition-transform group-hover:scale-110">
+            <i class="fa-solid fa-code-branch text-6xl text-purple-500"></i>
           </div>
-          <div id="kpi-total-clones" class="text-2xl font-bold tracking-tight mt-2 text-gray-900 dark:text-white">0</div>
-          <div id="kpi-clones-14d-badge" class="mt-1 text-xs text-purple-600 dark:text-purple-400 font-medium flex items-center gap-1">
+          <div>
+            <div class="flex items-center gap-2.5 text-xs text-gray-500 dark:text-gray-400 font-semibold mb-3">
+              <div class="w-7 h-7 rounded-lg bg-purple-500/10 flex items-center justify-center text-purple-500">
+                <i class="fa-solid fa-code-branch"></i>
+              </div>
+              All-Time Clones
+            </div>
+            <div id="kpi-total-clones" class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white relative z-10">0</div>
+          </div>
+          <div id="kpi-clones-14d-badge" class="mt-4 text-[11px] text-purple-600 dark:text-purple-400 font-medium flex items-center gap-1 relative z-10 bg-purple-500/10 w-fit px-2 py-1 rounded-md">
             <i class="fa-solid fa-download"></i> 0 in last 14d
           </div>
         </div>
 
         <!-- Unique Cloners -->
-        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-pink-500/50 transition">
-          <div class="flex items-center justify-between text-xs text-gray-600 dark:text-gray-300 font-medium">
-            <span>Unique Cloners</span>
-            <i class="fa-solid fa-user-check text-pink-500"></i>
+        <div class="group bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-pink-500/30 transition-all duration-300 hover:-translate-y-1 relative overflow-hidden flex flex-col justify-between">
+          <div class="absolute top-0 right-0 p-4 opacity-5 pointer-events-none transition-transform group-hover:scale-110">
+            <i class="fa-solid fa-user-check text-6xl text-pink-500"></i>
           </div>
-          <div id="kpi-unique-cloners" class="text-2xl font-bold tracking-tight mt-2 text-gray-900 dark:text-white">0</div>
-          <div class="mt-1 text-xs text-pink-600 dark:text-pink-400 font-medium">
+          <div>
+            <div class="flex items-center gap-2.5 text-xs text-gray-500 dark:text-gray-400 font-semibold mb-3">
+              <div class="w-7 h-7 rounded-lg bg-pink-500/10 flex items-center justify-center text-pink-500">
+                <i class="fa-solid fa-user-check"></i>
+              </div>
+              Unique Cloners
+            </div>
+            <div id="kpi-unique-cloners" class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white relative z-10">0</div>
+          </div>
+          <div class="mt-4 text-[11px] text-pink-600 dark:text-pink-400 font-medium relative z-10 bg-pink-500/10 w-fit px-2 py-1 rounded-md">
             Developers pulling code
           </div>
         </div>
 
         <!-- Total Forks -->
-        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-orange-500/50 transition">
-          <div class="flex items-center justify-between text-xs text-gray-600 dark:text-gray-300 font-medium">
-            <span>Total Forks</span>
-            <i class="fa-solid fa-code-fork text-orange-500"></i>
+        <div class="group bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-orange-500/30 transition-all duration-300 hover:-translate-y-1 relative overflow-hidden flex flex-col justify-between">
+          <div class="absolute top-0 right-0 p-4 opacity-5 pointer-events-none transition-transform group-hover:scale-110">
+            <i class="fa-solid fa-code-fork text-6xl text-orange-500"></i>
           </div>
-          <div id="kpi-total-forks" class="text-2xl font-bold tracking-tight mt-2 text-gray-900 dark:text-white">0</div>
-          <div class="mt-1 text-xs text-orange-600 dark:text-orange-400 font-medium">
+          <div>
+            <div class="flex items-center gap-2.5 text-xs text-gray-500 dark:text-gray-400 font-semibold mb-3">
+              <div class="w-7 h-7 rounded-lg bg-orange-500/10 flex items-center justify-center text-orange-500">
+                <i class="fa-solid fa-code-fork"></i>
+              </div>
+              Total Forks
+            </div>
+            <div id="kpi-total-forks" class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white relative z-10">0</div>
+          </div>
+          <div class="mt-4 text-[11px] text-orange-600 dark:text-orange-400 font-medium relative z-10 bg-orange-500/10 w-fit px-2 py-1 rounded-md">
             Across all repos
           </div>
         </div>
 
         <!-- Stars -->
-        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-amber-500/50 transition">
-          <div class="flex items-center justify-between text-xs text-gray-600 dark:text-gray-300 font-medium">
-            <span>Total Stars</span>
-            <i class="fa-solid fa-star text-amber-500"></i>
+        <div class="group bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-amber-500/30 transition-all duration-300 hover:-translate-y-1 relative overflow-hidden flex flex-col justify-between">
+          <div class="absolute top-0 right-0 p-4 opacity-5 pointer-events-none transition-transform group-hover:scale-110">
+            <i class="fa-solid fa-star text-6xl text-amber-500"></i>
           </div>
-          <div id="kpi-total-stars" class="text-2xl font-bold tracking-tight mt-2 text-gray-900 dark:text-white">0</div>
-          <div class="mt-1 text-xs text-amber-600 dark:text-amber-400 font-medium">
+          <div>
+            <div class="flex items-center gap-2.5 text-xs text-gray-500 dark:text-gray-400 font-semibold mb-3">
+              <div class="w-7 h-7 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-500">
+                <i class="fa-solid fa-star"></i>
+            </div>
+              Total Stars
+            </div>
+            <div id="kpi-total-stars" class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white relative z-10">0</div>
+          </div>
+          <div class="mt-4 text-[11px] text-amber-600 dark:text-amber-400 font-medium relative z-10 bg-amber-500/10 w-fit px-2 py-1 rounded-md">
             Across all repos
           </div>
         </div>
 
         <!-- Active Repos -->
-        <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-4 shadow-sm hover:border-teal-500/50 transition">
-          <div class="flex items-center justify-between text-xs text-gray-600 dark:text-gray-300 font-medium">
-            <span>Tracked Repos</span>
-            <i class="fa-solid fa-box-archive text-teal-500"></i>
+        <div class="group bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-teal-500/30 transition-all duration-300 hover:-translate-y-1 relative overflow-hidden flex flex-col justify-between">
+          <div class="absolute top-0 right-0 p-4 opacity-5 pointer-events-none transition-transform group-hover:scale-110">
+            <i class="fa-solid fa-box-archive text-6xl text-teal-500"></i>
           </div>
-          <div id="kpi-total-repos" class="text-2xl font-bold tracking-tight mt-2 text-gray-900 dark:text-white">0</div>
-          <div class="mt-1 text-xs text-teal-600 dark:text-teal-400 font-medium">
+          <div>
+            <div class="flex items-center gap-2.5 text-xs text-gray-500 dark:text-gray-400 font-semibold mb-3">
+              <div class="w-7 h-7 rounded-lg bg-teal-500/10 flex items-center justify-center text-teal-500">
+                <i class="fa-solid fa-box-archive"></i>
+              </div>
+              Tracked Repos
+            </div>
+            <div id="kpi-total-repos" class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white relative z-10">0</div>
+          </div>
+          <div class="mt-4 text-[11px] text-teal-600 dark:text-teal-400 font-medium relative z-10 bg-teal-500/10 w-fit px-2 py-1 rounded-md">
             Archived permanently
           </div>
         </div>
 
       </div>
-
-      <!-- Main Aggregated Timeline Chart Card -->
-      <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl p-6 shadow-sm">
-        
-        <!-- Chart Controls -->
-        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
-          <div>
-            <h2 class="text-lg font-bold text-gray-900 dark:text-white flex items-center gap-2">
-              <i class="fa-solid fa-chart-area text-blue-500"></i> Account Traffic Timeline
-            </h2>
-            <p class="text-xs text-gray-500 dark:text-gray-400">Aggregated daily engagement across all repositories over time.</p>
-          </div>
-
-          <div class="flex flex-wrap items-center gap-2">
-            <!-- Metric Toggle -->
-            <div class="inline-flex rounded-lg border border-gray-200 dark:border-gray-700 p-0.5 bg-gray-50 dark:bg-gray-800 text-xs">
-              <button onclick="setGlobalChartMetric('views')" id="chartMetric-views" class="px-3 py-1 rounded-md font-medium bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-400 shadow-sm">
-                Views & Uniques
-              </button>
-              <button onclick="setGlobalChartMetric('clones')" id="chartMetric-clones" class="px-3 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">
-                Git Clones
-              </button>
-            </div>
-
-            <!-- Time Window Pills -->
-            <div class="inline-flex rounded-lg border border-gray-200 dark:border-gray-700 p-0.5 bg-gray-50 dark:bg-gray-800 text-xs w-full sm:w-auto overflow-x-auto">
-              <button onclick="setGlobalChartRange(7)" id="rangeBtn-7" aria-label="Last 7 days" class="flex-1 sm:flex-none px-2.5 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">7d</button>
-              <button onclick="setGlobalChartRange(14)" id="rangeBtn-14" aria-label="Last 14 days" class="flex-1 sm:flex-none px-2.5 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">14d</button>
-              <button onclick="setGlobalChartRange(30)" id="rangeBtn-30" aria-label="Last 30 days" class="flex-1 sm:flex-none px-2.5 py-1 rounded-md font-medium bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-400 shadow-sm">30d</button>
-              <button onclick="setGlobalChartRange(90)" id="rangeBtn-90" aria-label="Last 90 days" class="flex-1 sm:flex-none px-2.5 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">90d</button>
-              <button onclick="setGlobalChartRange(0)" id="rangeBtn-0" aria-label="All time" class="flex-1 sm:flex-none px-2.5 py-1 rounded-md font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">All</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Canvas Container -->
-        <div class="h-72 w-full relative">
-          <canvas id="globalTimelineChart"></canvas>
-        </div>
-      </div>
-
-      <!-- Leaderboard & Repository Table -->
-      <div class="bg-white dark:bg-darkcard border border-gray-200 dark:border-darkborder rounded-2xl shadow-sm overflow-hidden flex flex-col">
-        
-        <div class="p-5 border-b border-gray-200 dark:border-darkborder flex flex-col xl:flex-row xl:items-center justify-between gap-4 bg-gray-50/30 dark:bg-gray-800/20">
-          <div>
-            <h2 class="text-lg font-bold text-gray-900 dark:text-white flex items-center gap-2">
-              <i class="fa-solid fa-trophy text-amber-500"></i> Repository Performance Leaderboard
-            </h2>
-            <p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Click any repository to inspect its deep-dive analytics.</p>
-          </div>
-
-          <!-- Table Filters -->
-          <div class="flex flex-col xl:flex-row items-center gap-3 w-full xl:w-auto">
-            
-            <!-- Refresh & Rate Limit -->
-            <div class="flex items-center gap-2">
-              <span class="rate-limit-badge hidden text-[10px] font-mono text-gray-500 bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded-md border border-gray-200 dark:border-gray-700" title="GitHub API Rate Limit Remaining"></span>
-              <button onclick="triggerLeaderboardRefresh()" class="flex items-center justify-center w-8 h-8 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-gray-50 dark:hover:bg-gray-700 shadow-sm transition-colors" title="Fetch latest data from GitHub API">
-                <i class="fa-solid fa-arrows-rotate" id="lbrRefreshIcon"></i>
-              </button>
-            </div>
-            
-            <!-- Time Window Pills for Leaderboard -->
-            <div class="flex flex-wrap sm:inline-flex items-center rounded-lg border border-gray-200 dark:border-gray-700 p-0.5 bg-gray-100 dark:bg-gray-800/80 text-[11px] w-full sm:w-auto overflow-hidden">
-              <button onclick="setLeaderboardRange('days', 1)" id="lbr-1" aria-label="Last 1 day" class="flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-400 shadow-sm transition-colors">1d</button>
-              <button onclick="setLeaderboardRange('days', 3)" id="lbr-3" aria-label="Last 3 days" class="flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">3d</button>
-              <button onclick="setLeaderboardRange('days', 7)" id="lbr-7" aria-label="Last 7 days" class="flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">7d</button>
-              <button onclick="setLeaderboardRange('days', 14)" id="lbr-14" aria-label="Last 14 days" class="flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">14d</button>
-              <button onclick="setLeaderboardRange('days', 30)" id="lbr-30" aria-label="Last 30 days" class="flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">30d</button>
-              <button onclick="setLeaderboardRange('days', 90)" id="lbr-90" aria-label="Last 90 days" class="flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">90d</button>
-              <button onclick="setLeaderboardRange('days', 0)" id="lbr-0" aria-label="All time" class="flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">All</button>
-              <button onclick="setLeaderboardRange('custom', 'toggle')" id="lbr-custom" class="flex-1 sm:flex-none px-3 py-1.5 rounded-md font-semibold text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors" title="Custom Date Range" aria-label="Select custom date range"><i class="fa-solid fa-calendar-alt"></i></button>
-            </div>
-            
-            <!-- Custom Date Range Picker (Hidden by default) -->
-            <div id="leaderboardCustomDateRange" class="hidden flex-col sm:flex-row items-center gap-2 bg-gray-50 dark:bg-gray-800/80 border border-gray-200 dark:border-gray-700 rounded-lg p-1.5 text-xs shadow-sm">
-              <input type="date" aria-label="Start date" id="leaderboardStartDate" class="bg-transparent border border-gray-300 dark:border-gray-600 rounded px-2 py-1 text-gray-700 dark:text-gray-300 outline-none focus:border-blue-500 transition-colors w-full sm:w-auto">
-              <span class="text-gray-400 font-medium hidden sm:inline">to</span>
-              <input type="date" aria-label="End date" id="leaderboardEndDate" class="bg-transparent border border-gray-300 dark:border-gray-600 rounded px-2 py-1 text-gray-700 dark:text-gray-300 outline-none focus:border-blue-500 transition-colors w-full sm:w-auto">
-              <button onclick="applyCustomLeaderboardRange()" aria-label="Apply custom date range" class="w-full sm:w-auto mt-1 sm:mt-0 ml-0 sm:ml-1 px-3 py-1 bg-blue-500 hover:bg-blue-600 text-white rounded font-semibold transition-colors shadow-sm">Apply</button>
-            </div>
-
-            <!-- Table Search Filter -->
-            <div class="relative w-full xl:w-64">
               <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-xs"></i>
               <input type="text" aria-label="Search repositories" id="repoSearchInput" oninput="filterRepoTable()" placeholder="Search repositories..." class="w-full pl-9 pr-3 py-2 text-xs bg-white dark:bg-darkcard border border-gray-200 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 transition-all shadow-sm">
             </div>
