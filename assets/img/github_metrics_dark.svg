@@ -20,18 +20,18 @@
     }
     
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif;
-      fill: #c9d1d9;
+      font: 600 14.5px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif;
+      fill: #e6edf3;
     }
     @supports(-moz-appearance: auto) {
-      .stat { font-size: 13.5px; }
+      .stat { font-size: 14px; }
     }
     .stagger {
       opacity: 0;
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif;
+      font: 800 25px 'Segoe UI', Ubuntu, Sans-Serif;
       fill: #ffffff;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }

@@ -1,25 +1,17 @@
-<svg width="320" height="44" viewBox="0 0 320 44" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="View Live Traffic Dashboard">
+<svg width="164" height="28" viewBox="0 0 164 28" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Live Dashboard">
   <defs>
-    <linearGradient id="btnGradLight" x1="0" y1="0" x2="0" y2="44" gradientUnits="userSpaceOnUse">
+    <linearGradient id="btnGradLight" x1="0" y1="0" x2="0" y2="28" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#2da44e"/>
       <stop offset="100%" stop-color="#1f883d"/>
     </linearGradient>
-    <filter id="btnShadowLight" x="-5%" y="-15%" width="110%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#1f883d" flood-opacity="0.25"/>
-    </filter>
   </defs>
-  <g filter="url(#btnShadowLight)">
-    <rect x="1" y="1" width="318" height="40" rx="8" fill="url(#btnGradLight)" stroke="#1a7f37" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="163" height="27" rx="13.5" fill="url(#btnGradLight)" stroke="#1a7f37" stroke-width="1"/>
+  <g transform="translate(12, 7)">
+    <path d="M1 10L4.5 5.5L8 8.5L11.5 2.5L14 6" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="11.5" cy="2.5" r="1" fill="#ffffff"/>
   </g>
-  <!-- Chart / Analytics Icon -->
-  <g transform="translate(22, 12)">
-    <path d="M2 14L7 8L12 12L17 4L22 9" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="17" cy="4" r="1.5" fill="#ffffff"/>
-  </g>
-  <!-- Button Text -->
-  <text x="56" y="26" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="0.2">View Live Traffic Dashboard</text>
-  <!-- Arrow Icon -->
-  <g transform="translate(280, 15)">
-    <path d="M1 6H10M10 6L6 2M10 6L6 10" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="34" y="18" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="0.2">Live Dashboard</text>
+  <g transform="translate(140, 9)">
+    <path d="M1 8L7 2M7 2H3M7 2V6" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>
