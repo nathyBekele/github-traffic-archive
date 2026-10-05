@@ -1,55 +1,39 @@
 {
-  "name": "a2sv-jan-practice-problem-solutions-cpp",
-  "full_name": "nathyBekele/a2sv-jan-practice-problem-solutions-cpp",
+  "name": "nathyBekele",
+  "full_name": "nathyBekele/nathyBekele",
   "owner": "nathyBekele",
-  "description": "A collection of C++ solutions to competitive programming problems from A2SV practice problems in Jan 2021. ",
-  "html_url": "https://github.com/nathyBekele/a2sv-jan-practice-problem-solutions-cpp",
+  "description": "A portfolio of projects by Natnael, featuring full-stack and AI-driven applications. Projects include enterprise LLM solutions, healthcare support, AI-powered recruitment, and chatbot-based restaurant review platforms, demonstrating expertise in backend architecture, infrastructure, prompt engineering, CI/CD, and modern web technolog",
+  "html_url": "https://github.com/nathyBekele/nathyBekele",
   "homepage": "",
-  "language": "C++",
+  "language": "Other",
   "topics": [
-    "a2sv-practice-problems",
-    "cpp"
+    "readme-profile"
   ],
-  "stars": 1,
+  "stars": 0,
   "forks": 0,
   "forker_list": [],
   "open_issues": 0,
-  "watchers": 1,
+  "watchers": 0,
   "license": null,
   "is_private": false,
   "is_fork": false,
-  "created_at": "2021-01-02T12:12:40Z",
-  "updated_at": "2025-05-12T21:15:44Z",
-  "pushed_at": "2021-03-11T13:54:33Z",
+  "created_at": "2025-05-18T16:56:25Z",
+  "updated_at": "2026-10-05T18:42:26Z",
+  "pushed_at": "2025-05-18T16:56:39Z",
   "last_synced": "2026-10-05T18:55:12Z",
   "summary": {
     "all_time_views": 0,
     "all_time_uniques": 0,
-    "all_time_clones": 4,
-    "all_time_unique_cloners": 4,
+    "all_time_clones": 5,
+    "all_time_unique_cloners": 5,
     "views_14d": 0,
     "uniques_14d": 0,
-    "clones_14d": 4,
-    "unique_cloners_14d": 4,
+    "clones_14d": 5,
+    "unique_cloners_14d": 5,
     "clone_conversion_pct": 0.0,
-    "days_tracked": 17
+    "days_tracked": 14
   },
   "views": [
-    {
-      "date": "2026-09-18",
-      "count": 0,
-      "uniques": 0
-    },
-    {
-      "date": "2026-09-19",
-      "count": 0,
-      "uniques": 0
-    },
-    {
-      "date": "2026-09-20",
-      "count": 0,
-      "uniques": 0
-    },
     {
       "date": "2026-09-21",
       "count": 0,
@@ -123,24 +107,9 @@
   ],
   "clones": [
     {
-      "date": "2026-09-18",
-      "count": 0,
-      "uniques": 0
-    },
-    {
-      "date": "2026-09-19",
-      "count": 0,
-      "uniques": 0
-    },
-    {
-      "date": "2026-09-20",
-      "count": 0,
-      "uniques": 0
-    },
-    {
       "date": "2026-09-21",
-      "count": 0,
-      "uniques": 0
+      "count": 1,
+      "uniques": 1
     },
     {
       "date": "2026-09-22",
@@ -194,8 +163,8 @@
     },
     {
       "date": "2026-10-02",
-      "count": 0,
-      "uniques": 0
+      "count": 1,
+      "uniques": 1
     },
     {
       "date": "2026-10-03",
@@ -204,8 +173,8 @@
     },
     {
       "date": "2026-10-04",
-      "count": 1,
-      "uniques": 1
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [],
