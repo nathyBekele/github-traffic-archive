@@ -1,14 +1,15 @@
 {
-  "name": "to-do-app",
-  "full_name": "nathyBekele/to-do-app",
+  "name": "miscellaneous-automation-scripts",
+  "full_name": "nathyBekele/miscellaneous-automation-scripts",
   "owner": "nathyBekele",
-  "description": "A simple web-based To-Do app built with Next.js and TypeScript. Users can add, edit, delete, and mark tasks as complete or pending. Features a clean UI and efficient task management. To run locally, install dependencies and start the server to access the app at http://localhost:3000.",
-  "html_url": "https://github.com/nathyBekele/to-do-app",
+  "description": "A collection of various automation scripts for everyday tasks. This repo includes scripts for automating repetitive processes, improving productivity, and simplifying workflows. Scripts are organized by purpose and can be easily adapted for different use cases.",
+  "html_url": "https://github.com/nathyBekele/miscellaneous-automation-scripts",
   "homepage": "",
-  "language": "JavaScript",
+  "language": "Python",
   "topics": [
-    "nextjs",
-    "todoapp"
+    "automation-scripts",
+    "javascript",
+    "python3"
   ],
   "stars": 0,
   "forks": 0,
@@ -16,45 +17,25 @@
   "open_issues": 0,
   "watchers": 0,
   "license": null,
-  "is_private": false,
+  "is_private": true,
   "is_fork": false,
-  "created_at": "2024-02-15T14:56:29Z",
-  "updated_at": "2025-05-12T20:37:39Z",
-  "pushed_at": "2024-02-19T08:30:10Z",
+  "created_at": "2023-11-07T15:00:47Z",
+  "updated_at": "2025-05-12T20:27:46Z",
+  "pushed_at": "2024-10-15T20:06:22Z",
   "last_synced": "2026-10-05T18:27:21Z",
   "summary": {
     "all_time_views": 0,
     "all_time_uniques": 0,
-    "all_time_clones": 3,
-    "all_time_unique_cloners": 3,
+    "all_time_clones": 0,
+    "all_time_unique_cloners": 0,
     "views_14d": 0,
     "uniques_14d": 0,
-    "clones_14d": 3,
-    "unique_cloners_14d": 3,
+    "clones_14d": 0,
+    "unique_cloners_14d": 0,
     "clone_conversion_pct": 0.0,
-    "days_tracked": 17
+    "days_tracked": 14
   },
   "views": [
-    {
-      "date": "2026-09-18",
-      "count": 0,
-      "uniques": 0
-    },
-    {
-      "date": "2026-09-19",
-      "count": 0,
-      "uniques": 0
-    },
-    {
-      "date": "2026-09-20",
-      "count": 0,
-      "uniques": 0
-    },
-    {
-      "date": "2026-09-21",
-      "count": 0,
-      "uniques": 0
-    },
     {
       "date": "2026-09-22",
       "count": 0,
@@ -117,32 +98,17 @@
     },
     {
       "date": "2026-10-04",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-05",
       "count": 0,
       "uniques": 0
     }
   ],
   "clones": [
     {
-      "date": "2026-09-18",
-      "count": 0,
-      "uniques": 0
-    },
-    {
-      "date": "2026-09-19",
-      "count": 0,
-      "uniques": 0
-    },
-    {
-      "date": "2026-09-20",
-      "count": 0,
-      "uniques": 0
-    },
-    {
-      "date": "2026-09-21",
-      "count": 0,
-      "uniques": 0
-    },
-    {
       "date": "2026-09-22",
       "count": 0,
       "uniques": 0
@@ -159,8 +125,8 @@
     },
     {
       "date": "2026-09-25",
-      "count": 1,
-      "uniques": 1
+      "count": 0,
+      "uniques": 0
     },
     {
       "date": "2026-09-26",
@@ -174,8 +140,8 @@
     },
     {
       "date": "2026-09-28",
-      "count": 1,
-      "uniques": 1
+      "count": 0,
+      "uniques": 0
     },
     {
       "date": "2026-09-29",
@@ -184,8 +150,8 @@
     },
     {
       "date": "2026-09-30",
-      "count": 1,
-      "uniques": 1
+      "count": 0,
+      "uniques": 0
     },
     {
       "date": "2026-10-01",
@@ -204,6 +170,11 @@
     },
     {
       "date": "2026-10-04",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-05",
       "count": 0,
       "uniques": 0
     }

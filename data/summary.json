@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-05T02:56:26Z",
-  "total_repositories_tracked": 26,
+  "updated_at": "2026-10-05T18:27:21Z",
+  "total_repositories_tracked": 32,
   "kpis": {
-    "all_time_views": 205,
-    "all_time_uniques": 72,
-    "all_time_clones": 948,
-    "all_time_unique_cloners": 469,
-    "views_14d": 192,
-    "clones_14d": 893,
+    "all_time_views": 280,
+    "all_time_uniques": 87,
+    "all_time_clones": 1038,
+    "all_time_unique_cloners": 520,
+    "views_14d": 267,
+    "clones_14d": 983,
     "total_stars": 34,
     "total_forks": 4,
     "total_open_issues": 3
@@ -36,101 +36,101 @@
     },
     {
       "date": "2026-09-21",
-      "views": 9,
-      "uniques": 5,
-      "clones": 5,
-      "unique_cloners": 5
+      "views": 10,
+      "uniques": 6,
+      "clones": 7,
+      "unique_cloners": 6
     },
     {
       "date": "2026-09-22",
-      "views": 12,
-      "uniques": 9,
-      "clones": 32,
-      "unique_cloners": 18
+      "views": 13,
+      "uniques": 10,
+      "clones": 35,
+      "unique_cloners": 20
     },
     {
       "date": "2026-09-23",
       "views": 6,
       "uniques": 6,
-      "clones": 15,
-      "unique_cloners": 13
+      "clones": 17,
+      "unique_cloners": 14
     },
     {
       "date": "2026-09-24",
       "views": 3,
       "uniques": 2,
-      "clones": 6,
-      "unique_cloners": 6
+      "clones": 8,
+      "unique_cloners": 7
     },
     {
       "date": "2026-09-25",
-      "views": 5,
-      "uniques": 4,
-      "clones": 19,
-      "unique_cloners": 17
+      "views": 33,
+      "uniques": 5,
+      "clones": 22,
+      "unique_cloners": 18
     },
     {
       "date": "2026-09-26",
       "views": 1,
       "uniques": 1,
-      "clones": 10,
-      "unique_cloners": 9
+      "clones": 12,
+      "unique_cloners": 10
     },
     {
       "date": "2026-09-27",
       "views": 2,
       "uniques": 1,
-      "clones": 24,
-      "unique_cloners": 13
+      "clones": 26,
+      "unique_cloners": 14
     },
     {
       "date": "2026-09-28",
-      "views": 22,
-      "uniques": 1,
-      "clones": 114,
-      "unique_cloners": 71
+      "views": 26,
+      "uniques": 3,
+      "clones": 116,
+      "unique_cloners": 72
     },
     {
       "date": "2026-09-29",
-      "views": 4,
-      "uniques": 2,
-      "clones": 25,
-      "unique_cloners": 14
+      "views": 5,
+      "uniques": 3,
+      "clones": 27,
+      "unique_cloners": 15
     },
     {
       "date": "2026-09-30",
       "views": 16,
       "uniques": 12,
-      "clones": 18,
-      "unique_cloners": 14
+      "clones": 20,
+      "unique_cloners": 15
     },
     {
       "date": "2026-10-01",
       "views": 39,
       "uniques": 6,
-      "clones": 253,
-      "unique_cloners": 86
+      "clones": 255,
+      "unique_cloners": 87
     },
     {
       "date": "2026-10-02",
       "views": 61,
       "uniques": 8,
-      "clones": 255,
-      "unique_cloners": 108
+      "clones": 257,
+      "unique_cloners": 109
     },
     {
       "date": "2026-10-03",
-      "views": 12,
-      "uniques": 4,
-      "clones": 117,
-      "unique_cloners": 65
+      "views": 13,
+      "uniques": 5,
+      "clones": 119,
+      "unique_cloners": 66
     },
     {
       "date": "2026-10-04",
-      "views": 0,
-      "uniques": 0,
-      "clones": 0,
-      "unique_cloners": 0
+      "views": 39,
+      "uniques": 8,
+      "clones": 62,
+      "unique_cloners": 37
     },
     {
       "date": "2026-10-05",
@@ -151,35 +151,15 @@
       "stars": 2,
       "forks": 0,
       "open_issues": 0,
-      "views_14d": 53,
-      "uniques_14d": 7,
-      "clones_14d": 128,
-      "all_time_views": 53,
-      "all_time_clones": 128,
-      "clone_conversion_pct": 241.5,
-      "last_synced": "2026-10-05T02:56:26Z",
       "is_private": false,
-      "is_fork": false
-    },
-    {
-      "name": "nathyBekele.github.io",
-      "full_name": "nathyBekele/nathyBekele.github.io",
-      "html_url": "https://github.com/nathyBekele/nathyBekele.github.io",
-      "description": "personal website",
-      "language": "HTML",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "views_14d": 40,
+      "is_fork": false,
+      "views_14d": 69,
       "uniques_14d": 8,
-      "clones_14d": 467,
-      "all_time_views": 40,
-      "all_time_clones": 467,
-      "clone_conversion_pct": 1167.5,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "clones_14d": 129,
+      "all_time_views": 69,
+      "all_time_clones": 129,
+      "clone_conversion_pct": 187.0,
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "github-traffic-archive",
@@ -191,15 +171,35 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "views_14d": 37,
-      "uniques_14d": 2,
-      "clones_14d": 156,
-      "all_time_views": 37,
-      "all_time_clones": 156,
-      "clone_conversion_pct": 421.6,
-      "last_synced": "2026-10-05T02:56:26Z",
       "is_private": false,
-      "is_fork": false
+      "is_fork": false,
+      "views_14d": 45,
+      "uniques_14d": 3,
+      "clones_14d": 200,
+      "all_time_views": 45,
+      "all_time_clones": 200,
+      "clone_conversion_pct": 444.4,
+      "last_synced": "2026-10-05T18:27:21Z"
+    },
+    {
+      "name": "nathyBekele.github.io",
+      "full_name": "nathyBekele/nathyBekele.github.io",
+      "html_url": "https://github.com/nathyBekele/nathyBekele.github.io",
+      "description": "personal website",
+      "language": "HTML",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 43,
+      "uniques_14d": 9,
+      "clones_14d": 477,
+      "all_time_views": 43,
+      "all_time_clones": 477,
+      "clone_conversion_pct": 1109.3,
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "promptKit",
@@ -215,15 +215,55 @@
       "stars": 9,
       "forks": 2,
       "open_issues": 1,
-      "views_14d": 29,
-      "uniques_14d": 20,
-      "clones_14d": 11,
-      "all_time_views": 39,
-      "all_time_clones": 11,
-      "clone_conversion_pct": 28.2,
-      "last_synced": "2026-10-05T02:56:26Z",
       "is_private": false,
-      "is_fork": false
+      "is_fork": false,
+      "views_14d": 33,
+      "uniques_14d": 22,
+      "clones_14d": 11,
+      "all_time_views": 43,
+      "all_time_clones": 11,
+      "clone_conversion_pct": 25.6,
+      "last_synced": "2026-10-05T18:27:21Z"
+    },
+    {
+      "name": "heart-beat",
+      "full_name": "nathyBekele/heart-beat",
+      "html_url": "https://github.com/nathyBekele/heart-beat",
+      "description": "",
+      "language": "Other",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": true,
+      "is_fork": false,
+      "views_14d": 32,
+      "uniques_14d": 5,
+      "clones_14d": 29,
+      "all_time_views": 32,
+      "all_time_clones": 29,
+      "clone_conversion_pct": 90.6,
+      "last_synced": "2026-10-05T18:27:21Z"
+    },
+    {
+      "name": "cursor-spend-tracker",
+      "full_name": "nathyBekele/cursor-spend-tracker",
+      "html_url": "https://github.com/nathyBekele/cursor-spend-tracker",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 10,
+      "uniques_14d": 4,
+      "clones_14d": 7,
+      "all_time_views": 11,
+      "all_time_clones": 8,
+      "clone_conversion_pct": 72.7,
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "redash-chatbot-add-on",
@@ -245,58 +285,15 @@
       "stars": 5,
       "forks": 2,
       "open_issues": 1,
+      "is_private": false,
+      "is_fork": false,
       "views_14d": 8,
       "uniques_14d": 4,
       "clones_14d": 15,
       "all_time_views": 8,
       "all_time_clones": 19,
       "clone_conversion_pct": 237.5,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
-    },
-    {
-      "name": "cursor-spend-tracker",
-      "full_name": "nathyBekele/cursor-spend-tracker",
-      "html_url": "https://github.com/nathyBekele/cursor-spend-tracker",
-      "description": "",
-      "language": "TypeScript",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "views_14d": 6,
-      "uniques_14d": 3,
-      "clones_14d": 6,
-      "all_time_views": 7,
-      "all_time_clones": 7,
-      "clone_conversion_pct": 100.0,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
-    },
-    {
-      "name": "telecom-data-analysis",
-      "full_name": "nathyBekele/telecom-data-analysis",
-      "html_url": "https://github.com/nathyBekele/telecom-data-analysis",
-      "description": "A Python package for comprehensive telecom data analytics, focusing on four key areas: User Overview, User Engagement, User Experience, and User Satisfaction. Designed to provide actionable insights to improve telecom services and customer retention through detailed data analysis.",
-      "language": "Jupyter Notebook",
-      "topics": [
-        "data-analysis-python",
-        "telecom-data-analysis"
-      ],
-      "stars": 2,
-      "forks": 0,
-      "open_issues": 0,
-      "views_14d": 6,
-      "uniques_14d": 4,
-      "clones_14d": 7,
-      "all_time_views": 6,
-      "all_time_clones": 7,
-      "clone_conversion_pct": 116.7,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "custom-data-warehouse",
@@ -315,15 +312,62 @@
       "stars": 2,
       "forks": 0,
       "open_issues": 0,
-      "views_14d": 4,
-      "uniques_14d": 4,
-      "clones_14d": 2,
-      "all_time_views": 5,
-      "all_time_clones": 41,
-      "clone_conversion_pct": 820.0,
-      "last_synced": "2026-10-05T02:56:26Z",
       "is_private": false,
-      "is_fork": false
+      "is_fork": false,
+      "views_14d": 7,
+      "uniques_14d": 5,
+      "clones_14d": 2,
+      "all_time_views": 8,
+      "all_time_clones": 41,
+      "clone_conversion_pct": 512.5,
+      "last_synced": "2026-10-05T18:27:21Z"
+    },
+    {
+      "name": "telecom-data-analysis",
+      "full_name": "nathyBekele/telecom-data-analysis",
+      "html_url": "https://github.com/nathyBekele/telecom-data-analysis",
+      "description": "A Python package for comprehensive telecom data analytics, focusing on four key areas: User Overview, User Engagement, User Experience, and User Satisfaction. Designed to provide actionable insights to improve telecom services and customer retention through detailed data analysis.",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "data-analysis-python",
+        "telecom-data-analysis"
+      ],
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 6,
+      "uniques_14d": 4,
+      "clones_14d": 7,
+      "all_time_views": 6,
+      "all_time_clones": 7,
+      "clone_conversion_pct": 116.7,
+      "last_synced": "2026-10-05T18:27:21Z"
+    },
+    {
+      "name": "hate-speech-detection-in-amharic-language",
+      "full_name": "nathyBekele/hate-speech-detection-in-amharic-language",
+      "html_url": "https://github.com/nathyBekele/hate-speech-detection-in-amharic-language",
+      "description": " A machine learning project to develop a model that can detect hate speech in Amharic language using the multilingual BERT (mBERT) model.",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "hate-speech-detection",
+        "llm-inference",
+        "mbert"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": true,
+      "is_fork": false,
+      "views_14d": 4,
+      "uniques_14d": 2,
+      "clones_14d": 1,
+      "all_time_views": 4,
+      "all_time_clones": 1,
+      "clone_conversion_pct": 25.0,
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "vitalAI",
@@ -341,15 +385,15 @@
       "stars": 2,
       "forks": 0,
       "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
       "views_14d": 3,
       "uniques_14d": 3,
       "clones_14d": 9,
       "all_time_views": 3,
       "all_time_clones": 9,
       "clone_conversion_pct": 300.0,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "contract-advisor-rag",
@@ -364,15 +408,15 @@
       "stars": 1,
       "forks": 0,
       "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
       "views_14d": 3,
       "uniques_14d": 3,
       "clones_14d": 9,
       "all_time_views": 3,
       "all_time_clones": 9,
       "clone_conversion_pct": 300.0,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "semantic-image-and-text-alignment",
@@ -388,15 +432,15 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 1,
+      "is_private": false,
+      "is_fork": false,
       "views_14d": 3,
       "uniques_14d": 3,
       "clones_14d": 2,
       "all_time_views": 3,
       "all_time_clones": 2,
       "clone_conversion_pct": 66.7,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "logistics-dApp-on-ethereum",
@@ -414,15 +458,15 @@
       "stars": 3,
       "forks": 0,
       "open_issues": 0,
-      "views_14d": 0,
-      "uniques_14d": 0,
-      "clones_14d": 18,
-      "all_time_views": 1,
-      "all_time_clones": 19,
-      "clone_conversion_pct": 1900.0,
-      "last_synced": "2026-10-05T02:56:26Z",
       "is_private": false,
-      "is_fork": false
+      "is_fork": false,
+      "views_14d": 1,
+      "uniques_14d": 1,
+      "clones_14d": 19,
+      "all_time_views": 2,
+      "all_time_clones": 20,
+      "clone_conversion_pct": 1000.0,
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "algo-certify-dApp-nft",
@@ -439,15 +483,15 @@
       "stars": 3,
       "forks": 0,
       "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 5,
+      "clones_14d": 6,
       "all_time_views": 0,
-      "all_time_clones": 7,
+      "all_time_clones": 8,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "a2sv-jan-practice-problem-solutions-cpp",
@@ -462,15 +506,15 @@
       "stars": 1,
       "forks": 0,
       "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 3,
+      "clones_14d": 4,
       "all_time_views": 0,
-      "all_time_clones": 3,
+      "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "a2sv-mar-contest-solutions-cpp",
@@ -486,15 +530,15 @@
       "stars": 1,
       "forks": 0,
       "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
       "clones_14d": 3,
       "all_time_views": 0,
       "all_time_clones": 3,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "a2sv-mar-practice-problems-solutions-cpp",
@@ -509,15 +553,15 @@
       "stars": 1,
       "forks": 0,
       "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
       "clones_14d": 5,
       "all_time_views": 0,
       "all_time_clones": 6,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "dsa-problems-using-cpp",
@@ -533,15 +577,15 @@
       "stars": 1,
       "forks": 0,
       "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
       "clones_14d": 3,
       "all_time_views": 0,
       "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "slack-workspace-data-analysis",
@@ -556,15 +600,15 @@
       "stars": 1,
       "forks": 0,
       "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
       "clones_14d": 17,
       "all_time_views": 0,
       "all_time_clones": 19,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "a2sv-jan-contest-solutions-cpp",
@@ -580,15 +624,15 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
       "clones_14d": 4,
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "abrehot-space-booking",
@@ -603,15 +647,15 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
       "clones_14d": 3,
       "all_time_views": 0,
       "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "code-to-learn",
@@ -626,15 +670,79 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
       "clones_14d": 4,
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "last_synced": "2026-10-05T18:27:21Z"
+    },
+    {
+      "name": "internet-package-tracker",
+      "full_name": "nathyBekele/internet-package-tracker",
+      "html_url": "https://github.com/nathyBekele/internet-package-tracker",
+      "description": "https://internet-package-tracker.vercel.app/",
+      "language": "TypeScript",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": true,
+      "is_fork": false,
+      "views_14d": 0,
+      "uniques_14d": 0,
+      "clones_14d": 0,
+      "all_time_views": 0,
+      "all_time_clones": 0,
+      "clone_conversion_pct": 0.0,
+      "last_synced": "2026-10-05T18:27:21Z"
+    },
+    {
+      "name": "miscellaneous-automation-scripts",
+      "full_name": "nathyBekele/miscellaneous-automation-scripts",
+      "html_url": "https://github.com/nathyBekele/miscellaneous-automation-scripts",
+      "description": "A collection of various automation scripts for everyday tasks. This repo includes scripts for automating repetitive processes, improving productivity, and simplifying workflows. Scripts are organized by purpose and can be easily adapted for different use cases.",
+      "language": "Python",
+      "topics": [
+        "automation-scripts",
+        "javascript",
+        "python3"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": true,
+      "is_fork": false,
+      "views_14d": 0,
+      "uniques_14d": 0,
+      "clones_14d": 0,
+      "all_time_views": 0,
+      "all_time_clones": 0,
+      "clone_conversion_pct": 0.0,
+      "last_synced": "2026-10-05T18:27:21Z"
+    },
+    {
+      "name": "mock-uis",
+      "full_name": "nathyBekele/mock-uis",
+      "html_url": "https://github.com/nathyBekele/mock-uis",
+      "description": "",
+      "language": "Other",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": true,
+      "is_fork": false,
+      "views_14d": 0,
+      "uniques_14d": 0,
+      "clones_14d": 0,
+      "all_time_views": 0,
+      "all_time_clones": 0,
+      "clone_conversion_pct": 0.0,
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "nathyBekeleH",
@@ -648,15 +756,15 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
       "clones_14d": 5,
       "all_time_views": 0,
       "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "news-site-rpa-bot",
@@ -675,15 +783,15 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
       "clones_14d": 4,
       "all_time_views": 0,
       "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "novel",
@@ -695,15 +803,39 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
       "clones_14d": 0,
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "last_synced": "2026-10-05T18:27:21Z"
+    },
+    {
+      "name": "squid-game",
+      "full_name": "nathyBekele/squid-game",
+      "html_url": "https://github.com/nathyBekele/squid-game",
+      "description": "This repository is used to store and organize your solved LeetCode problems by automatically pushing your solutions to GitHub using the LeetHub Chrome extension. LeetHub syncs your successful LeetCode submissions directly to a GitHub repository, saving time and keeping your coding progress well-documented and accessible in one place.",
+      "language": "Python",
+      "topics": [
+        "leetcode-cpp-solutions",
+        "leetcode-python3-solutions",
+        "leetcode-solutions"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": true,
+      "is_fork": false,
+      "views_14d": 0,
+      "uniques_14d": 0,
+      "clones_14d": 0,
+      "all_time_views": 0,
+      "all_time_clones": 0,
+      "clone_conversion_pct": 0.0,
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "streamlit-app-for-simplified-ai-recruiting",
@@ -721,15 +853,15 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 4,
+      "clones_14d": 5,
       "all_time_views": 0,
-      "all_time_clones": 4,
+      "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "last_synced": "2026-10-05T18:27:21Z"
     },
     {
       "name": "to-do-app",
@@ -744,22 +876,22 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
       "clones_14d": 3,
       "all_time_views": 0,
       "all_time_clones": 3,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z",
-      "is_private": false,
-      "is_fork": false
+      "last_synced": "2026-10-05T18:27:21Z"
     }
   ],
   "top_referrers": [
     {
       "referrer": "github.com",
-      "count": 50,
-      "uniques": 19
+      "count": 70,
+      "uniques": 21
     },
     {
       "referrer": "medium.com",
@@ -770,13 +902,18 @@
       "referrer": "Google",
       "count": 2,
       "uniques": 2
+    },
+    {
+      "referrer": "linkedin.com",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "top_paths": [
     {
       "path": "/nathyBekele/geometry-of-dormant-defection",
       "title": "Overview",
-      "count": 25,
+      "count": 30,
       "uniques": 3
     },
     {
@@ -786,15 +923,39 @@
       "uniques": 6
     },
     {
+      "path": "/nathyBekele/github-traffic-archive",
+      "title": "Overview",
+      "count": 16,
+      "uniques": 1
+    },
+    {
       "path": "/nathyBekele/nathyBekele.github.io",
       "title": "Overview",
-      "count": 14,
+      "count": 15,
       "uniques": 3
     },
     {
-      "path": "/nathyBekele/github-traffic-archive",
+      "path": "/nathyBekele/geometry-of-dormant-defection/graphs/traffic",
+      "title": "/graphs/traffic",
+      "count": 10,
+      "uniques": 1
+    },
+    {
+      "path": "/nathyBekele/promptKit/pulls",
+      "title": "/pulls",
+      "count": 9,
+      "uniques": 4
+    },
+    {
+      "path": "/nathyBekele/geometry-of-dormant-defection/pulse",
+      "title": "/pulse",
+      "count": 8,
+      "uniques": 1
+    },
+    {
+      "path": "/nathyBekele/heart-beat",
       "title": "Overview",
-      "count": 12,
+      "count": 8,
       "uniques": 1
     },
     {
@@ -804,10 +965,16 @@
       "uniques": 1
     },
     {
-      "path": "/nathyBekele/promptKit/pulls",
-      "title": "/pulls",
-      "count": 7,
-      "uniques": 4
+      "path": "/nathyBekele/cursor-spend-tracker",
+      "title": "Overview",
+      "count": 6,
+      "uniques": 3
+    },
+    {
+      "path": "/nathyBekele/heart-beat/blob/main/.github/workflows/heatmap.yml",
+      "title": "/blob/main/.github/workflows/heatmap.yml",
+      "count": 6,
+      "uniques": 1
     },
     {
       "path": "/nathyBekele/promptKit/issues",
@@ -828,22 +995,10 @@
       "uniques": 3
     },
     {
-      "path": "/nathyBekele/cursor-spend-tracker",
+      "path": "/nathyBekele/custom-data-warehouse",
       "title": "Overview",
-      "count": 4,
+      "count": 3,
       "uniques": 3
-    },
-    {
-      "path": "/nathyBekele/geometry-of-dormant-defection/graphs/traffic",
-      "title": "/graphs/traffic",
-      "count": 4,
-      "uniques": 1
-    },
-    {
-      "path": "/nathyBekele/geometry-of-dormant-defection/pulse",
-      "title": "/pulse",
-      "count": 4,
-      "uniques": 1
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/actions/workflows/tests.yml",
@@ -864,44 +1019,26 @@
       "uniques": 1
     },
     {
-      "path": "/nathyBekele/Telecom-Data-Analysis",
-      "title": "Overview",
+      "path": "/nathyBekele/heart-beat/actions",
+      "title": "/actions",
       "count": 3,
-      "uniques": 3
+      "uniques": 1
     },
     {
-      "path": "/nathyBekele/contract-advisor-rag",
-      "title": "Overview",
-      "count": 2,
-      "uniques": 2
-    },
-    {
-      "path": "/nathyBekele/custom-data-warehouse",
-      "title": "Overview",
-      "count": 2,
-      "uniques": 2
-    },
-    {
-      "path": "/nathyBekele/custom-data-warehouse/pulls",
-      "title": "/pulls",
-      "count": 2,
-      "uniques": 2
-    },
-    {
-      "path": "/nathyBekele/github-traffic-archive/commit/098846e344dc023b73ca1f1c57622f55c3ca8faf",
-      "title": "/commit/098846e344dc023b73ca1f1c57622f55c3ca8faf",
-      "count": 2,
+      "path": "/nathyBekele/heart-beat/actions/runs/36108881554",
+      "title": "/actions/runs/36108881554",
+      "count": 3,
       "uniques": 1
     }
   ],
   "languages": {
     "C++": 5,
     "Vue": 1,
-    "Jupyter Notebook": 5,
-    "Other": 4,
-    "TypeScript": 1,
+    "Jupyter Notebook": 6,
+    "Other": 6,
+    "TypeScript": 2,
     "Shell": 1,
-    "Python": 5,
+    "Python": 7,
     "JavaScript": 3,
     "HTML": 1
   }

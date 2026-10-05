@@ -16,20 +16,20 @@
   "is_private": false,
   "is_fork": false,
   "created_at": "2026-10-02T19:03:58Z",
-  "updated_at": "2026-10-04T15:52:22Z",
-  "pushed_at": "2026-10-04T15:52:18Z",
-  "last_synced": "2026-10-05T02:56:26Z",
+  "updated_at": "2026-10-05T18:27:17Z",
+  "pushed_at": "2026-10-05T18:27:11Z",
+  "last_synced": "2026-10-05T18:27:21Z",
   "summary": {
-    "all_time_views": 37,
-    "all_time_uniques": 2,
-    "all_time_clones": 156,
-    "all_time_unique_cloners": 75,
-    "views_14d": 37,
-    "uniques_14d": 2,
-    "clones_14d": 156,
-    "unique_cloners_14d": 75,
-    "clone_conversion_pct": 421.6,
-    "days_tracked": 15
+    "all_time_views": 45,
+    "all_time_uniques": 3,
+    "all_time_clones": 200,
+    "all_time_unique_cloners": 98,
+    "views_14d": 45,
+    "uniques_14d": 3,
+    "clones_14d": 200,
+    "unique_cloners_14d": 98,
+    "clone_conversion_pct": 444.4,
+    "days_tracked": 16
   },
   "views": [
     {
@@ -105,6 +105,11 @@
     {
       "date": "2026-10-03",
       "count": 3,
+      "uniques": 1
+    },
+    {
+      "date": "2026-10-04",
+      "count": 8,
       "uniques": 1
     }
   ],
@@ -183,14 +188,19 @@
       "date": "2026-10-03",
       "count": 53,
       "uniques": 28
+    },
+    {
+      "date": "2026-10-04",
+      "count": 44,
+      "uniques": 23
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "total_count": 5,
+      "total_count": 8,
       "total_uniques": 1,
-      "latest_count": 5,
+      "latest_count": 8,
       "latest_uniques": 1,
       "last_seen": "2026-10-05"
     }
@@ -199,9 +209,9 @@
     {
       "path": "/nathyBekele/github-traffic-archive",
       "title": "Overview",
-      "total_count": 12,
+      "total_count": 16,
       "total_uniques": 1,
-      "latest_count": 12,
+      "latest_count": 16,
       "latest_uniques": 1,
       "last_seen": "2026-10-05"
     },
@@ -235,6 +245,24 @@
     {
       "path": "/nathyBekele/github-traffic-archive/commits/main",
       "title": "/commits/main",
+      "total_count": 2,
+      "total_uniques": 1,
+      "latest_count": 2,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-05"
+    },
+    {
+      "path": "/nathyBekele/github-traffic-archive/graphs/traffic",
+      "title": "/graphs/traffic",
+      "total_count": 2,
+      "total_uniques": 1,
+      "latest_count": 2,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-05"
+    },
+    {
+      "path": "/nathyBekele/github-traffic-archive/pulse",
+      "title": "/pulse",
       "total_count": 2,
       "total_uniques": 1,
       "latest_count": 2,
