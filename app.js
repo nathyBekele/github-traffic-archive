@@ -455,18 +455,18 @@ function renderActivityAndLanguages(data) {
   if (commitsEl) commitsEl.textContent = '625';
 
   const prsEl = document.getElementById('actTotalPRs');
-  if (prsEl) prsEl.textContent = '51';
+  if (prsEl) prsEl.textContent = '590';
 
   const prsMergedEl = document.getElementById('actTotalPRsMerged');
-  if (prsMergedEl) prsMergedEl.textContent = '45';
+  if (prsMergedEl) prsMergedEl.textContent = '571';
 
-  // Grade Circular Progress Ring - matching 'B' grade in user inspiration
+  // Grade Circular Progress Ring - matching 'A+' grade
   const gradeCircle = document.getElementById('gradeCircleProgress');
   const gradeText = document.getElementById('gradeBadgeText');
   if (gradeCircle) {
     gradeCircle.style.strokeDashoffset = '38';
   }
-  if (gradeText) gradeText.textContent = 'B';
+  if (gradeText) gradeText.textContent = 'A+';
 
   // Render Most Used Languages Stacked Bar
   const barContainer = document.getElementById('languagesStackedBar');
