@@ -21,10 +21,10 @@
     
     .stat {
       font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif;
-      fill: #9f9f9f;
+      fill: #c9d1d9;
     }
     @supports(-moz-appearance: auto) {
-      .stat { font-size: 12px; }
+      .stat { font-size: 13.5px; }
     }
     .stagger {
       opacity: 0;
@@ -32,7 +32,7 @@
     }
     .rank-text {
       font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif;
-      fill: #9f9f9f;
+      fill: #ffffff;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     .bold { font-weight: 700 }

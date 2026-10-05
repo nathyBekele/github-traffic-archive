@@ -17,8 +17,8 @@
       .header { font-size: 15.5px; }
     }
     .lang-name {
-      font: 400 12px 'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Sans-Serif;
-      fill: #9f9f9f;
+      font: 500 13px 'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Sans-Serif;
+      fill: #e6edf3;
     }
     .stagger {
       opacity: 0;
