@@ -73,10 +73,12 @@ def get_all_repositories(token, specified_owner=None):
     repos = []
     page = 1
 
-    if specified_owner:
+    if token:
+        # Authenticated user - gets all owned repos (including private if token has repo scope)
+        endpoint = "https://api.github.com/user/repos?affiliation=owner&per_page=100&page="
+    elif specified_owner:
         endpoint = f"https://api.github.com/users/{specified_owner}/repos?per_page=100&page="
     else:
-        # Authenticated user - gets all owned repos (including private if token has scope)
         endpoint = "https://api.github.com/user/repos?affiliation=owner&per_page=100&page="
 
     while True:
@@ -467,6 +469,8 @@ def build_summary(repo_records, run_iso):
             "stars": r.get("stars", 0),
             "forks": r.get("forks", 0),
             "open_issues": r.get("open_issues", 0),
+            "is_private": r.get("is_private", False),
+            "is_fork": r.get("is_fork", False),
             "views_14d": s.get("views_14d", 0),
             "uniques_14d": s.get("uniques_14d", 0),
             "clones_14d": s.get("clones_14d", 0),

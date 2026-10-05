@@ -157,7 +157,9 @@
       "all_time_views": 53,
       "all_time_clones": 128,
       "clone_conversion_pct": 241.5,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "nathyBekele.github.io",
@@ -175,7 +177,9 @@
       "all_time_views": 40,
       "all_time_clones": 467,
       "clone_conversion_pct": 1167.5,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "github-traffic-archive",
@@ -193,7 +197,9 @@
       "all_time_views": 37,
       "all_time_clones": 156,
       "clone_conversion_pct": 421.6,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "promptKit",
@@ -215,7 +221,9 @@
       "all_time_views": 39,
       "all_time_clones": 11,
       "clone_conversion_pct": 28.2,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "redash-chatbot-add-on",
@@ -243,7 +251,9 @@
       "all_time_views": 8,
       "all_time_clones": 19,
       "clone_conversion_pct": 237.5,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "cursor-spend-tracker",
@@ -261,7 +271,9 @@
       "all_time_views": 7,
       "all_time_clones": 7,
       "clone_conversion_pct": 100.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "telecom-data-analysis",
@@ -282,7 +294,9 @@
       "all_time_views": 6,
       "all_time_clones": 7,
       "clone_conversion_pct": 116.7,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "custom-data-warehouse",
@@ -307,7 +321,9 @@
       "all_time_views": 5,
       "all_time_clones": 41,
       "clone_conversion_pct": 820.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "vitalAI",
@@ -331,7 +347,9 @@
       "all_time_views": 3,
       "all_time_clones": 9,
       "clone_conversion_pct": 300.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "contract-advisor-rag",
@@ -352,7 +370,9 @@
       "all_time_views": 3,
       "all_time_clones": 9,
       "clone_conversion_pct": 300.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "semantic-image-and-text-alignment",
@@ -374,7 +394,9 @@
       "all_time_views": 3,
       "all_time_clones": 2,
       "clone_conversion_pct": 66.7,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "logistics-dApp-on-ethereum",
@@ -398,7 +420,9 @@
       "all_time_views": 1,
       "all_time_clones": 19,
       "clone_conversion_pct": 1900.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "algo-certify-dApp-nft",
@@ -421,7 +445,9 @@
       "all_time_views": 0,
       "all_time_clones": 7,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "a2sv-jan-practice-problem-solutions-cpp",
@@ -442,7 +468,9 @@
       "all_time_views": 0,
       "all_time_clones": 3,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "a2sv-mar-contest-solutions-cpp",
@@ -464,7 +492,9 @@
       "all_time_views": 0,
       "all_time_clones": 3,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "a2sv-mar-practice-problems-solutions-cpp",
@@ -485,7 +515,9 @@
       "all_time_views": 0,
       "all_time_clones": 6,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "dsa-problems-using-cpp",
@@ -507,7 +539,9 @@
       "all_time_views": 0,
       "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "slack-workspace-data-analysis",
@@ -528,7 +562,9 @@
       "all_time_views": 0,
       "all_time_clones": 19,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "a2sv-jan-contest-solutions-cpp",
@@ -550,7 +586,9 @@
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "abrehot-space-booking",
@@ -571,7 +609,9 @@
       "all_time_views": 0,
       "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "code-to-learn",
@@ -592,7 +632,9 @@
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "nathyBekeleH",
@@ -612,7 +654,9 @@
       "all_time_views": 0,
       "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "news-site-rpa-bot",
@@ -637,7 +681,9 @@
       "all_time_views": 0,
       "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "novel",
@@ -655,7 +701,9 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "streamlit-app-for-simplified-ai-recruiting",
@@ -679,7 +727,9 @@
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     },
     {
       "name": "to-do-app",
@@ -700,7 +750,9 @@
       "all_time_views": 0,
       "all_time_clones": 3,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-05T02:56:26Z"
+      "last_synced": "2026-10-05T02:56:26Z",
+      "is_private": false,
+      "is_fork": false
     }
   ],
   "top_referrers": [

@@ -1,0 +1,104 @@
+<svg
+  width="467"
+  height="195"
+  viewBox="0 0 467 195"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-label="Most Used Languages"
+>
+  <style>
+    .header {
+      font: 600 18px 'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Sans-Serif;
+      fill: #2f80ed;
+      animation: fadeInAnimation 0.8s ease-in-out forwards;
+    }
+    @supports(-moz-appearance: auto) {
+      .header { font-size: 15.5px; }
+    }
+    .lang-name {
+      font: 400 12px 'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Sans-Serif;
+      fill: #434d58;
+    }
+    .stagger {
+      opacity: 0;
+      animation: fadeInAnimation 0.4s ease-in-out forwards;
+    }
+    @keyframes fadeInAnimation {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+
+  <rect
+    data-testid="card-bg"
+    class="card-bg"
+    x="0.5"
+    y="0.5"
+    rx="4.5"
+    height="194"
+    stroke="#bcc3cd"
+    width="466"
+    fill="#fffefe"
+    stroke-opacity="1"
+  />
+
+  <g data-testid="card-title" transform="translate(25, 35)">
+    <text x="0" y="0" class="header" data-testid="header">Most Used Languages</text>
+  </g>
+
+  <g data-testid="main-card-body" transform="translate(0, 55)">
+    <svg data-testid="lang-items" x="25">
+      <mask id="rect-mask">
+        <rect x="0" y="0" width="417" height="8" fill="white" rx="4"/>
+      </mask>
+
+      <!-- Python: 42.4% -> 176.8px -->
+      <rect mask="url(#rect-mask)" x="0" y="0" width="176.8" height="8" fill="#3572A5" />
+      <!-- TypeScript: 28.6% -> 119.3px -->
+      <rect mask="url(#rect-mask)" x="176.8" y="0" width="119.3" height="8" fill="#3178c6" />
+      <!-- JavaScript: 11.8% -> 49.2px -->
+      <rect mask="url(#rect-mask)" x="296.1" y="0" width="49.2" height="8" fill="#f1e05a" />
+      <!-- Go: 6.7% -> 27.9px -->
+      <rect mask="url(#rect-mask)" x="345.3" y="0" width="27.9" height="8" fill="#00ADD8" />
+      <!-- C++: 5.5% -> 22.9px -->
+      <rect mask="url(#rect-mask)" x="373.2" y="0" width="22.9" height="8" fill="#f34b7d" />
+      <!-- Dart: 5.0% -> 20.9px -->
+      <rect mask="url(#rect-mask)" x="396.1" y="0" width="20.9" height="8" fill="#00B4AB" />
+
+      <g transform="translate(0, 30)">
+        <!-- Column 1 -->
+        <g transform="translate(0, 0)">
+          <g transform="translate(0, 0)" class="stagger" style="animation-delay: 200ms">
+            <circle cx="5" cy="6" r="5" fill="#3572A5" />
+            <text x="18" y="10" class="lang-name">Python 42.4%</text>
+          </g>
+          <g transform="translate(0, 28)" class="stagger" style="animation-delay: 350ms">
+            <circle cx="5" cy="6" r="5" fill="#f1e05a" />
+            <text x="18" y="10" class="lang-name">JavaScript 11.8%</text>
+          </g>
+          <g transform="translate(0, 56)" class="stagger" style="animation-delay: 500ms">
+            <circle cx="5" cy="6" r="5" fill="#f34b7d" />
+            <text x="18" y="10" class="lang-name">C++ 5.5%</text>
+          </g>
+        </g>
+
+        <!-- Column 2 -->
+        <g transform="translate(200, 0)">
+          <g transform="translate(0, 0)" class="stagger" style="animation-delay: 250ms">
+            <circle cx="5" cy="6" r="5" fill="#3178c6" />
+            <text x="18" y="10" class="lang-name">TypeScript 28.6%</text>
+          </g>
+          <g transform="translate(0, 28)" class="stagger" style="animation-delay: 400ms">
+            <circle cx="5" cy="6" r="5" fill="#00ADD8" />
+            <text x="18" y="10" class="lang-name">Go 6.7%</text>
+          </g>
+          <g transform="translate(0, 56)" class="stagger" style="animation-delay: 550ms">
+            <circle cx="5" cy="6" r="5" fill="#00B4AB" />
+            <text x="18" y="10" class="lang-name">Dart 5.0%</text>
+          </g>
+        </g>
+      </g>
+    </svg>
+  </g>
+</svg>
