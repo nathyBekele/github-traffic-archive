@@ -21,18 +21,18 @@
   "created_at": "2023-12-12T10:10:12Z",
   "updated_at": "2025-10-11T19:42:38Z",
   "pushed_at": "2025-10-11T19:42:34Z",
-  "last_synced": "2026-10-06T03:46:01Z",
+  "last_synced": "2026-10-07T03:13:28Z",
   "summary": {
     "all_time_views": 6,
     "all_time_uniques": 4,
     "all_time_clones": 7,
     "all_time_unique_cloners": 7,
-    "views_14d": 3,
-    "uniques_14d": 3,
-    "clones_14d": 7,
-    "unique_cloners_14d": 7,
+    "views_14d": 2,
+    "uniques_14d": 2,
+    "clones_14d": 6,
+    "unique_cloners_14d": 6,
     "clone_conversion_pct": 116.7,
-    "days_tracked": 17
+    "days_tracked": 18
   },
   "views": [
     {
@@ -117,6 +117,11 @@
     },
     {
       "date": "2026-10-04",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-05",
       "count": 0,
       "uniques": 0
     }
@@ -206,6 +211,11 @@
       "date": "2026-10-04",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-05",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [
@@ -213,17 +223,17 @@
       "referrer": "github.com",
       "total_count": 3,
       "total_uniques": 2,
-      "latest_count": 3,
-      "latest_uniques": 2,
-      "last_seen": "2026-10-06"
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-07"
     },
     {
       "referrer": "Google",
       "total_count": 2,
       "total_uniques": 2,
-      "latest_count": 2,
-      "latest_uniques": 2,
-      "last_seen": "2026-10-06"
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-07"
     }
   ],
   "paths": [
@@ -232,9 +242,9 @@
       "title": "Overview",
       "total_count": 3,
       "total_uniques": 3,
-      "latest_count": 3,
-      "latest_uniques": 3,
-      "last_seen": "2026-10-06"
+      "latest_count": 2,
+      "latest_uniques": 2,
+      "last_seen": "2026-10-07"
     },
     {
       "path": "/nathyBekele/telecom-data-analysis",
@@ -243,7 +253,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-06"
+      "last_seen": "2026-10-07"
     },
     {
       "path": "/nathyBekele/telecom-data-analysis/blob/main/requirements.txt",

@@ -20,18 +20,18 @@
   "created_at": "2025-05-18T16:56:25Z",
   "updated_at": "2026-10-05T19:51:33Z",
   "pushed_at": "2026-10-05T19:51:29Z",
-  "last_synced": "2026-10-06T03:46:01Z",
+  "last_synced": "2026-10-07T03:13:28Z",
   "summary": {
-    "all_time_views": 0,
-    "all_time_uniques": 0,
-    "all_time_clones": 5,
-    "all_time_unique_cloners": 5,
-    "views_14d": 0,
-    "uniques_14d": 0,
-    "clones_14d": 4,
-    "unique_cloners_14d": 4,
-    "clone_conversion_pct": 0.0,
-    "days_tracked": 14
+    "all_time_views": 3,
+    "all_time_uniques": 1,
+    "all_time_clones": 52,
+    "all_time_unique_cloners": 28,
+    "views_14d": 3,
+    "uniques_14d": 1,
+    "clones_14d": 51,
+    "unique_cloners_14d": 27,
+    "clone_conversion_pct": 1733.3,
+    "days_tracked": 15
   },
   "views": [
     {
@@ -103,6 +103,11 @@
       "date": "2026-10-04",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-05",
+      "count": 3,
+      "uniques": 1
     }
   ],
   "clones": [
@@ -175,8 +180,41 @@
       "date": "2026-10-04",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-05",
+      "count": 47,
+      "uniques": 23
     }
   ],
-  "referrers": [],
-  "paths": []
+  "referrers": [
+    {
+      "referrer": "github.com",
+      "total_count": 2,
+      "total_uniques": 1,
+      "latest_count": 2,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-07"
+    }
+  ],
+  "paths": [
+    {
+      "path": "/nathyBekele/nathyBekele",
+      "title": "Overview",
+      "total_count": 1,
+      "total_uniques": 1,
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-07"
+    },
+    {
+      "path": "/nathyBekele/nathyBekeleH",
+      "title": "Overview",
+      "total_count": 1,
+      "total_uniques": 1,
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-07"
+    }
+  ]
 }
