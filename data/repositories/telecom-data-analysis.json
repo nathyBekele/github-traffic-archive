@@ -21,18 +21,18 @@
   "created_at": "2023-12-12T10:10:12Z",
   "updated_at": "2025-10-11T19:42:38Z",
   "pushed_at": "2025-10-11T19:42:34Z",
-  "last_synced": "2026-10-07T03:13:28Z",
+  "last_synced": "2026-10-08T03:29:21Z",
   "summary": {
     "all_time_views": 6,
     "all_time_uniques": 4,
-    "all_time_clones": 7,
-    "all_time_unique_cloners": 7,
-    "views_14d": 2,
-    "uniques_14d": 2,
-    "clones_14d": 6,
-    "unique_cloners_14d": 6,
-    "clone_conversion_pct": 116.7,
-    "days_tracked": 18
+    "all_time_clones": 8,
+    "all_time_unique_cloners": 8,
+    "views_14d": 1,
+    "uniques_14d": 1,
+    "clones_14d": 7,
+    "unique_cloners_14d": 7,
+    "clone_conversion_pct": 133.3,
+    "days_tracked": 19
   },
   "views": [
     {
@@ -122,6 +122,11 @@
     },
     {
       "date": "2026-10-05",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-06",
       "count": 0,
       "uniques": 0
     }
@@ -216,6 +221,11 @@
       "date": "2026-10-05",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-06",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "referrers": [
@@ -233,7 +243,7 @@
       "total_uniques": 2,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-07"
+      "last_seen": "2026-10-08"
     }
   ],
   "paths": [
@@ -244,7 +254,7 @@
       "total_uniques": 3,
       "latest_count": 2,
       "latest_uniques": 2,
-      "last_seen": "2026-10-07"
+      "last_seen": "2026-10-08"
     },
     {
       "path": "/nathyBekele/telecom-data-analysis",

@@ -41,18 +41,18 @@
   "created_at": "2024-01-03T15:15:00Z",
   "updated_at": "2026-09-30T10:34:49Z",
   "pushed_at": "2025-03-23T08:13:55Z",
-  "last_synced": "2026-10-07T03:13:28Z",
+  "last_synced": "2026-10-08T03:29:21Z",
   "summary": {
     "all_time_views": 9,
     "all_time_uniques": 5,
-    "all_time_clones": 20,
-    "all_time_unique_cloners": 19,
+    "all_time_clones": 21,
+    "all_time_unique_cloners": 20,
     "views_14d": 8,
     "uniques_14d": 4,
     "clones_14d": 15,
     "unique_cloners_14d": 14,
-    "clone_conversion_pct": 222.2,
-    "days_tracked": 18
+    "clone_conversion_pct": 233.3,
+    "days_tracked": 19
   },
   "views": [
     {
@@ -144,6 +144,11 @@
       "date": "2026-10-05",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "date": "2026-10-06",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "clones": [
@@ -236,6 +241,11 @@
       "date": "2026-10-05",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "date": "2026-10-06",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "referrers": [
@@ -243,9 +253,9 @@
       "referrer": "github.com",
       "total_count": 5,
       "total_uniques": 3,
-      "latest_count": 5,
+      "latest_count": 4,
       "latest_uniques": 3,
-      "last_seen": "2026-10-07"
+      "last_seen": "2026-10-08"
     }
   ],
   "paths": [
@@ -254,9 +264,9 @@
       "title": "Overview",
       "total_count": 6,
       "total_uniques": 4,
-      "latest_count": 6,
+      "latest_count": 5,
       "latest_uniques": 4,
-      "last_seen": "2026-10-07"
+      "last_seen": "2026-10-08"
     },
     {
       "path": "/nathyBekele/redash-chatbot-add-on/fork",
@@ -265,7 +275,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-07"
+      "last_seen": "2026-10-08"
     },
     {
       "path": "/nathyBekele/redash-chatbot-add-on/graphs/traffic",
@@ -274,7 +284,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-07"
+      "last_seen": "2026-10-08"
     },
     {
       "path": "/nathyBekele/redash-chatbot-add-on/pulse",
@@ -283,7 +293,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-07"
+      "last_seen": "2026-10-08"
     }
   ]
 }
