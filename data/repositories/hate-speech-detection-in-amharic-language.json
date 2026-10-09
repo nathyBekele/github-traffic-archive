@@ -22,7 +22,7 @@
   "created_at": "2023-05-04T08:02:06Z",
   "updated_at": "2025-05-12T20:23:06Z",
   "pushed_at": "2025-05-03T19:10:45Z",
-  "last_synced": "2026-10-08T03:29:21Z",
+  "last_synced": "2026-10-09T03:34:49Z",
   "summary": {
     "all_time_views": 4,
     "all_time_uniques": 2,
@@ -33,7 +33,7 @@
     "clones_14d": 0,
     "unique_cloners_14d": 0,
     "clone_conversion_pct": 25.0,
-    "days_tracked": 16
+    "days_tracked": 17
   },
   "views": [
     {
@@ -113,6 +113,11 @@
     },
     {
       "date": "2026-10-06",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-07",
       "count": 0,
       "uniques": 0
     }
@@ -197,6 +202,11 @@
       "date": "2026-10-06",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-07",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [
@@ -206,7 +216,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-08"
+      "last_seen": "2026-10-09"
     }
   ],
   "paths": [
@@ -217,7 +227,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-08"
+      "last_seen": "2026-10-09"
     },
     {
       "path": "/nathyBekele/hate-speech-detection-in-amharic-language/blob/main/mBERT/Hate_Speech_Detection_in_Amharic_Language[mBERT].ipynb",
@@ -226,7 +236,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-08"
+      "last_seen": "2026-10-09"
     },
     {
       "path": "/nathyBekele/hate-speech-detection-in-amharic-language/tree/main/mBERT",
@@ -235,7 +245,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-08"
+      "last_seen": "2026-10-09"
     }
   ]
 }
