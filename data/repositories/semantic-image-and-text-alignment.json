@@ -22,18 +22,18 @@
   "created_at": "2024-02-12T15:50:53Z",
   "updated_at": "2025-03-23T08:19:55Z",
   "pushed_at": "2024-02-18T22:02:10Z",
-  "last_synced": "2026-10-09T03:34:49Z",
+  "last_synced": "2026-10-10T03:15:26Z",
   "summary": {
-    "all_time_views": 4,
-    "all_time_uniques": 4,
+    "all_time_views": 6,
+    "all_time_uniques": 5,
     "all_time_clones": 4,
     "all_time_unique_cloners": 4,
-    "views_14d": 4,
+    "views_14d": 5,
     "uniques_14d": 4,
     "clones_14d": 4,
     "unique_cloners_14d": 4,
-    "clone_conversion_pct": 100.0,
-    "days_tracked": 20
+    "clone_conversion_pct": 66.7,
+    "days_tracked": 21
   },
   "views": [
     {
@@ -135,6 +135,11 @@
       "date": "2026-10-07",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-08",
+      "count": 2,
+      "uniques": 1
     }
   ],
   "clones": [
@@ -237,35 +242,40 @@
       "date": "2026-10-07",
       "count": 2,
       "uniques": 2
+    },
+    {
+      "date": "2026-10-08",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [
+    {
+      "referrer": "Google",
+      "total_count": 3,
+      "total_uniques": 1,
+      "latest_count": 3,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-10"
+    },
     {
       "referrer": "github.com",
       "total_count": 1,
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-09"
-    },
-    {
-      "referrer": "Google",
-      "total_count": 1,
-      "total_uniques": 1,
-      "latest_count": 1,
-      "latest_uniques": 1,
-      "last_seen": "2026-10-09"
+      "last_seen": "2026-10-10"
     }
   ],
   "paths": [
     {
       "path": "/nathyBekele/semantic-image-and-text-alignment",
       "title": "Overview",
-      "total_count": 2,
+      "total_count": 4,
       "total_uniques": 2,
-      "latest_count": 2,
+      "latest_count": 4,
       "latest_uniques": 2,
-      "last_seen": "2026-10-09"
+      "last_seen": "2026-10-10"
     },
     {
       "path": "/nathyBekele/semantic-image-and-text-alignment/blob/main/requirements.txt",
@@ -274,7 +284,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-09"
+      "last_seen": "2026-10-10"
     },
     {
       "path": "/nathyBekele/semantic-image-and-text-alignment/blob/main/yolov3.txt",
@@ -283,7 +293,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-09"
+      "last_seen": "2026-10-10"
     }
   ]
 }
