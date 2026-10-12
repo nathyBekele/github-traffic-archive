@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-11T02:48:16Z",
+  "updated_at": "2026-10-12T03:11:30Z",
   "total_repositories_tracked": 32,
   "kpis": {
-    "all_time_views": 348,
-    "all_time_uniques": 117,
-    "all_time_clones": 1503,
-    "all_time_unique_cloners": 763,
-    "views_14d": 269,
-    "clones_14d": 1347,
+    "all_time_views": 360,
+    "all_time_uniques": 124,
+    "all_time_clones": 1543,
+    "all_time_unique_cloners": 791,
+    "views_14d": 279,
+    "clones_14d": 1361,
     "total_stars": 35,
     "total_forks": 4,
     "total_open_issues": 3
@@ -169,13 +169,20 @@
     },
     {
       "date": "2026-10-10",
+      "views": 12,
+      "uniques": 7,
+      "clones": 40,
+      "unique_cloners": 28
+    },
+    {
+      "date": "2026-10-11",
       "views": 0,
       "uniques": 0,
       "clones": 0,
       "unique_cloners": 0
     },
     {
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "views": 0,
       "uniques": 0,
       "clones": 0,
@@ -187,7 +194,7 @@
       "name": "geometry-of-dormant-defection",
       "full_name": "nathyBekele/geometry-of-dormant-defection",
       "html_url": "https://github.com/nathyBekele/geometry-of-dormant-defection",
-      "description": "Official replication code for \"The Geometry of Dormant Defection: Layer-Wise Dynamics and Defensive Design of Linear Probes for Latent Sleeper Agents\"",
+      "description": "https://zenodo.org/records/23089057",
       "language": "Python",
       "topics": [],
       "stars": 3,
@@ -195,33 +202,13 @@
       "open_issues": 0,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 79,
-      "uniques_14d": 13,
+      "views_14d": 82,
+      "uniques_14d": 15,
       "clones_14d": 135,
-      "all_time_views": 79,
+      "all_time_views": 82,
       "all_time_clones": 135,
-      "clone_conversion_pct": 170.9,
-      "last_synced": "2026-10-11T02:48:16Z"
-    },
-    {
-      "name": "nathyBekele.github.io",
-      "full_name": "nathyBekele/nathyBekele.github.io",
-      "html_url": "https://github.com/nathyBekele/nathyBekele.github.io",
-      "description": "personal website",
-      "language": "HTML",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "is_private": false,
-      "is_fork": false,
-      "views_14d": 57,
-      "uniques_14d": 8,
-      "clones_14d": 617,
-      "all_time_views": 65,
-      "all_time_clones": 650,
-      "clone_conversion_pct": 1000.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "clone_conversion_pct": 164.6,
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "github-traffic-archive",
@@ -235,19 +222,39 @@
       "open_issues": 0,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 57,
-      "uniques_14d": 8,
-      "clones_14d": 369,
-      "all_time_views": 57,
-      "all_time_clones": 369,
-      "clone_conversion_pct": 647.4,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "views_14d": 61,
+      "uniques_14d": 9,
+      "clones_14d": 383,
+      "all_time_views": 61,
+      "all_time_clones": 383,
+      "clone_conversion_pct": 627.9,
+      "last_synced": "2026-10-12T03:11:30Z"
+    },
+    {
+      "name": "nathyBekele.github.io",
+      "full_name": "nathyBekele/nathyBekele.github.io",
+      "html_url": "https://github.com/nathyBekele/nathyBekele.github.io",
+      "description": "personal website",
+      "language": "HTML",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 59,
+      "uniques_14d": 9,
+      "clones_14d": 630,
+      "all_time_views": 67,
+      "all_time_clones": 663,
+      "clone_conversion_pct": 989.6,
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "promptKit",
       "full_name": "nathyBekele/promptKit",
       "html_url": "https://github.com/nathyBekele/promptKit",
-      "description": "An application that transforms prompt engineering for LLMs  by automating prompt generation, creating diverse test cases, and evaluating and ranking prompts.",
+      "description": "",
       "language": "Jupyter Notebook",
       "topics": [
         "llm-prompting",
@@ -260,18 +267,18 @@
       "is_private": false,
       "is_fork": false,
       "views_14d": 28,
-      "uniques_14d": 17,
-      "clones_14d": 11,
-      "all_time_views": 52,
-      "all_time_clones": 15,
-      "clone_conversion_pct": 28.8,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "uniques_14d": 18,
+      "clones_14d": 10,
+      "all_time_views": 54,
+      "all_time_clones": 16,
+      "clone_conversion_pct": 29.6,
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "redash-chatbot-add-on",
       "full_name": "nathyBekele/redash-chatbot-add-on",
       "html_url": "https://github.com/nathyBekele/redash-chatbot-add-on",
-      "description": "A Redash dashboard extension that integrates a chatbot powered by NLP and ChatGPT. It enables users to interact with data using natural language queries, generate SQL queries, and visualize results directly within the chat interface. This enhances data exploration and decision-making through conversational analytics.",
+      "description": "",
       "language": "Python",
       "topics": [
         "chatbot",
@@ -289,19 +296,19 @@
       "open_issues": 1,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 11,
-      "uniques_14d": 7,
+      "views_14d": 12,
+      "uniques_14d": 8,
       "clones_14d": 16,
-      "all_time_views": 12,
+      "all_time_views": 13,
       "all_time_clones": 23,
-      "clone_conversion_pct": 191.7,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "clone_conversion_pct": 176.9,
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "cursor-spend-tracker",
       "full_name": "nathyBekele/cursor-spend-tracker",
       "html_url": "https://github.com/nathyBekele/cursor-spend-tracker",
-      "description": "",
+      "description": "https://cursor-spend-tracker.vercel.app",
       "language": "TypeScript",
       "topics": [],
       "stars": 0,
@@ -315,7 +322,7 @@
       "all_time_views": 11,
       "all_time_clones": 8,
       "clone_conversion_pct": 72.7,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "custom-data-warehouse",
@@ -338,11 +345,11 @@
       "is_fork": false,
       "views_14d": 5,
       "uniques_14d": 3,
-      "clones_14d": 5,
+      "clones_14d": 4,
       "all_time_views": 9,
       "all_time_clones": 44,
       "clone_conversion_pct": 488.9,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "semantic-image-and-text-alignment",
@@ -362,11 +369,11 @@
       "is_fork": false,
       "views_14d": 5,
       "uniques_14d": 4,
-      "clones_14d": 4,
+      "clones_14d": 3,
       "all_time_views": 6,
       "all_time_clones": 4,
       "clone_conversion_pct": 66.7,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "nathyBekele",
@@ -384,11 +391,11 @@
       "is_fork": false,
       "views_14d": 5,
       "uniques_14d": 2,
-      "clones_14d": 69,
+      "clones_14d": 72,
       "all_time_views": 5,
-      "all_time_clones": 72,
-      "clone_conversion_pct": 1440.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "all_time_clones": 75,
+      "clone_conversion_pct": 1500.0,
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "contract-advisor-rag",
@@ -411,7 +418,7 @@
       "all_time_views": 4,
       "all_time_clones": 12,
       "clone_conversion_pct": 300.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "heart-beat",
@@ -429,9 +436,9 @@
       "uniques_14d": 3,
       "clones_14d": 26,
       "all_time_views": 32,
-      "all_time_clones": 39,
-      "clone_conversion_pct": 121.9,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "all_time_clones": 41,
+      "clone_conversion_pct": 128.1,
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "hate-speech-detection-in-amharic-language",
@@ -455,13 +462,13 @@
       "all_time_views": 4,
       "all_time_clones": 1,
       "clone_conversion_pct": 25.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "vitalAI",
       "full_name": "nathyBekele/vitalAI",
       "html_url": "https://github.com/nathyBekele/vitalAI",
-      "description": "vital-ai is a Django-based API that integrates with OpenAI's ChatGPT to provide personalized health advice based on Apple Health data. The system analyzes users' sleep patterns, step counts, and activity levels, generating custom insights and suggestions for improved well-being.",
+      "description": "",
       "language": "Python",
       "topics": [
         "apple-healthkit",
@@ -477,11 +484,11 @@
       "is_fork": false,
       "views_14d": 2,
       "uniques_14d": 2,
-      "clones_14d": 8,
+      "clones_14d": 7,
       "all_time_views": 4,
       "all_time_clones": 13,
       "clone_conversion_pct": 325.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "logistics-dApp-on-ethereum",
@@ -503,11 +510,11 @@
       "is_fork": false,
       "views_14d": 1,
       "uniques_14d": 1,
-      "clones_14d": 16,
+      "clones_14d": 7,
       "all_time_views": 2,
-      "all_time_clones": 23,
-      "clone_conversion_pct": 1150.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "all_time_clones": 24,
+      "clone_conversion_pct": 1200.0,
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "telecom-data-analysis",
@@ -526,11 +533,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 8,
+      "clones_14d": 7,
       "all_time_views": 6,
-      "all_time_clones": 10,
-      "clone_conversion_pct": 166.7,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "all_time_clones": 11,
+      "clone_conversion_pct": 183.3,
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "algo-certify-dApp-nft",
@@ -555,7 +562,7 @@
       "all_time_views": 0,
       "all_time_clones": 9,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "a2sv-jan-practice-problem-solutions-cpp",
@@ -578,7 +585,7 @@
       "all_time_views": 0,
       "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "a2sv-mar-contest-solutions-cpp",
@@ -602,7 +609,7 @@
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "a2sv-mar-practice-problems-solutions-cpp",
@@ -621,11 +628,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 2,
+      "clones_14d": 1,
       "all_time_views": 0,
       "all_time_clones": 6,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "dsa-problems-using-cpp",
@@ -649,7 +656,7 @@
       "all_time_views": 0,
       "all_time_clones": 6,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "slack-workspace-data-analysis",
@@ -668,11 +675,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 16,
+      "clones_14d": 15,
       "all_time_views": 0,
-      "all_time_clones": 23,
+      "all_time_clones": 26,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "a2sv-jan-contest-solutions-cpp",
@@ -692,11 +699,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 3,
+      "clones_14d": 2,
       "all_time_views": 0,
       "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "abrehot-space-booking",
@@ -715,11 +722,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 2,
+      "clones_14d": 3,
       "all_time_views": 0,
-      "all_time_clones": 5,
+      "all_time_clones": 6,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "code-to-learn",
@@ -740,9 +747,9 @@
       "uniques_14d": 0,
       "clones_14d": 2,
       "all_time_views": 0,
-      "all_time_clones": 4,
+      "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "internet-package-tracker",
@@ -762,7 +769,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "miscellaneous-automation-scripts",
@@ -786,7 +793,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "mock-uis",
@@ -806,7 +813,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "news-site-rpa-bot",
@@ -833,7 +840,7 @@
       "all_time_views": 0,
       "all_time_clones": 6,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "novel",
@@ -853,7 +860,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "squid-game",
@@ -877,7 +884,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "streamlit-app-for-simplified-ai-recruiting",
@@ -903,7 +910,7 @@
       "all_time_views": 0,
       "all_time_clones": 6,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     },
     {
       "name": "to-do-app",
@@ -926,7 +933,7 @@
       "all_time_views": 0,
       "all_time_clones": 6,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-11T02:48:16Z"
+      "last_synced": "2026-10-12T03:11:30Z"
     }
   ],
   "top_referrers": [
@@ -960,13 +967,13 @@
     {
       "path": "/nathyBekele/geometry-of-dormant-defection",
       "title": "Overview",
-      "count": 34,
-      "uniques": 4
+      "count": 35,
+      "uniques": 5
     },
     {
       "path": "/nathyBekele/promptKit",
       "title": "Overview",
-      "count": 21,
+      "count": 22,
       "uniques": 6
     },
     {
@@ -990,13 +997,19 @@
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/graphs/traffic",
       "title": "/graphs/traffic",
-      "count": 13,
+      "count": 14,
+      "uniques": 1
+    },
+    {
+      "path": "/nathyBekele/github-traffic-archive/graphs/traffic",
+      "title": "/graphs/traffic",
+      "count": 12,
       "uniques": 1
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/pulse",
       "title": "/pulse",
-      "count": 10,
+      "count": 11,
       "uniques": 1
     },
     {
@@ -1008,14 +1021,8 @@
     {
       "path": "/nathyBekele/redash-chatbot-add-on",
       "title": "Overview",
-      "count": 9,
-      "uniques": 7
-    },
-    {
-      "path": "/nathyBekele/github-traffic-archive/graphs/traffic",
-      "title": "/graphs/traffic",
-      "count": 8,
-      "uniques": 1
+      "count": 10,
+      "uniques": 8
     },
     {
       "path": "/nathyBekele/heart-beat",
@@ -1048,20 +1055,20 @@
       "uniques": 1
     },
     {
-      "path": "/nathyBekele/github-traffic-archive/actions/workflows/traffic.yml",
-      "title": "/actions/workflows/traffic.yml",
-      "count": 5,
-      "uniques": 1
-    },
-    {
       "path": "/nathyBekele/nathyBekele.github.io/graphs/traffic",
       "title": "/graphs/traffic",
-      "count": 5,
+      "count": 6,
       "uniques": 1
     },
     {
       "path": "/nathyBekele/nathyBekele.github.io/pulse",
       "title": "/pulse",
+      "count": 6,
+      "uniques": 1
+    },
+    {
+      "path": "/nathyBekele/github-traffic-archive/actions/workflows/traffic.yml",
+      "title": "/actions/workflows/traffic.yml",
       "count": 5,
       "uniques": 1
     },
