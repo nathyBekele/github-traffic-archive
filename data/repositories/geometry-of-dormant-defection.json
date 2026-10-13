@@ -18,18 +18,18 @@
   "created_at": "2026-09-28T14:11:48Z",
   "updated_at": "2026-10-11T10:14:13Z",
   "pushed_at": "2026-10-01T19:18:39Z",
-  "last_synced": "2026-10-12T03:11:30Z",
+  "last_synced": "2026-10-13T04:27:17Z",
   "summary": {
     "all_time_views": 82,
     "all_time_uniques": 15,
     "all_time_clones": 135,
     "all_time_unique_cloners": 74,
-    "views_14d": 82,
-    "uniques_14d": 15,
-    "clones_14d": 135,
-    "unique_cloners_14d": 74,
+    "views_14d": 60,
+    "uniques_14d": 14,
+    "clones_14d": 53,
+    "unique_cloners_14d": 33,
     "clone_conversion_pct": 164.6,
-    "days_tracked": 23
+    "days_tracked": 24
   },
   "views": [
     {
@@ -146,6 +146,11 @@
       "date": "2026-10-10",
       "count": 3,
       "uniques": 2
+    },
+    {
+      "date": "2026-10-11",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "clones": [
@@ -263,6 +268,11 @@
       "date": "2026-10-10",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-11",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [
@@ -272,7 +282,7 @@
       "total_uniques": 1,
       "latest_count": 21,
       "latest_uniques": 1,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     },
     {
       "referrer": "medium.com",
@@ -280,7 +290,7 @@
       "total_uniques": 1,
       "latest_count": 2,
       "latest_uniques": 1,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     },
     {
       "referrer": "linkedin.com",
@@ -288,7 +298,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     },
     {
       "referrer": "zenodo.org",
@@ -296,7 +306,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     }
   ],
   "paths": [
@@ -307,7 +317,7 @@
       "total_uniques": 5,
       "latest_count": 35,
       "latest_uniques": 5,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/graphs/traffic",
@@ -316,7 +326,7 @@
       "total_uniques": 1,
       "latest_count": 14,
       "latest_uniques": 1,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/pulse",
@@ -325,7 +335,7 @@
       "total_uniques": 1,
       "latest_count": 11,
       "latest_uniques": 1,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/actions/workflows/tests.yml",
@@ -334,7 +344,7 @@
       "total_uniques": 1,
       "latest_count": 3,
       "latest_uniques": 1,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/commits/main",
@@ -343,7 +353,7 @@
       "total_uniques": 1,
       "latest_count": 3,
       "latest_uniques": 1,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/graphs/commit-activity",
@@ -352,7 +362,7 @@
       "total_uniques": 1,
       "latest_count": 2,
       "latest_uniques": 1,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/actions",
@@ -361,7 +371,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/actions/runs/36435140039",
@@ -370,7 +380,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/actions/runs/36435140039/job/108970993772",
@@ -379,7 +389,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/actions/runs/36436222989",
@@ -388,7 +398,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/actions/runs/36436222989/job/108974727625",

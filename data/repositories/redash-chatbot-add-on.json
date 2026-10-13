@@ -41,7 +41,7 @@
   "created_at": "2024-01-03T15:15:00Z",
   "updated_at": "2026-10-11T10:13:37Z",
   "pushed_at": "2025-03-23T08:13:55Z",
-  "last_synced": "2026-10-12T03:11:30Z",
+  "last_synced": "2026-10-13T04:27:17Z",
   "summary": {
     "all_time_views": 13,
     "all_time_uniques": 9,
@@ -49,10 +49,10 @@
     "all_time_unique_cloners": 22,
     "views_14d": 12,
     "uniques_14d": 8,
-    "clones_14d": 16,
-    "unique_cloners_14d": 15,
+    "clones_14d": 15,
+    "unique_cloners_14d": 14,
     "clone_conversion_pct": 176.9,
-    "days_tracked": 23
+    "days_tracked": 24
   },
   "views": [
     {
@@ -169,6 +169,11 @@
       "date": "2026-10-10",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "date": "2026-10-11",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "clones": [
@@ -286,6 +291,11 @@
       "date": "2026-10-10",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-11",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [
@@ -295,7 +305,7 @@
       "total_uniques": 3,
       "latest_count": 4,
       "latest_uniques": 3,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     }
   ],
   "paths": [
@@ -306,7 +316,7 @@
       "total_uniques": 8,
       "latest_count": 9,
       "latest_uniques": 8,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     },
     {
       "path": "/nathyBekele/redash-chatbot-add-on/fork",
@@ -315,7 +325,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     },
     {
       "path": "/nathyBekele/redash-chatbot-add-on/graphs/traffic",
@@ -324,7 +334,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     },
     {
       "path": "/nathyBekele/redash-chatbot-add-on/pulse",
@@ -333,7 +343,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-13"
     }
   ]
 }
