@@ -18,17 +18,17 @@
   "created_at": "2026-10-12T15:56:00Z",
   "updated_at": "2026-10-12T18:50:25Z",
   "pushed_at": "2026-10-12T18:50:21Z",
-  "last_synced": "2026-10-14T02:37:10Z",
+  "last_synced": "2026-10-15T02:17:18Z",
   "summary": {
-    "all_time_views": 9,
-    "all_time_uniques": 2,
-    "all_time_clones": 14,
-    "all_time_unique_cloners": 5,
-    "views_14d": 9,
-    "uniques_14d": 2,
-    "clones_14d": 14,
-    "unique_cloners_14d": 5,
-    "clone_conversion_pct": 155.6,
+    "all_time_views": 14,
+    "all_time_uniques": 3,
+    "all_time_clones": 16,
+    "all_time_unique_cloners": 7,
+    "views_14d": 14,
+    "uniques_14d": 3,
+    "clones_14d": 16,
+    "unique_cloners_14d": 7,
+    "clone_conversion_pct": 114.3,
     "days_tracked": 15
   },
   "views": [
@@ -104,8 +104,8 @@
     },
     {
       "date": "2026-10-13",
-      "count": 0,
-      "uniques": 0
+      "count": 5,
+      "uniques": 1
     }
   ],
   "clones": [
@@ -181,8 +181,8 @@
     },
     {
       "date": "2026-10-13",
-      "count": 0,
-      "uniques": 0
+      "count": 2,
+      "uniques": 2
     }
   ],
   "referrers": [
@@ -192,10 +192,28 @@
       "total_uniques": 1,
       "latest_count": 2,
       "latest_uniques": 1,
-      "last_seen": "2026-10-14"
+      "last_seen": "2026-10-15"
     }
   ],
   "paths": [
+    {
+      "path": "/nathyBekele/ir-studio/pulse",
+      "title": "/pulse",
+      "total_count": 5,
+      "total_uniques": 1,
+      "latest_count": 5,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-15"
+    },
+    {
+      "path": "/nathyBekele/ir-studio/graphs/traffic",
+      "title": "/graphs/traffic",
+      "total_count": 4,
+      "total_uniques": 1,
+      "latest_count": 4,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-15"
+    },
     {
       "path": "/nathyBekele/ir-studio",
       "title": "Overview",
@@ -203,16 +221,7 @@
       "total_uniques": 1,
       "latest_count": 2,
       "latest_uniques": 1,
-      "last_seen": "2026-10-14"
-    },
-    {
-      "path": "/nathyBekele/ir-studio/graphs/traffic",
-      "title": "/graphs/traffic",
-      "total_count": 2,
-      "total_uniques": 1,
-      "latest_count": 2,
-      "latest_uniques": 1,
-      "last_seen": "2026-10-14"
+      "last_seen": "2026-10-15"
     },
     {
       "path": "/nathyBekele/ir-studio/pulls",
@@ -221,16 +230,7 @@
       "total_uniques": 1,
       "latest_count": 2,
       "latest_uniques": 1,
-      "last_seen": "2026-10-14"
-    },
-    {
-      "path": "/nathyBekele/ir-studio/pulse",
-      "title": "/pulse",
-      "total_count": 2,
-      "total_uniques": 1,
-      "latest_count": 2,
-      "latest_uniques": 1,
-      "last_seen": "2026-10-14"
+      "last_seen": "2026-10-15"
     },
     {
       "path": "/nathyBekele/ir-studio/commits/main",
@@ -239,7 +239,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-14"
+      "last_seen": "2026-10-15"
     }
   ]
 }

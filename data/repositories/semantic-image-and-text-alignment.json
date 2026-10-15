@@ -22,18 +22,18 @@
   "created_at": "2024-02-12T15:50:53Z",
   "updated_at": "2025-03-23T08:19:55Z",
   "pushed_at": "2024-02-18T22:02:10Z",
-  "last_synced": "2026-10-14T02:37:10Z",
+  "last_synced": "2026-10-15T02:17:18Z",
   "summary": {
     "all_time_views": 6,
     "all_time_uniques": 5,
     "all_time_clones": 4,
     "all_time_unique_cloners": 4,
-    "views_14d": 5,
-    "uniques_14d": 4,
+    "views_14d": 4,
+    "uniques_14d": 3,
     "clones_14d": 2,
     "unique_cloners_14d": 2,
     "clone_conversion_pct": 66.7,
-    "days_tracked": 25
+    "days_tracked": 26
   },
   "views": [
     {
@@ -158,6 +158,11 @@
     },
     {
       "date": "2026-10-12",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-13",
       "count": 0,
       "uniques": 0
     }
@@ -287,6 +292,11 @@
       "date": "2026-10-12",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-13",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [
@@ -296,7 +306,7 @@
       "total_uniques": 1,
       "latest_count": 3,
       "latest_uniques": 1,
-      "last_seen": "2026-10-14"
+      "last_seen": "2026-10-15"
     },
     {
       "referrer": "github.com",
@@ -304,7 +314,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-14"
+      "last_seen": "2026-10-15"
     }
   ],
   "paths": [
@@ -315,7 +325,7 @@
       "total_uniques": 2,
       "latest_count": 4,
       "latest_uniques": 2,
-      "last_seen": "2026-10-14"
+      "last_seen": "2026-10-15"
     },
     {
       "path": "/nathyBekele/semantic-image-and-text-alignment/blob/main/requirements.txt",
@@ -324,7 +334,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-14"
+      "last_seen": "2026-10-15"
     },
     {
       "path": "/nathyBekele/semantic-image-and-text-alignment/blob/main/yolov3.txt",

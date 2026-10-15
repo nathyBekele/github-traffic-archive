@@ -25,18 +25,18 @@
   "created_at": "2024-04-18T07:36:28Z",
   "updated_at": "2025-05-12T20:36:49Z",
   "pushed_at": "2024-04-26T09:49:14Z",
-  "last_synced": "2026-10-14T02:37:10Z",
+  "last_synced": "2026-10-15T02:17:18Z",
   "summary": {
-    "all_time_views": 0,
-    "all_time_uniques": 0,
+    "all_time_views": 1,
+    "all_time_uniques": 1,
     "all_time_clones": 6,
     "all_time_unique_cloners": 6,
-    "views_14d": 0,
-    "uniques_14d": 0,
+    "views_14d": 1,
+    "uniques_14d": 1,
     "clones_14d": 3,
     "unique_cloners_14d": 3,
-    "clone_conversion_pct": 0.0,
-    "days_tracked": 25
+    "clone_conversion_pct": 600.0,
+    "days_tracked": 26
   },
   "views": [
     {
@@ -163,6 +163,11 @@
       "date": "2026-10-12",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-13",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "clones": [
@@ -290,8 +295,23 @@
       "date": "2026-10-12",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-13",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [],
-  "paths": []
+  "paths": [
+    {
+      "path": "/nathyBekele/news-site-rpa-bot/pulls",
+      "title": "/pulls",
+      "total_count": 1,
+      "total_uniques": 1,
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-15"
+    }
+  ]
 }
