@@ -24,7 +24,7 @@
   "created_at": "2024-10-04T05:29:34Z",
   "updated_at": "2026-10-11T10:13:51Z",
   "pushed_at": "2025-07-07T12:26:10Z",
-  "last_synced": "2026-10-15T02:17:18Z",
+  "last_synced": "2026-10-16T02:09:16Z",
   "summary": {
     "all_time_views": 4,
     "all_time_uniques": 4,
@@ -35,7 +35,7 @@
     "clones_14d": 5,
     "unique_cloners_14d": 5,
     "clone_conversion_pct": 350.0,
-    "days_tracked": 26
+    "days_tracked": 27
   },
   "views": [
     {
@@ -165,6 +165,11 @@
     },
     {
       "date": "2026-10-13",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-14",
       "count": 0,
       "uniques": 0
     }
@@ -299,6 +304,11 @@
       "date": "2026-10-13",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-14",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [
@@ -317,9 +327,9 @@
       "title": "Overview",
       "total_count": 3,
       "total_uniques": 3,
-      "latest_count": 2,
-      "latest_uniques": 2,
-      "last_seen": "2026-10-15"
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-16"
     },
     {
       "path": "/nathyBekele/vitalAI/issues",

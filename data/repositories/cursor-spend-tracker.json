@@ -18,7 +18,7 @@
   "created_at": "2026-07-18T17:35:28Z",
   "updated_at": "2026-10-11T10:14:33Z",
   "pushed_at": "2026-07-19T14:33:00Z",
-  "last_synced": "2026-10-15T02:17:18Z",
+  "last_synced": "2026-10-16T02:09:16Z",
   "summary": {
     "all_time_views": 11,
     "all_time_uniques": 5,
@@ -29,7 +29,7 @@
     "clones_14d": 1,
     "unique_cloners_14d": 1,
     "clone_conversion_pct": 72.7,
-    "days_tracked": 26
+    "days_tracked": 27
   },
   "views": [
     {
@@ -159,6 +159,11 @@
     },
     {
       "date": "2026-10-13",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-14",
       "count": 0,
       "uniques": 0
     }
@@ -293,6 +298,11 @@
       "date": "2026-10-13",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-14",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [
@@ -300,9 +310,9 @@
       "referrer": "github.com",
       "total_count": 5,
       "total_uniques": 3,
-      "latest_count": 4,
+      "latest_count": 2,
       "latest_uniques": 1,
-      "last_seen": "2026-10-15"
+      "last_seen": "2026-10-16"
     }
   ],
   "paths": [
@@ -311,9 +321,9 @@
       "title": "Overview",
       "total_count": 6,
       "total_uniques": 3,
-      "latest_count": 5,
+      "latest_count": 3,
       "latest_uniques": 1,
-      "last_seen": "2026-10-15"
+      "last_seen": "2026-10-16"
     },
     {
       "path": "/nathyBekele/cursor-spend-tracker/graphs/traffic",
@@ -322,7 +332,7 @@
       "total_uniques": 1,
       "latest_count": 2,
       "latest_uniques": 1,
-      "last_seen": "2026-10-15"
+      "last_seen": "2026-10-16"
     },
     {
       "path": "/nathyBekele/cursor-spend-tracker/pulse",
@@ -331,7 +341,7 @@
       "total_uniques": 1,
       "latest_count": 2,
       "latest_uniques": 1,
-      "last_seen": "2026-10-15"
+      "last_seen": "2026-10-16"
     }
   ]
 }
