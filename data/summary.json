@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-16T02:09:16Z",
-  "total_repositories_tracked": 33,
+  "updated_at": "2026-10-17T02:02:52Z",
+  "total_repositories_tracked": 34,
   "kpis": {
-    "all_time_views": 390,
-    "all_time_uniques": 140,
-    "all_time_clones": 1708,
-    "all_time_unique_cloners": 899,
-    "views_14d": 223,
-    "clones_14d": 1108,
+    "all_time_views": 393,
+    "all_time_uniques": 142,
+    "all_time_clones": 1740,
+    "all_time_unique_cloners": 922,
+    "views_14d": 165,
+    "clones_14d": 883,
     "total_stars": 35,
     "total_forks": 4,
     "total_open_issues": 3
@@ -204,10 +204,10 @@
     },
     {
       "date": "2026-10-15",
-      "views": 0,
-      "uniques": 0,
-      "clones": 0,
-      "unique_cloners": 0
+      "views": 3,
+      "uniques": 2,
+      "clones": 32,
+      "unique_cloners": 23
     },
     {
       "date": "2026-10-16",
@@ -215,29 +215,16 @@
       "uniques": 0,
       "clones": 0,
       "unique_cloners": 0
+    },
+    {
+      "date": "2026-10-17",
+      "views": 0,
+      "uniques": 0,
+      "clones": 0,
+      "unique_cloners": 0
     }
   ],
   "repositories": [
-    {
-      "name": "github-traffic-archive",
-      "full_name": "nathyBekele/github-traffic-archive",
-      "html_url": "https://github.com/nathyBekele/github-traffic-archive",
-      "description": "https://nathybekele.github.io/github-traffic-archive/",
-      "language": "JavaScript",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "is_private": false,
-      "is_fork": false,
-      "views_14d": 64,
-      "uniques_14d": 12,
-      "clones_14d": 445,
-      "all_time_views": 64,
-      "all_time_clones": 445,
-      "clone_conversion_pct": 695.3,
-      "last_synced": "2026-10-16T02:09:16Z"
-    },
     {
       "name": "geometry-of-dormant-defection",
       "full_name": "nathyBekele/geometry-of-dormant-defection",
@@ -250,33 +237,13 @@
       "open_issues": 0,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 47,
-      "uniques_14d": 10,
-      "clones_14d": 21,
+      "views_14d": 35,
+      "uniques_14d": 9,
+      "clones_14d": 19,
       "all_time_views": 82,
       "all_time_clones": 136,
       "clone_conversion_pct": 165.9,
-      "last_synced": "2026-10-16T02:09:16Z"
-    },
-    {
-      "name": "nathyBekele.github.io",
-      "full_name": "nathyBekele/nathyBekele.github.io",
-      "html_url": "https://github.com/nathyBekele/nathyBekele.github.io",
-      "description": "personal website",
-      "language": "HTML",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "is_private": false,
-      "is_fork": false,
-      "views_14d": 31,
-      "uniques_14d": 7,
-      "clones_14d": 410,
-      "all_time_views": 67,
-      "all_time_clones": 687,
-      "clone_conversion_pct": 1025.4,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "promptKit",
@@ -295,12 +262,52 @@
       "is_private": false,
       "is_fork": false,
       "views_14d": 30,
-      "uniques_14d": 18,
-      "clones_14d": 8,
+      "uniques_14d": 19,
+      "clones_14d": 9,
+      "all_time_views": 67,
+      "all_time_clones": 18,
+      "clone_conversion_pct": 26.9,
+      "last_synced": "2026-10-17T02:02:52Z"
+    },
+    {
+      "name": "github-traffic-archive",
+      "full_name": "nathyBekele/github-traffic-archive",
+      "html_url": "https://github.com/nathyBekele/github-traffic-archive",
+      "description": "https://nathybekele.github.io/github-traffic-archive/",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 30,
+      "uniques_14d": 11,
+      "clones_14d": 360,
       "all_time_views": 64,
-      "all_time_clones": 17,
-      "clone_conversion_pct": 26.6,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "all_time_clones": 463,
+      "clone_conversion_pct": 723.4,
+      "last_synced": "2026-10-17T02:02:52Z"
+    },
+    {
+      "name": "nathyBekele.github.io",
+      "full_name": "nathyBekele/nathyBekele.github.io",
+      "html_url": "https://github.com/nathyBekele/nathyBekele.github.io",
+      "description": "personal website",
+      "language": "HTML",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 27,
+      "uniques_14d": 6,
+      "clones_14d": 269,
+      "all_time_views": 67,
+      "all_time_clones": 688,
+      "clone_conversion_pct": 1026.9,
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "ir-studio",
@@ -316,11 +323,11 @@
       "is_fork": false,
       "views_14d": 14,
       "uniques_14d": 3,
-      "clones_14d": 17,
+      "clones_14d": 18,
       "all_time_views": 14,
-      "all_time_clones": 17,
-      "clone_conversion_pct": 121.4,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "all_time_clones": 18,
+      "clone_conversion_pct": 128.6,
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "redash-chatbot-add-on",
@@ -344,33 +351,13 @@
       "open_issues": 1,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 8,
-      "uniques_14d": 6,
+      "views_14d": 5,
+      "uniques_14d": 5,
       "clones_14d": 9,
       "all_time_views": 13,
-      "all_time_clones": 26,
-      "clone_conversion_pct": 200.0,
-      "last_synced": "2026-10-16T02:09:16Z"
-    },
-    {
-      "name": "cursor-spend-tracker",
-      "full_name": "nathyBekele/cursor-spend-tracker",
-      "html_url": "https://github.com/nathyBekele/cursor-spend-tracker",
-      "description": "https://cursor-spend-tracker.vercel.app",
-      "language": "TypeScript",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "is_private": false,
-      "is_fork": false,
-      "views_14d": 7,
-      "uniques_14d": 2,
-      "clones_14d": 1,
-      "all_time_views": 11,
-      "all_time_clones": 8,
-      "clone_conversion_pct": 72.7,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "all_time_clones": 28,
+      "clone_conversion_pct": 215.4,
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "custom-data-warehouse",
@@ -391,13 +378,13 @@
       "open_issues": 0,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 6,
-      "uniques_14d": 4,
+      "views_14d": 5,
+      "uniques_14d": 3,
       "clones_14d": 4,
       "all_time_views": 10,
       "all_time_clones": 45,
       "clone_conversion_pct": 450.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "nathyBekele",
@@ -415,11 +402,31 @@
       "is_fork": false,
       "views_14d": 5,
       "uniques_14d": 2,
-      "clones_14d": 103,
+      "clones_14d": 102,
       "all_time_views": 5,
       "all_time_clones": 107,
       "clone_conversion_pct": 2140.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
+    },
+    {
+      "name": "cursor-spend-tracker",
+      "full_name": "nathyBekele/cursor-spend-tracker",
+      "html_url": "https://github.com/nathyBekele/cursor-spend-tracker",
+      "description": "https://cursor-spend-tracker.vercel.app",
+      "language": "TypeScript",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 4,
+      "uniques_14d": 1,
+      "clones_14d": 2,
+      "all_time_views": 11,
+      "all_time_clones": 9,
+      "clone_conversion_pct": 81.8,
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "semantic-image-and-text-alignment",
@@ -443,7 +450,7 @@
       "all_time_views": 6,
       "all_time_clones": 6,
       "clone_conversion_pct": 100.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "contract-advisor-rag",
@@ -460,13 +467,13 @@
       "open_issues": 0,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 3,
-      "uniques_14d": 3,
-      "clones_14d": 5,
+      "views_14d": 2,
+      "uniques_14d": 2,
+      "clones_14d": 6,
       "all_time_views": 4,
-      "all_time_clones": 14,
-      "clone_conversion_pct": 350.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "all_time_clones": 15,
+      "clone_conversion_pct": 375.0,
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "heart-beat",
@@ -484,9 +491,9 @@
       "uniques_14d": 1,
       "clones_14d": 26,
       "all_time_views": 32,
-      "all_time_clones": 49,
-      "clone_conversion_pct": 153.1,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "all_time_clones": 51,
+      "clone_conversion_pct": 159.4,
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "vitalAI",
@@ -512,7 +519,7 @@
       "all_time_views": 4,
       "all_time_clones": 14,
       "clone_conversion_pct": 350.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "logistics-dApp-on-ethereum",
@@ -538,7 +545,7 @@
       "all_time_views": 2,
       "all_time_clones": 25,
       "clone_conversion_pct": 1250.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "news-site-rpa-bot",
@@ -561,11 +568,11 @@
       "is_fork": false,
       "views_14d": 1,
       "uniques_14d": 1,
-      "clones_14d": 4,
+      "clones_14d": 3,
       "all_time_views": 1,
       "all_time_clones": 7,
       "clone_conversion_pct": 700.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "streamlit-app-for-simplified-ai-recruiting",
@@ -587,11 +594,11 @@
       "is_fork": false,
       "views_14d": 1,
       "uniques_14d": 1,
-      "clones_14d": 6,
+      "clones_14d": 5,
       "all_time_views": 1,
       "all_time_clones": 9,
       "clone_conversion_pct": 900.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "telecom-data-analysis",
@@ -610,11 +617,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 7,
+      "clones_14d": 6,
       "all_time_views": 6,
       "all_time_clones": 13,
       "clone_conversion_pct": 216.7,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "hate-speech-detection-in-amharic-language",
@@ -638,7 +645,7 @@
       "all_time_views": 4,
       "all_time_clones": 1,
       "clone_conversion_pct": 25.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "algo-certify-dApp-nft",
@@ -663,7 +670,7 @@
       "all_time_views": 0,
       "all_time_clones": 9,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "a2sv-jan-practice-problem-solutions-cpp",
@@ -682,11 +689,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 2,
+      "clones_14d": 3,
       "all_time_views": 0,
-      "all_time_clones": 5,
+      "all_time_clones": 6,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "a2sv-mar-contest-solutions-cpp",
@@ -710,7 +717,7 @@
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "a2sv-mar-practice-problems-solutions-cpp",
@@ -729,11 +736,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 0,
+      "clones_14d": 1,
       "all_time_views": 0,
-      "all_time_clones": 6,
+      "all_time_clones": 7,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "dsa-problems-using-cpp",
@@ -753,11 +760,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 1,
+      "clones_14d": 2,
       "all_time_views": 0,
-      "all_time_clones": 6,
+      "all_time_clones": 7,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "slack-workspace-data-analysis",
@@ -776,11 +783,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 12,
+      "clones_14d": 11,
       "all_time_views": 0,
-      "all_time_clones": 29,
+      "all_time_clones": 30,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "a2sv-jan-contest-solutions-cpp",
@@ -804,7 +811,7 @@
       "all_time_views": 0,
       "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "abrehot-space-booking",
@@ -823,11 +830,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 2,
+      "clones_14d": 3,
       "all_time_views": 0,
-      "all_time_clones": 6,
+      "all_time_clones": 7,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "code-to-learn",
@@ -850,7 +857,7 @@
       "all_time_views": 0,
       "all_time_clones": 6,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "internet-package-tracker",
@@ -870,7 +877,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "miscellaneous-automation-scripts",
@@ -894,7 +901,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "mock-uis",
@@ -914,7 +921,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "novel",
@@ -934,7 +941,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "squid-game",
@@ -958,7 +965,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
     },
     {
       "name": "to-do-app",
@@ -981,7 +988,27 @@
       "all_time_views": 0,
       "all_time_clones": 6,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-16T02:09:16Z"
+      "last_synced": "2026-10-17T02:02:52Z"
+    },
+    {
+      "name": "vula-arbiter",
+      "full_name": "nathyBekele/vula-arbiter",
+      "html_url": "https://github.com/nathyBekele/vula-arbiter",
+      "description": "Engineering review intelligence and deterministic pull request routing across vula-africa repositories.",
+      "language": "TypeScript",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": true,
+      "is_fork": false,
+      "views_14d": 0,
+      "uniques_14d": 0,
+      "clones_14d": 0,
+      "all_time_views": 0,
+      "all_time_clones": 0,
+      "clone_conversion_pct": 0.0,
+      "last_synced": "2026-10-17T02:02:52Z"
     }
   ],
   "top_referrers": [
@@ -1055,16 +1082,16 @@
       "uniques": 1
     },
     {
+      "path": "/nathyBekele/promptKit/pulls",
+      "title": "/pulls",
+      "count": 12,
+      "uniques": 5
+    },
+    {
       "path": "/nathyBekele/geometry-of-dormant-defection/pulse",
       "title": "/pulse",
       "count": 11,
       "uniques": 1
-    },
-    {
-      "path": "/nathyBekele/promptKit/pulls",
-      "title": "/pulls",
-      "count": 10,
-      "uniques": 4
     },
     {
       "path": "/nathyBekele/redash-chatbot-add-on",
@@ -1138,7 +1165,7 @@
     "Vue": 1,
     "Jupyter Notebook": 6,
     "Other": 6,
-    "TypeScript": 3,
+    "TypeScript": 4,
     "Shell": 1,
     "Python": 7,
     "JavaScript": 3,

@@ -18,18 +18,18 @@
   "created_at": "2026-07-18T17:35:28Z",
   "updated_at": "2026-10-11T10:14:33Z",
   "pushed_at": "2026-07-19T14:33:00Z",
-  "last_synced": "2026-10-16T02:09:16Z",
+  "last_synced": "2026-10-17T02:02:52Z",
   "summary": {
     "all_time_views": 11,
     "all_time_uniques": 5,
-    "all_time_clones": 8,
-    "all_time_unique_cloners": 8,
-    "views_14d": 7,
-    "uniques_14d": 2,
-    "clones_14d": 1,
-    "unique_cloners_14d": 1,
-    "clone_conversion_pct": 72.7,
-    "days_tracked": 27
+    "all_time_clones": 9,
+    "all_time_unique_cloners": 9,
+    "views_14d": 4,
+    "uniques_14d": 1,
+    "clones_14d": 2,
+    "unique_cloners_14d": 2,
+    "clone_conversion_pct": 81.8,
+    "days_tracked": 28
   },
   "views": [
     {
@@ -164,6 +164,11 @@
     },
     {
       "date": "2026-10-14",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-15",
       "count": 0,
       "uniques": 0
     }
@@ -303,6 +308,11 @@
       "date": "2026-10-14",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-15",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "referrers": [
@@ -312,7 +322,7 @@
       "total_uniques": 3,
       "latest_count": 2,
       "latest_uniques": 1,
-      "last_seen": "2026-10-16"
+      "last_seen": "2026-10-17"
     }
   ],
   "paths": [
@@ -323,7 +333,7 @@
       "total_uniques": 3,
       "latest_count": 3,
       "latest_uniques": 1,
-      "last_seen": "2026-10-16"
+      "last_seen": "2026-10-17"
     },
     {
       "path": "/nathyBekele/cursor-spend-tracker/graphs/traffic",
@@ -332,7 +342,7 @@
       "total_uniques": 1,
       "latest_count": 2,
       "latest_uniques": 1,
-      "last_seen": "2026-10-16"
+      "last_seen": "2026-10-17"
     },
     {
       "path": "/nathyBekele/cursor-spend-tracker/pulse",
@@ -341,7 +351,7 @@
       "total_uniques": 1,
       "latest_count": 2,
       "latest_uniques": 1,
-      "last_seen": "2026-10-16"
+      "last_seen": "2026-10-17"
     }
   ]
 }
