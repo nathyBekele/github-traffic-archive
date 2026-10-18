@@ -21,18 +21,18 @@
   "created_at": "2024-02-20T07:23:19Z",
   "updated_at": "2025-06-30T20:30:51Z",
   "pushed_at": "2025-03-23T08:19:15Z",
-  "last_synced": "2026-10-17T02:02:52Z",
+  "last_synced": "2026-10-18T02:02:16Z",
   "summary": {
     "all_time_views": 4,
     "all_time_uniques": 4,
     "all_time_clones": 15,
     "all_time_unique_cloners": 13,
-    "views_14d": 2,
-    "uniques_14d": 2,
+    "views_14d": 1,
+    "uniques_14d": 1,
     "clones_14d": 6,
     "unique_cloners_14d": 6,
     "clone_conversion_pct": 375.0,
-    "days_tracked": 28
+    "days_tracked": 29
   },
   "views": [
     {
@@ -172,6 +172,11 @@
     },
     {
       "date": "2026-10-15",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-16",
       "count": 0,
       "uniques": 0
     }
@@ -316,6 +321,11 @@
       "date": "2026-10-15",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "date": "2026-10-16",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [],
@@ -327,7 +337,7 @@
       "total_uniques": 2,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-17"
+      "last_seen": "2026-10-18"
     },
     {
       "path": "/nathyBekele/contract-advisor-rag/blob/main/requirements.txt",
@@ -345,7 +355,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-17"
+      "last_seen": "2026-10-18"
     }
   ]
 }
