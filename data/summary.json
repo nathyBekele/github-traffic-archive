@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-18T02:02:16Z",
+  "updated_at": "2026-10-19T02:19:09Z",
   "total_repositories_tracked": 34,
   "kpis": {
-    "all_time_views": 396,
-    "all_time_uniques": 145,
-    "all_time_clones": 1756,
-    "all_time_unique_cloners": 932,
-    "views_14d": 155,
-    "clones_14d": 780,
+    "all_time_views": 407,
+    "all_time_uniques": 152,
+    "all_time_clones": 1804,
+    "all_time_unique_cloners": 963,
+    "views_14d": 127,
+    "clones_14d": 766,
     "total_stars": 35,
     "total_forks": 4,
     "total_open_issues": 3
@@ -218,6 +218,20 @@
     },
     {
       "date": "2026-10-17",
+      "views": 11,
+      "uniques": 7,
+      "clones": 48,
+      "unique_cloners": 31
+    },
+    {
+      "date": "2026-10-18",
+      "views": 0,
+      "uniques": 0,
+      "clones": 0,
+      "unique_cloners": 0
+    },
+    {
+      "date": "2026-10-19",
       "views": 0,
       "uniques": 0,
       "clones": 0,
@@ -225,26 +239,6 @@
     }
   ],
   "repositories": [
-    {
-      "name": "geometry-of-dormant-defection",
-      "full_name": "nathyBekele/geometry-of-dormant-defection",
-      "html_url": "https://github.com/nathyBekele/geometry-of-dormant-defection",
-      "description": "https://zenodo.org/records/23089057",
-      "language": "Python",
-      "topics": [],
-      "stars": 3,
-      "forks": 0,
-      "open_issues": 0,
-      "is_private": false,
-      "is_fork": false,
-      "views_14d": 29,
-      "uniques_14d": 8,
-      "clones_14d": 10,
-      "all_time_views": 82,
-      "all_time_clones": 138,
-      "clone_conversion_pct": 168.3,
-      "last_synced": "2026-10-18T02:02:16Z"
-    },
     {
       "name": "promptKit",
       "full_name": "nathyBekele/promptKit",
@@ -261,13 +255,13 @@
       "open_issues": 1,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 29,
-      "uniques_14d": 19,
-      "clones_14d": 7,
-      "all_time_views": 68,
-      "all_time_clones": 18,
-      "clone_conversion_pct": 26.5,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "views_14d": 26,
+      "uniques_14d": 18,
+      "clones_14d": 8,
+      "all_time_views": 69,
+      "all_time_clones": 19,
+      "clone_conversion_pct": 27.5,
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "github-traffic-archive",
@@ -281,13 +275,13 @@
       "open_issues": 0,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 29,
+      "views_14d": 24,
       "uniques_14d": 12,
-      "clones_14d": 311,
-      "all_time_views": 66,
-      "all_time_clones": 467,
-      "clone_conversion_pct": 707.6,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "clones_14d": 305,
+      "all_time_views": 69,
+      "all_time_clones": 505,
+      "clone_conversion_pct": 731.9,
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "nathyBekele.github.io",
@@ -301,13 +295,13 @@
       "open_issues": 0,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 27,
-      "uniques_14d": 6,
-      "clones_14d": 222,
+      "views_14d": 24,
+      "uniques_14d": 5,
+      "clones_14d": 213,
       "all_time_views": 67,
-      "all_time_clones": 689,
-      "clone_conversion_pct": 1028.4,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "all_time_clones": 690,
+      "clone_conversion_pct": 1029.9,
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "ir-studio",
@@ -321,13 +315,33 @@
       "open_issues": 0,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 14,
-      "uniques_14d": 3,
-      "clones_14d": 19,
-      "all_time_views": 14,
-      "all_time_clones": 19,
-      "clone_conversion_pct": 135.7,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "views_14d": 17,
+      "uniques_14d": 4,
+      "clones_14d": 20,
+      "all_time_views": 17,
+      "all_time_clones": 20,
+      "clone_conversion_pct": 117.6,
+      "last_synced": "2026-10-19T02:19:09Z"
+    },
+    {
+      "name": "geometry-of-dormant-defection",
+      "full_name": "nathyBekele/geometry-of-dormant-defection",
+      "html_url": "https://github.com/nathyBekele/geometry-of-dormant-defection",
+      "description": "https://zenodo.org/records/23089057",
+      "language": "Python",
+      "topics": [],
+      "stars": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 13,
+      "uniques_14d": 7,
+      "clones_14d": 9,
+      "all_time_views": 82,
+      "all_time_clones": 138,
+      "clone_conversion_pct": 168.3,
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "redash-chatbot-add-on",
@@ -351,40 +365,13 @@
       "open_issues": 1,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 5,
-      "uniques_14d": 5,
-      "clones_14d": 9,
-      "all_time_views": 13,
-      "all_time_clones": 28,
-      "clone_conversion_pct": 215.4,
-      "last_synced": "2026-10-18T02:02:16Z"
-    },
-    {
-      "name": "custom-data-warehouse",
-      "full_name": "nathyBekele/custom-data-warehouse",
-      "html_url": "https://github.com/nathyBekele/custom-data-warehouse",
-      "description": "A scalable data warehouse solution designed for AI-driven traffic analytics using vehicle trajectory data from swarm UAVs. Built with Airflow for orchestration, dbt for data transformation, PostgreSQL for storage, and Redash for visualization. ",
-      "language": "Shell",
-      "topics": [
-        "airflow",
-        "data-warehouse-architecture",
-        "dbt",
-        "etl-pipeline",
-        "postgresql",
-        "redash"
-      ],
-      "stars": 2,
-      "forks": 0,
-      "open_issues": 0,
-      "is_private": false,
-      "is_fork": false,
-      "views_14d": 5,
-      "uniques_14d": 3,
-      "clones_14d": 4,
-      "all_time_views": 10,
-      "all_time_clones": 45,
-      "clone_conversion_pct": 450.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "views_14d": 6,
+      "uniques_14d": 6,
+      "clones_14d": 11,
+      "all_time_views": 14,
+      "all_time_clones": 30,
+      "clone_conversion_pct": 214.3,
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "nathyBekele",
@@ -400,33 +387,13 @@
       "open_issues": 0,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 5,
-      "uniques_14d": 2,
-      "clones_14d": 102,
-      "all_time_views": 5,
-      "all_time_clones": 107,
-      "clone_conversion_pct": 2140.0,
-      "last_synced": "2026-10-18T02:02:16Z"
-    },
-    {
-      "name": "cursor-spend-tracker",
-      "full_name": "nathyBekele/cursor-spend-tracker",
-      "html_url": "https://github.com/nathyBekele/cursor-spend-tracker",
-      "description": "https://cursor-spend-tracker.vercel.app",
-      "language": "TypeScript",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "is_private": false,
-      "is_fork": false,
-      "views_14d": 4,
-      "uniques_14d": 1,
-      "clones_14d": 3,
-      "all_time_views": 11,
-      "all_time_clones": 10,
-      "clone_conversion_pct": 90.9,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "views_14d": 6,
+      "uniques_14d": 3,
+      "clones_14d": 103,
+      "all_time_views": 6,
+      "all_time_clones": 108,
+      "clone_conversion_pct": 1800.0,
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "semantic-image-and-text-alignment",
@@ -450,7 +417,57 @@
       "all_time_views": 6,
       "all_time_clones": 6,
       "clone_conversion_pct": 100.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
+    },
+    {
+      "name": "custom-data-warehouse",
+      "full_name": "nathyBekele/custom-data-warehouse",
+      "html_url": "https://github.com/nathyBekele/custom-data-warehouse",
+      "description": "A scalable data warehouse solution designed for AI-driven traffic analytics using vehicle trajectory data from swarm UAVs. Built with Airflow for orchestration, dbt for data transformation, PostgreSQL for storage, and Redash for visualization. ",
+      "language": "Shell",
+      "topics": [
+        "airflow",
+        "data-warehouse-architecture",
+        "dbt",
+        "etl-pipeline",
+        "postgresql",
+        "redash"
+      ],
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 2,
+      "uniques_14d": 2,
+      "clones_14d": 4,
+      "all_time_views": 10,
+      "all_time_clones": 45,
+      "clone_conversion_pct": 450.0,
+      "last_synced": "2026-10-19T02:19:09Z"
+    },
+    {
+      "name": "contract-advisor-rag",
+      "full_name": "nathyBekele/contract-advisor-rag",
+      "html_url": "https://github.com/nathyBekele/contract-advisor-rag",
+      "description": "This project aims to develop an autonomous contract bot. It focuses on building, evaluating, and refining a RAG system for Contract Q&A, enabling independent contract drafting, review, and negotiation.",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "python-rag",
+        "rag-chatbot"
+      ],
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 2,
+      "uniques_14d": 2,
+      "clones_14d": 7,
+      "all_time_views": 5,
+      "all_time_clones": 16,
+      "clone_conversion_pct": 320.0,
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "vitalAI",
@@ -476,43 +493,19 @@
       "all_time_views": 4,
       "all_time_clones": 14,
       "clone_conversion_pct": 350.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
-      "name": "contract-advisor-rag",
-      "full_name": "nathyBekele/contract-advisor-rag",
-      "html_url": "https://github.com/nathyBekele/contract-advisor-rag",
-      "description": "This project aims to develop an autonomous contract bot. It focuses on building, evaluating, and refining a RAG system for Contract Q&A, enabling independent contract drafting, review, and negotiation.",
+      "name": "algo-certify-dApp-nft",
+      "full_name": "nathyBekele/algo-certify-dApp-nft",
+      "html_url": "https://github.com/nathyBekele/algo-certify-dApp-nft",
+      "description": " AlgoCertify is a certification platform harnessing the power of Web3 technologies. Built on the secure Algorand Blockchain, it issues and verifies Non-Fungible Token (NFT) certificates, providing an upgraded alternative to static PDFs.",
       "language": "Jupyter Notebook",
       "topics": [
-        "python-rag",
-        "rag-chatbot"
-      ],
-      "stars": 1,
-      "forks": 0,
-      "open_issues": 0,
-      "is_private": false,
-      "is_fork": false,
-      "views_14d": 1,
-      "uniques_14d": 1,
-      "clones_14d": 6,
-      "all_time_views": 4,
-      "all_time_clones": 15,
-      "clone_conversion_pct": 375.0,
-      "last_synced": "2026-10-18T02:02:16Z"
-    },
-    {
-      "name": "logistics-dApp-on-ethereum",
-      "full_name": "nathyBekele/logistics-dApp-on-ethereum",
-      "html_url": "https://github.com/nathyBekele/logistics-dApp-on-ethereum",
-      "description": "An Ethereum-based logistics dApp that automates driver payments based on GPS compliance within delivery zones. It features an admin dashboard to manage drivers, assign tasks, and approve opt-in requests. Built with Hardhat, it ensures transparent, secure Web3 transactions to improve logistics efficiency.",
-      "language": "JavaScript",
-      "topics": [
+        "algorand",
         "blockchain",
         "dapp",
-        "ethereum-dapp",
-        "logistics-app",
-        "web3"
+        "nfts"
       ],
       "stars": 3,
       "forks": 0,
@@ -521,11 +514,11 @@
       "is_fork": false,
       "views_14d": 1,
       "uniques_14d": 1,
-      "clones_14d": 6,
-      "all_time_views": 2,
-      "all_time_clones": 25,
-      "clone_conversion_pct": 1250.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "clones_14d": 1,
+      "all_time_views": 1,
+      "all_time_clones": 9,
+      "clone_conversion_pct": 900.0,
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "news-site-rpa-bot",
@@ -552,7 +545,7 @@
       "all_time_views": 1,
       "all_time_clones": 7,
       "clone_conversion_pct": 700.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "streamlit-app-for-simplified-ai-recruiting",
@@ -574,11 +567,11 @@
       "is_fork": false,
       "views_14d": 1,
       "uniques_14d": 1,
-      "clones_14d": 5,
+      "clones_14d": 4,
       "all_time_views": 1,
       "all_time_clones": 9,
       "clone_conversion_pct": 900.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "heart-beat",
@@ -596,9 +589,29 @@
       "uniques_14d": 0,
       "clones_14d": 26,
       "all_time_views": 32,
-      "all_time_clones": 53,
-      "clone_conversion_pct": 165.6,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "all_time_clones": 55,
+      "clone_conversion_pct": 171.9,
+      "last_synced": "2026-10-19T02:19:09Z"
+    },
+    {
+      "name": "cursor-spend-tracker",
+      "full_name": "nathyBekele/cursor-spend-tracker",
+      "html_url": "https://github.com/nathyBekele/cursor-spend-tracker",
+      "description": "https://cursor-spend-tracker.vercel.app",
+      "language": "TypeScript",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 0,
+      "uniques_14d": 0,
+      "clones_14d": 2,
+      "all_time_views": 11,
+      "all_time_clones": 10,
+      "clone_conversion_pct": 90.9,
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "telecom-data-analysis",
@@ -617,11 +630,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 6,
+      "clones_14d": 7,
       "all_time_views": 6,
-      "all_time_clones": 13,
-      "clone_conversion_pct": 216.7,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "all_time_clones": 14,
+      "clone_conversion_pct": 233.3,
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "hate-speech-detection-in-amharic-language",
@@ -645,19 +658,20 @@
       "all_time_views": 4,
       "all_time_clones": 1,
       "clone_conversion_pct": 25.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
-      "name": "algo-certify-dApp-nft",
-      "full_name": "nathyBekele/algo-certify-dApp-nft",
-      "html_url": "https://github.com/nathyBekele/algo-certify-dApp-nft",
-      "description": " AlgoCertify is a certification platform harnessing the power of Web3 technologies. Built on the secure Algorand Blockchain, it issues and verifies Non-Fungible Token (NFT) certificates, providing an upgraded alternative to static PDFs.",
-      "language": "Jupyter Notebook",
+      "name": "logistics-dApp-on-ethereum",
+      "full_name": "nathyBekele/logistics-dApp-on-ethereum",
+      "html_url": "https://github.com/nathyBekele/logistics-dApp-on-ethereum",
+      "description": "An Ethereum-based logistics dApp that automates driver payments based on GPS compliance within delivery zones. It features an admin dashboard to manage drivers, assign tasks, and approve opt-in requests. Built with Hardhat, it ensures transparent, secure Web3 transactions to improve logistics efficiency.",
+      "language": "JavaScript",
       "topics": [
-        "algorand",
         "blockchain",
         "dapp",
-        "nfts"
+        "ethereum-dapp",
+        "logistics-app",
+        "web3"
       ],
       "stars": 3,
       "forks": 0,
@@ -666,11 +680,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 2,
-      "all_time_views": 0,
-      "all_time_clones": 9,
-      "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "clones_14d": 5,
+      "all_time_views": 2,
+      "all_time_clones": 25,
+      "clone_conversion_pct": 1250.0,
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "a2sv-jan-practice-problem-solutions-cpp",
@@ -689,11 +703,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 3,
+      "clones_14d": 2,
       "all_time_views": 0,
       "all_time_clones": 6,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "a2sv-mar-contest-solutions-cpp",
@@ -717,7 +731,7 @@
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "a2sv-mar-practice-problems-solutions-cpp",
@@ -740,7 +754,7 @@
       "all_time_views": 0,
       "all_time_clones": 7,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "dsa-problems-using-cpp",
@@ -764,7 +778,7 @@
       "all_time_views": 0,
       "all_time_clones": 7,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "slack-workspace-data-analysis",
@@ -787,7 +801,7 @@
       "all_time_views": 0,
       "all_time_clones": 31,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "a2sv-jan-contest-solutions-cpp",
@@ -811,7 +825,7 @@
       "all_time_views": 0,
       "all_time_clones": 5,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "abrehot-space-booking",
@@ -834,7 +848,7 @@
       "all_time_views": 0,
       "all_time_clones": 7,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "code-to-learn",
@@ -857,7 +871,7 @@
       "all_time_views": 0,
       "all_time_clones": 6,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "internet-package-tracker",
@@ -877,7 +891,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "miscellaneous-automation-scripts",
@@ -901,7 +915,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "mock-uis",
@@ -921,7 +935,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "novel",
@@ -941,7 +955,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "squid-game",
@@ -965,7 +979,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "to-do-app",
@@ -988,7 +1002,7 @@
       "all_time_views": 0,
       "all_time_clones": 6,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     },
     {
       "name": "vula-arbiter",
@@ -1008,7 +1022,7 @@
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-18T02:02:16Z"
+      "last_synced": "2026-10-19T02:19:09Z"
     }
   ],
   "top_referrers": [
@@ -1064,16 +1078,16 @@
       "uniques": 2
     },
     {
+      "path": "/nathyBekele/github-traffic-archive/graphs/traffic",
+      "title": "/graphs/traffic",
+      "count": 18,
+      "uniques": 1
+    },
+    {
       "path": "/nathyBekele/nathyBekele.github.io",
       "title": "Overview",
       "count": 17,
       "uniques": 3
-    },
-    {
-      "path": "/nathyBekele/github-traffic-archive/graphs/traffic",
-      "title": "/graphs/traffic",
-      "count": 16,
-      "uniques": 1
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/graphs/traffic",
@@ -1096,8 +1110,8 @@
     {
       "path": "/nathyBekele/redash-chatbot-add-on",
       "title": "Overview",
-      "count": 10,
-      "uniques": 8
+      "count": 11,
+      "uniques": 9
     },
     {
       "path": "/nathyBekele/promptKit/issues",
@@ -1112,16 +1126,22 @@
       "uniques": 1
     },
     {
+      "path": "/nathyBekele/github-traffic-archive/pulse",
+      "title": "/pulse",
+      "count": 7,
+      "uniques": 1
+    },
+    {
+      "path": "/nathyBekele/ir-studio/pulse",
+      "title": "/pulse",
+      "count": 7,
+      "uniques": 1
+    },
+    {
       "path": "/nathyBekele/cursor-spend-tracker",
       "title": "Overview",
       "count": 6,
       "uniques": 3
-    },
-    {
-      "path": "/nathyBekele/github-traffic-archive/pulse",
-      "title": "/pulse",
-      "count": 6,
-      "uniques": 1
     },
     {
       "path": "/nathyBekele/heart-beat/blob/main/.github/workflows/heatmap.yml",
@@ -1148,16 +1168,10 @@
       "uniques": 1
     },
     {
-      "path": "/nathyBekele/ir-studio/pulse",
-      "title": "/pulse",
+      "path": "/nathyBekele/ir-studio/graphs/traffic",
+      "title": "/graphs/traffic",
       "count": 5,
       "uniques": 1
-    },
-    {
-      "path": "/nathyBekele/custom-data-warehouse",
-      "title": "Overview",
-      "count": 4,
-      "uniques": 4
     }
   ],
   "languages": {
