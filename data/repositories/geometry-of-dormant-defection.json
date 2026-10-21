@@ -18,18 +18,18 @@
   "created_at": "2026-09-28T14:11:48Z",
   "updated_at": "2026-10-11T10:14:13Z",
   "pushed_at": "2026-10-01T19:18:39Z",
-  "last_synced": "2026-10-20T02:32:48Z",
+  "last_synced": "2026-10-21T02:27:10Z",
   "summary": {
     "all_time_views": 82,
     "all_time_uniques": 15,
-    "all_time_clones": 140,
-    "all_time_unique_cloners": 78,
-    "views_14d": 11,
-    "uniques_14d": 5,
-    "clones_14d": 6,
-    "unique_cloners_14d": 5,
-    "clone_conversion_pct": 170.7,
-    "days_tracked": 31
+    "all_time_clones": 141,
+    "all_time_unique_cloners": 79,
+    "views_14d": 5,
+    "uniques_14d": 4,
+    "clones_14d": 7,
+    "unique_cloners_14d": 6,
+    "clone_conversion_pct": 172.0,
+    "days_tracked": 32
   },
   "views": [
     {
@@ -184,6 +184,11 @@
     },
     {
       "date": "2026-10-18",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-19",
       "count": 0,
       "uniques": 0
     }
@@ -343,6 +348,11 @@
       "date": "2026-10-18",
       "count": 2,
       "uniques": 1
+    },
+    {
+      "date": "2026-10-19",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "referrers": [
@@ -350,9 +360,9 @@
       "referrer": "github.com",
       "total_count": 21,
       "total_uniques": 1,
-      "latest_count": 2,
+      "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-20"
+      "last_seen": "2026-10-21"
     },
     {
       "referrer": "medium.com",
@@ -385,9 +395,9 @@
       "title": "Overview",
       "total_count": 35,
       "total_uniques": 5,
-      "latest_count": 5,
-      "latest_uniques": 3,
-      "last_seen": "2026-10-20"
+      "latest_count": 3,
+      "latest_uniques": 2,
+      "last_seen": "2026-10-21"
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/graphs/traffic",
@@ -396,7 +406,7 @@
       "total_uniques": 1,
       "latest_count": 4,
       "latest_uniques": 1,
-      "last_seen": "2026-10-20"
+      "last_seen": "2026-10-21"
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/pulse",
@@ -405,7 +415,7 @@
       "total_uniques": 1,
       "latest_count": 3,
       "latest_uniques": 1,
-      "last_seen": "2026-10-20"
+      "last_seen": "2026-10-21"
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/actions/workflows/tests.yml",
@@ -504,7 +514,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-20"
+      "last_seen": "2026-10-21"
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/forks",

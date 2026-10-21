@@ -41,7 +41,7 @@
   "created_at": "2024-01-03T15:15:00Z",
   "updated_at": "2026-10-11T10:13:37Z",
   "pushed_at": "2025-03-23T08:13:55Z",
-  "last_synced": "2026-10-20T02:32:48Z",
+  "last_synced": "2026-10-21T02:27:10Z",
   "summary": {
     "all_time_views": 14,
     "all_time_uniques": 10,
@@ -49,10 +49,10 @@
     "all_time_unique_cloners": 29,
     "views_14d": 5,
     "uniques_14d": 5,
-    "clones_14d": 10,
-    "unique_cloners_14d": 10,
+    "clones_14d": 9,
+    "unique_cloners_14d": 9,
     "clone_conversion_pct": 214.3,
-    "days_tracked": 31
+    "days_tracked": 32
   },
   "views": [
     {
@@ -207,6 +207,11 @@
     },
     {
       "date": "2026-10-18",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-19",
       "count": 0,
       "uniques": 0
     }
@@ -366,6 +371,11 @@
       "date": "2026-10-18",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-19",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [
@@ -384,9 +394,9 @@
       "title": "Overview",
       "total_count": 11,
       "total_uniques": 9,
-      "latest_count": 6,
-      "latest_uniques": 6,
-      "last_seen": "2026-10-20"
+      "latest_count": 5,
+      "latest_uniques": 5,
+      "last_seen": "2026-10-21"
     },
     {
       "path": "/nathyBekele/redash-chatbot-add-on/fork",
