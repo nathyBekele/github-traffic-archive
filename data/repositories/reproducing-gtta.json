@@ -1,0 +1,180 @@
+{
+  "name": "reproducing-gtta",
+  "full_name": "nathyBekele/reproducing-gtta",
+  "owner": "nathyBekele",
+  "description": "Independent reproduction of GTTA's Syntactic Alignment and Dynamics Grounding (ICLR 2026) on BFCLv3 with Qwen2.5-14B",
+  "html_url": "https://github.com/nathyBekele/reproducing-gtta",
+  "homepage": "https://nathyb-gtta-sa-explorer.hf.space",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "forks": 0,
+  "forker_list": [],
+  "open_issues": 0,
+  "watchers": 0,
+  "license": "Other",
+  "is_private": false,
+  "is_fork": false,
+  "created_at": "2026-10-21T23:33:25Z",
+  "updated_at": "2026-10-21T23:33:44Z",
+  "pushed_at": "2026-10-21T23:33:35Z",
+  "last_synced": "2026-10-22T02:22:51Z",
+  "summary": {
+    "all_time_views": 0,
+    "all_time_uniques": 0,
+    "all_time_clones": 0,
+    "all_time_unique_cloners": 0,
+    "views_14d": 0,
+    "uniques_14d": 0,
+    "clones_14d": 0,
+    "unique_cloners_14d": 0,
+    "clone_conversion_pct": 0.0,
+    "days_tracked": 14
+  },
+  "views": [
+    {
+      "date": "2026-10-08",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-09",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-10",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-11",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-12",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-13",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-14",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-15",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-16",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-17",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-18",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-19",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-20",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-21",
+      "count": 0,
+      "uniques": 0
+    }
+  ],
+  "clones": [
+    {
+      "date": "2026-10-08",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-09",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-10",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-11",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-12",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-13",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-14",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-15",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-16",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-17",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-18",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-19",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-20",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-21",
+      "count": 0,
+      "uniques": 0
+    }
+  ],
+  "referrers": [],
+  "paths": []
+}
