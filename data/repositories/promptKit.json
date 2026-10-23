@@ -35,18 +35,18 @@
   "created_at": "2024-01-16T14:57:57Z",
   "updated_at": "2026-10-11T10:13:26Z",
   "pushed_at": "2025-05-12T20:54:03Z",
-  "last_synced": "2026-10-22T02:22:51Z",
+  "last_synced": "2026-10-23T02:28:18Z",
   "summary": {
     "all_time_views": 73,
     "all_time_uniques": 51,
     "all_time_clones": 21,
     "all_time_unique_cloners": 20,
-    "views_14d": 26,
-    "uniques_14d": 18,
-    "clones_14d": 8,
-    "unique_cloners_14d": 7,
+    "views_14d": 24,
+    "uniques_14d": 17,
+    "clones_14d": 6,
+    "unique_cloners_14d": 6,
     "clone_conversion_pct": 28.8,
-    "days_tracked": 33
+    "days_tracked": 34
   },
   "views": [
     {
@@ -211,6 +211,11 @@
     },
     {
       "date": "2026-10-20",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-21",
       "count": 0,
       "uniques": 0
     }
@@ -380,6 +385,11 @@
       "date": "2026-10-20",
       "count": 2,
       "uniques": 2
+    },
+    {
+      "date": "2026-10-21",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [
@@ -389,7 +399,7 @@
       "total_uniques": 4,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-22"
+      "last_seen": "2026-10-23"
     }
   ],
   "paths": [
@@ -398,9 +408,9 @@
       "title": "Overview",
       "total_count": 25,
       "total_uniques": 7,
-      "latest_count": 12,
-      "latest_uniques": 5,
-      "last_seen": "2026-10-22"
+      "latest_count": 10,
+      "latest_uniques": 4,
+      "last_seen": "2026-10-23"
     },
     {
       "path": "/nathyBekele/promptKit/pulls",
@@ -409,7 +419,7 @@
       "total_uniques": 5,
       "latest_count": 5,
       "latest_uniques": 2,
-      "last_seen": "2026-10-22"
+      "last_seen": "2026-10-23"
     },
     {
       "path": "/nathyBekele/promptKit/issues",
@@ -418,7 +428,7 @@
       "total_uniques": 6,
       "latest_count": 5,
       "latest_uniques": 3,
-      "last_seen": "2026-10-22"
+      "last_seen": "2026-10-23"
     },
     {
       "path": "/nathyBekele/promptKit/commit/ed4dc432d4c34b7cca670ef72dfec8df556409b7",
@@ -427,7 +437,7 @@
       "total_uniques": 2,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-22"
+      "last_seen": "2026-10-23"
     },
     {
       "path": "/nathyBekele/promptKit/commit/8078da468201765cc8411368871c519207e06ccb",
@@ -436,7 +446,7 @@
       "total_uniques": 2,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-22"
+      "last_seen": "2026-10-23"
     },
     {
       "path": "/nathyBekele/promptKit/commit/0fa4bd3e2b576a7e773b2f244a9b47fe61a57963",
@@ -490,7 +500,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-22"
+      "last_seen": "2026-10-23"
     },
     {
       "path": "/nathyBekele/promptKit/activity",
@@ -499,7 +509,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-22"
+      "last_seen": "2026-10-23"
     },
     {
       "path": "/nathyBekele/promptKit/commit/0df31fbef1fba5e3b2738de51249c98d57039433",
@@ -508,7 +518,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-22"
+      "last_seen": "2026-10-23"
     },
     {
       "path": "/nathyBekele/promptKit/commit/f7eaa9e060a6e61cef3efbec6d26ea4060300ebd",
@@ -517,7 +527,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-22"
+      "last_seen": "2026-10-23"
     }
   ]
 }

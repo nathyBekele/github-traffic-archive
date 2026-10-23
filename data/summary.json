@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-22T02:22:51Z",
+  "updated_at": "2026-10-23T02:28:18Z",
   "total_repositories_tracked": 35,
   "kpis": {
-    "all_time_views": 412,
-    "all_time_uniques": 156,
-    "all_time_clones": 1880,
-    "all_time_unique_cloners": 1024,
+    "all_time_views": 419,
+    "all_time_uniques": 160,
+    "all_time_clones": 1939,
+    "all_time_unique_cloners": 1061,
     "views_14d": 81,
-    "clones_14d": 446,
+    "clones_14d": 464,
     "total_stars": 35,
     "total_forks": 4,
     "total_open_issues": 3
@@ -246,13 +246,20 @@
     },
     {
       "date": "2026-10-21",
+      "views": 7,
+      "uniques": 4,
+      "clones": 59,
+      "unique_cloners": 37
+    },
+    {
+      "date": "2026-10-22",
       "views": 0,
       "uniques": 0,
       "clones": 0,
       "unique_cloners": 0
     },
     {
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "views": 0,
       "uniques": 0,
       "clones": 0,
@@ -276,13 +283,13 @@
       "open_issues": 1,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 26,
-      "uniques_14d": 18,
-      "clones_14d": 8,
+      "views_14d": 24,
+      "uniques_14d": 17,
+      "clones_14d": 6,
       "all_time_views": 73,
       "all_time_clones": 21,
       "clone_conversion_pct": 28.8,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "ir-studio",
@@ -296,13 +303,13 @@
       "open_issues": 0,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 17,
-      "uniques_14d": 4,
-      "clones_14d": 22,
-      "all_time_views": 17,
-      "all_time_clones": 22,
-      "clone_conversion_pct": 129.4,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "views_14d": 19,
+      "uniques_14d": 5,
+      "clones_14d": 23,
+      "all_time_views": 19,
+      "all_time_clones": 23,
+      "clone_conversion_pct": 121.1,
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "github-traffic-archive",
@@ -316,13 +323,13 @@
       "open_issues": 0,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 15,
-      "uniques_14d": 9,
-      "clones_14d": 190,
+      "views_14d": 13,
+      "uniques_14d": 8,
+      "clones_14d": 208,
       "all_time_views": 69,
-      "all_time_clones": 535,
-      "clone_conversion_pct": 775.4,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "all_time_clones": 564,
+      "clone_conversion_pct": 817.4,
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "redash-chatbot-add-on",
@@ -348,11 +355,31 @@
       "is_fork": false,
       "views_14d": 5,
       "uniques_14d": 5,
-      "clones_14d": 9,
+      "clones_14d": 8,
       "all_time_views": 14,
       "all_time_clones": 31,
       "clone_conversion_pct": 221.4,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
+    },
+    {
+      "name": "nathyBekele.github.io",
+      "full_name": "nathyBekele/nathyBekele.github.io",
+      "html_url": "https://github.com/nathyBekele/nathyBekele.github.io",
+      "description": "personal website",
+      "language": "HTML",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 4,
+      "uniques_14d": 2,
+      "clones_14d": 56,
+      "all_time_views": 69,
+      "all_time_clones": 696,
+      "clone_conversion_pct": 1008.7,
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "geometry-of-dormant-defection",
@@ -372,30 +399,7 @@
       "all_time_views": 82,
       "all_time_clones": 141,
       "clone_conversion_pct": 172.0,
-      "last_synced": "2026-10-22T02:22:51Z"
-    },
-    {
-      "name": "contract-advisor-rag",
-      "full_name": "nathyBekele/contract-advisor-rag",
-      "html_url": "https://github.com/nathyBekele/contract-advisor-rag",
-      "description": "This project aims to develop an autonomous contract bot. It focuses on building, evaluating, and refining a RAG system for Contract Q&A, enabling independent contract drafting, review, and negotiation.",
-      "language": "Jupyter Notebook",
-      "topics": [
-        "python-rag",
-        "rag-chatbot"
-      ],
-      "stars": 1,
-      "forks": 0,
-      "open_issues": 0,
-      "is_private": false,
-      "is_fork": false,
-      "views_14d": 3,
-      "uniques_14d": 3,
-      "clones_14d": 6,
-      "all_time_views": 6,
-      "all_time_clones": 17,
-      "clone_conversion_pct": 283.3,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "nathyBekele",
@@ -413,31 +417,11 @@
       "is_fork": false,
       "views_14d": 3,
       "uniques_14d": 2,
-      "clones_14d": 38,
+      "clones_14d": 40,
       "all_time_views": 6,
-      "all_time_clones": 110,
-      "clone_conversion_pct": 1833.3,
-      "last_synced": "2026-10-22T02:22:51Z"
-    },
-    {
-      "name": "nathyBekele.github.io",
-      "full_name": "nathyBekele/nathyBekele.github.io",
-      "html_url": "https://github.com/nathyBekele/nathyBekele.github.io",
-      "description": "personal website",
-      "language": "HTML",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "is_private": false,
-      "is_fork": false,
-      "views_14d": 2,
-      "uniques_14d": 1,
-      "clones_14d": 72,
-      "all_time_views": 67,
-      "all_time_clones": 693,
-      "clone_conversion_pct": 1034.3,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "all_time_clones": 112,
+      "clone_conversion_pct": 1866.7,
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "custom-data-warehouse",
@@ -464,31 +448,76 @@
       "all_time_views": 10,
       "all_time_clones": 48,
       "clone_conversion_pct": 480.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
-      "name": "semantic-image-and-text-alignment",
-      "full_name": "nathyBekele/semantic-image-and-text-alignment",
-      "html_url": "https://github.com/nathyBekele/semantic-image-and-text-alignment",
-      "description": "Utilizing image-to-text generating machine learning models, the project automates the creation of visually engaging storyboards from ad descriptions. The repo includes data analysis, asset generation, composition, and storyboard construction. ",
+      "name": "contract-advisor-rag",
+      "full_name": "nathyBekele/contract-advisor-rag",
+      "html_url": "https://github.com/nathyBekele/contract-advisor-rag",
+      "description": "This project aims to develop an autonomous contract bot. It focuses on building, evaluating, and refining a RAG system for Contract Q&A, enabling independent contract drafting, review, and negotiation.",
       "language": "Jupyter Notebook",
       "topics": [
-        "ad-generator",
-        "image-generation",
-        "semantic-image-synthesis"
+        "python-rag",
+        "rag-chatbot"
       ],
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 2,
+      "uniques_14d": 2,
+      "clones_14d": 6,
+      "all_time_views": 6,
+      "all_time_clones": 17,
+      "clone_conversion_pct": 283.3,
+      "last_synced": "2026-10-23T02:28:18Z"
+    },
+    {
+      "name": "reproducing-gtta",
+      "full_name": "nathyBekele/reproducing-gtta",
+      "html_url": "https://github.com/nathyBekele/reproducing-gtta",
+      "description": "Independent reproduction of GTTA's Syntactic Alignment and Dynamics Grounding (ICLR 2026) on BFCLv3 with Qwen2.5-14B",
+      "language": "Python",
+      "topics": [],
       "stars": 0,
       "forks": 0,
-      "open_issues": 1,
+      "open_issues": 0,
       "is_private": false,
       "is_fork": false,
       "views_14d": 2,
       "uniques_14d": 1,
-      "clones_14d": 2,
-      "all_time_views": 6,
-      "all_time_clones": 6,
-      "clone_conversion_pct": 100.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "clones_14d": 14,
+      "all_time_views": 2,
+      "all_time_clones": 14,
+      "clone_conversion_pct": 700.0,
+      "last_synced": "2026-10-23T02:28:18Z"
+    },
+    {
+      "name": "logistics-dApp-on-ethereum",
+      "full_name": "nathyBekele/logistics-dApp-on-ethereum",
+      "html_url": "https://github.com/nathyBekele/logistics-dApp-on-ethereum",
+      "description": "An Ethereum-based logistics dApp that automates driver payments based on GPS compliance within delivery zones. It features an admin dashboard to manage drivers, assign tasks, and approve opt-in requests. Built with Hardhat, it ensures transparent, secure Web3 transactions to improve logistics efficiency.",
+      "language": "JavaScript",
+      "topics": [
+        "blockchain",
+        "dapp",
+        "ethereum-dapp",
+        "logistics-app",
+        "web3"
+      ],
+      "stars": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 1,
+      "uniques_14d": 1,
+      "clones_14d": 8,
+      "all_time_views": 3,
+      "all_time_clones": 31,
+      "clone_conversion_pct": 1033.3,
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "algo-certify-dApp-nft",
@@ -509,11 +538,11 @@
       "is_fork": false,
       "views_14d": 1,
       "uniques_14d": 1,
-      "clones_14d": 0,
+      "clones_14d": 1,
       "all_time_views": 1,
-      "all_time_clones": 9,
-      "clone_conversion_pct": 900.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "all_time_clones": 10,
+      "clone_conversion_pct": 1000.0,
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "news-site-rpa-bot",
@@ -540,7 +569,7 @@
       "all_time_views": 1,
       "all_time_clones": 7,
       "clone_conversion_pct": 700.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "streamlit-app-for-simplified-ai-recruiting",
@@ -562,11 +591,11 @@
       "is_fork": false,
       "views_14d": 1,
       "uniques_14d": 1,
-      "clones_14d": 6,
+      "clones_14d": 5,
       "all_time_views": 1,
       "all_time_clones": 11,
       "clone_conversion_pct": 1100.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "heart-beat",
@@ -584,9 +613,9 @@
       "uniques_14d": 0,
       "clones_14d": 26,
       "all_time_views": 32,
-      "all_time_clones": 61,
-      "clone_conversion_pct": 190.6,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "all_time_clones": 63,
+      "clone_conversion_pct": 196.9,
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "cursor-spend-tracker",
@@ -602,11 +631,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 5,
+      "clones_14d": 6,
       "all_time_views": 11,
-      "all_time_clones": 13,
-      "clone_conversion_pct": 118.2,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "all_time_clones": 14,
+      "clone_conversion_pct": 127.3,
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "telecom-data-analysis",
@@ -629,7 +658,31 @@
       "all_time_views": 6,
       "all_time_clones": 14,
       "clone_conversion_pct": 233.3,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
+    },
+    {
+      "name": "semantic-image-and-text-alignment",
+      "full_name": "nathyBekele/semantic-image-and-text-alignment",
+      "html_url": "https://github.com/nathyBekele/semantic-image-and-text-alignment",
+      "description": "Utilizing image-to-text generating machine learning models, the project automates the creation of visually engaging storyboards from ad descriptions. The repo includes data analysis, asset generation, composition, and storyboard construction. ",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "ad-generator",
+        "image-generation",
+        "semantic-image-synthesis"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 0,
+      "uniques_14d": 0,
+      "clones_14d": 4,
+      "all_time_views": 6,
+      "all_time_clones": 8,
+      "clone_conversion_pct": 133.3,
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "vitalAI",
@@ -651,11 +704,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 7,
+      "clones_14d": 6,
       "all_time_views": 4,
-      "all_time_clones": 17,
-      "clone_conversion_pct": 425.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "all_time_clones": 18,
+      "clone_conversion_pct": 450.0,
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "hate-speech-detection-in-amharic-language",
@@ -679,33 +732,7 @@
       "all_time_views": 4,
       "all_time_clones": 1,
       "clone_conversion_pct": 25.0,
-      "last_synced": "2026-10-22T02:22:51Z"
-    },
-    {
-      "name": "logistics-dApp-on-ethereum",
-      "full_name": "nathyBekele/logistics-dApp-on-ethereum",
-      "html_url": "https://github.com/nathyBekele/logistics-dApp-on-ethereum",
-      "description": "An Ethereum-based logistics dApp that automates driver payments based on GPS compliance within delivery zones. It features an admin dashboard to manage drivers, assign tasks, and approve opt-in requests. Built with Hardhat, it ensures transparent, secure Web3 transactions to improve logistics efficiency.",
-      "language": "JavaScript",
-      "topics": [
-        "blockchain",
-        "dapp",
-        "ethereum-dapp",
-        "logistics-app",
-        "web3"
-      ],
-      "stars": 3,
-      "forks": 0,
-      "open_issues": 0,
-      "is_private": false,
-      "is_fork": false,
-      "views_14d": 0,
-      "uniques_14d": 0,
-      "clones_14d": 8,
-      "all_time_views": 2,
-      "all_time_clones": 30,
-      "clone_conversion_pct": 1500.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "a2sv-jan-practice-problem-solutions-cpp",
@@ -724,11 +751,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 1,
+      "clones_14d": 2,
       "all_time_views": 0,
-      "all_time_clones": 6,
+      "all_time_clones": 7,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "a2sv-mar-contest-solutions-cpp",
@@ -752,7 +779,7 @@
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "a2sv-mar-practice-problems-solutions-cpp",
@@ -775,7 +802,7 @@
       "all_time_views": 0,
       "all_time_clones": 7,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "dsa-problems-using-cpp",
@@ -795,11 +822,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 4,
+      "clones_14d": 3,
       "all_time_views": 0,
       "all_time_clones": 9,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "slack-workspace-data-analysis",
@@ -818,11 +845,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 11,
+      "clones_14d": 10,
       "all_time_views": 0,
       "all_time_clones": 33,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "a2sv-jan-contest-solutions-cpp",
@@ -842,11 +869,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 0,
+      "clones_14d": 1,
       "all_time_views": 0,
-      "all_time_clones": 5,
+      "all_time_clones": 6,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "abrehot-space-booking",
@@ -869,7 +896,7 @@
       "all_time_views": 0,
       "all_time_clones": 8,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "code-to-learn",
@@ -892,7 +919,7 @@
       "all_time_views": 0,
       "all_time_clones": 8,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "internet-package-tracker",
@@ -912,7 +939,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "miscellaneous-automation-scripts",
@@ -936,7 +963,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "mock-uis",
@@ -956,7 +983,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "novel",
@@ -976,27 +1003,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-22T02:22:51Z"
-    },
-    {
-      "name": "reproducing-gtta",
-      "full_name": "nathyBekele/reproducing-gtta",
-      "html_url": "https://github.com/nathyBekele/reproducing-gtta",
-      "description": "Independent reproduction of GTTA's Syntactic Alignment and Dynamics Grounding (ICLR 2026) on BFCLv3 with Qwen2.5-14B",
-      "language": "Python",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "is_private": false,
-      "is_fork": false,
-      "views_14d": 0,
-      "uniques_14d": 0,
-      "clones_14d": 0,
-      "all_time_views": 0,
-      "all_time_clones": 0,
-      "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "squid-game",
@@ -1020,7 +1027,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "to-do-app",
@@ -1043,7 +1050,7 @@
       "all_time_views": 0,
       "all_time_clones": 9,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     },
     {
       "name": "vula-arbiter",
@@ -1063,7 +1070,7 @@
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-22T02:22:51Z"
+      "last_synced": "2026-10-23T02:28:18Z"
     }
   ],
   "top_referrers": [
@@ -1167,13 +1174,13 @@
       "uniques": 1
     },
     {
-      "path": "/nathyBekele/github-traffic-archive/pulse",
+      "path": "/nathyBekele/ir-studio/pulse",
       "title": "/pulse",
-      "count": 7,
+      "count": 8,
       "uniques": 1
     },
     {
-      "path": "/nathyBekele/ir-studio/pulse",
+      "path": "/nathyBekele/github-traffic-archive/pulse",
       "title": "/pulse",
       "count": 7,
       "uniques": 1
@@ -1187,6 +1194,12 @@
     {
       "path": "/nathyBekele/heart-beat/blob/main/.github/workflows/heatmap.yml",
       "title": "/blob/main/.github/workflows/heatmap.yml",
+      "count": 6,
+      "uniques": 1
+    },
+    {
+      "path": "/nathyBekele/ir-studio/graphs/traffic",
+      "title": "/graphs/traffic",
       "count": 6,
       "uniques": 1
     },
@@ -1205,12 +1218,6 @@
     {
       "path": "/nathyBekele/github-traffic-archive/actions/workflows/traffic.yml",
       "title": "/actions/workflows/traffic.yml",
-      "count": 5,
-      "uniques": 1
-    },
-    {
-      "path": "/nathyBekele/ir-studio/graphs/traffic",
-      "title": "/graphs/traffic",
       "count": 5,
       "uniques": 1
     }
