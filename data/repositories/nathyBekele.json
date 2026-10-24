@@ -20,18 +20,18 @@
   "created_at": "2025-05-18T16:56:25Z",
   "updated_at": "2026-10-11T10:15:13Z",
   "pushed_at": "2026-10-12T13:51:27Z",
-  "last_synced": "2026-10-23T02:28:18Z",
+  "last_synced": "2026-10-24T02:26:29Z",
   "summary": {
     "all_time_views": 6,
     "all_time_uniques": 3,
-    "all_time_clones": 112,
-    "all_time_unique_cloners": 70,
-    "views_14d": 3,
-    "uniques_14d": 2,
-    "clones_14d": 40,
-    "unique_cloners_14d": 31,
-    "clone_conversion_pct": 1866.7,
-    "days_tracked": 31
+    "all_time_clones": 113,
+    "all_time_unique_cloners": 71,
+    "views_14d": 1,
+    "uniques_14d": 1,
+    "clones_14d": 41,
+    "unique_cloners_14d": 32,
+    "clone_conversion_pct": 1883.3,
+    "days_tracked": 32
   },
   "views": [
     {
@@ -186,6 +186,11 @@
     },
     {
       "date": "2026-10-21",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-22",
       "count": 0,
       "uniques": 0
     }
@@ -345,6 +350,11 @@
       "date": "2026-10-21",
       "count": 2,
       "uniques": 2
+    },
+    {
+      "date": "2026-10-22",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "referrers": [
@@ -365,7 +375,7 @@
       "total_uniques": 2,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-23"
+      "last_seen": "2026-10-24"
     },
     {
       "path": "/nathyBekele/nathyBekeleH",
@@ -383,7 +393,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-23"
+      "last_seen": "2026-10-24"
     },
     {
       "path": "/nathyBekele/nathyBekele/pulse",
@@ -392,7 +402,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-23"
+      "last_seen": "2026-10-24"
     }
   ]
 }
