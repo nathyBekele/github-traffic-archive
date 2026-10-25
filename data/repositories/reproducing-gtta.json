@@ -18,18 +18,18 @@
   "created_at": "2026-10-21T23:33:25Z",
   "updated_at": "2026-10-22T20:11:37Z",
   "pushed_at": "2026-10-22T20:11:33Z",
-  "last_synced": "2026-10-24T02:26:29Z",
+  "last_synced": "2026-10-25T02:13:32Z",
   "summary": {
     "all_time_views": 2,
     "all_time_uniques": 1,
-    "all_time_clones": 55,
-    "all_time_unique_cloners": 34,
+    "all_time_clones": 63,
+    "all_time_unique_cloners": 40,
     "views_14d": 2,
     "uniques_14d": 1,
-    "clones_14d": 55,
-    "unique_cloners_14d": 34,
-    "clone_conversion_pct": 2750.0,
-    "days_tracked": 15
+    "clones_14d": 63,
+    "unique_cloners_14d": 40,
+    "clone_conversion_pct": 3150.0,
+    "days_tracked": 16
   },
   "views": [
     {
@@ -104,6 +104,11 @@
     },
     {
       "date": "2026-10-22",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-23",
       "count": 0,
       "uniques": 0
     }
@@ -183,6 +188,11 @@
       "date": "2026-10-22",
       "count": 41,
       "uniques": 26
+    },
+    {
+      "date": "2026-10-23",
+      "count": 8,
+      "uniques": 6
     }
   ],
   "referrers": [],
@@ -194,7 +204,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-24"
+      "last_seen": "2026-10-25"
     },
     {
       "path": "/nathyBekele/reproducing-gtta/pulse",
@@ -203,7 +213,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-24"
+      "last_seen": "2026-10-25"
     }
   ]
 }
