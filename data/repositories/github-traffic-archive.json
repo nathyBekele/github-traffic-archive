@@ -16,20 +16,20 @@
   "is_private": false,
   "is_fork": false,
   "created_at": "2026-10-02T19:03:58Z",
-  "updated_at": "2026-10-25T02:14:29Z",
-  "pushed_at": "2026-10-25T02:14:26Z",
-  "last_synced": "2026-10-26T02:13:42Z",
+  "updated_at": "2026-10-26T02:14:38Z",
+  "pushed_at": "2026-10-26T02:14:34Z",
+  "last_synced": "2026-10-27T02:50:14Z",
   "summary": {
     "all_time_views": 69,
     "all_time_uniques": 15,
-    "all_time_clones": 592,
-    "all_time_unique_cloners": 322,
-    "views_14d": 7,
-    "uniques_14d": 5,
-    "clones_14d": 205,
-    "unique_cloners_14d": 121,
-    "clone_conversion_pct": 858.0,
-    "days_tracked": 36
+    "all_time_clones": 598,
+    "all_time_unique_cloners": 326,
+    "views_14d": 6,
+    "uniques_14d": 4,
+    "clones_14d": 191,
+    "unique_cloners_14d": 112,
+    "clone_conversion_pct": 866.7,
+    "days_tracked": 37
   },
   "views": [
     {
@@ -209,6 +209,11 @@
     },
     {
       "date": "2026-10-24",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-25",
       "count": 0,
       "uniques": 0
     }
@@ -393,6 +398,11 @@
       "date": "2026-10-24",
       "count": 19,
       "uniques": 10
+    },
+    {
+      "date": "2026-10-25",
+      "count": 6,
+      "uniques": 4
     }
   ],
   "referrers": [
@@ -413,16 +423,16 @@
       "total_uniques": 2,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-10-27"
     },
     {
       "path": "/nathyBekele/github-traffic-archive/graphs/traffic",
       "title": "/graphs/traffic",
       "total_count": 18,
       "total_uniques": 1,
-      "latest_count": 6,
+      "latest_count": 5,
       "latest_uniques": 1,
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-10-27"
     },
     {
       "path": "/nathyBekele/github-traffic-archive/pulse",
@@ -431,7 +441,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-10-27"
     },
     {
       "path": "/nathyBekele/github-traffic-archive/actions/workflows/traffic.yml",
