@@ -41,7 +41,7 @@
   "created_at": "2024-01-03T15:15:00Z",
   "updated_at": "2026-10-11T10:13:37Z",
   "pushed_at": "2025-03-23T08:13:55Z",
-  "last_synced": "2026-10-27T02:50:14Z",
+  "last_synced": "2026-10-28T02:57:50Z",
   "summary": {
     "all_time_views": 15,
     "all_time_uniques": 11,
@@ -49,10 +49,10 @@
     "all_time_unique_cloners": 37,
     "views_14d": 2,
     "uniques_14d": 2,
-    "clones_14d": 18,
-    "unique_cloners_14d": 15,
+    "clones_14d": 16,
+    "unique_cloners_14d": 13,
     "clone_conversion_pct": 273.3,
-    "days_tracked": 38
+    "days_tracked": 39
   },
   "views": [
     {
@@ -244,6 +244,11 @@
       "date": "2026-10-25",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "date": "2026-10-26",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "clones": [
@@ -436,6 +441,11 @@
       "date": "2026-10-25",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-26",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [
@@ -456,7 +466,7 @@
       "total_uniques": 10,
       "latest_count": 2,
       "latest_uniques": 2,
-      "last_seen": "2026-10-27"
+      "last_seen": "2026-10-28"
     },
     {
       "path": "/nathyBekele/redash-chatbot-add-on/fork",

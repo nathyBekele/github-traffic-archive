@@ -18,18 +18,18 @@
   "created_at": "2026-10-12T15:56:00Z",
   "updated_at": "2026-10-12T18:50:25Z",
   "pushed_at": "2026-10-12T18:50:21Z",
-  "last_synced": "2026-10-27T02:50:14Z",
+  "last_synced": "2026-10-28T02:57:50Z",
   "summary": {
     "all_time_views": 20,
     "all_time_uniques": 6,
-    "all_time_clones": 23,
-    "all_time_unique_cloners": 14,
-    "views_14d": 11,
-    "uniques_14d": 4,
-    "clones_14d": 9,
-    "unique_cloners_14d": 9,
-    "clone_conversion_pct": 115.0,
-    "days_tracked": 27
+    "all_time_clones": 24,
+    "all_time_unique_cloners": 15,
+    "views_14d": 6,
+    "uniques_14d": 3,
+    "clones_14d": 8,
+    "unique_cloners_14d": 8,
+    "clone_conversion_pct": 120.0,
+    "days_tracked": 28
   },
   "views": [
     {
@@ -164,6 +164,11 @@
     },
     {
       "date": "2026-10-25",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-26",
       "count": 0,
       "uniques": 0
     }
@@ -303,6 +308,11 @@
       "date": "2026-10-25",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-26",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "referrers": [
@@ -310,9 +320,9 @@
       "referrer": "github.com",
       "total_count": 3,
       "total_uniques": 2,
-      "latest_count": 3,
-      "latest_uniques": 2,
-      "last_seen": "2026-10-27"
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-28"
     }
   ],
   "paths": [
@@ -321,27 +331,27 @@
       "title": "/pulse",
       "total_count": 8,
       "total_uniques": 1,
-      "latest_count": 8,
+      "latest_count": 6,
       "latest_uniques": 1,
-      "last_seen": "2026-10-27"
+      "last_seen": "2026-10-28"
     },
     {
       "path": "/nathyBekele/ir-studio/graphs/traffic",
       "title": "/graphs/traffic",
       "total_count": 6,
       "total_uniques": 1,
-      "latest_count": 6,
+      "latest_count": 4,
       "latest_uniques": 1,
-      "last_seen": "2026-10-27"
+      "last_seen": "2026-10-28"
     },
     {
       "path": "/nathyBekele/ir-studio",
       "title": "Overview",
       "total_count": 3,
       "total_uniques": 2,
-      "latest_count": 3,
-      "latest_uniques": 2,
-      "last_seen": "2026-10-27"
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-28"
     },
     {
       "path": "/nathyBekele/ir-studio/pulls",
