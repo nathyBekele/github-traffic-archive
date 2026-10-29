@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-28T02:57:50Z",
+  "updated_at": "2026-10-29T03:24:12Z",
   "total_repositories_tracked": 35,
   "kpis": {
-    "all_time_views": 436,
-    "all_time_uniques": 169,
-    "all_time_clones": 2176,
-    "all_time_unique_cloners": 1218,
+    "all_time_views": 439,
+    "all_time_uniques": 172,
+    "all_time_clones": 2212,
+    "all_time_unique_cloners": 1241,
     "views_14d": 49,
-    "clones_14d": 489,
+    "clones_14d": 504,
     "total_stars": 35,
     "total_forks": 4,
     "total_open_issues": 3
@@ -288,13 +288,20 @@
     },
     {
       "date": "2026-10-27",
+      "views": 3,
+      "uniques": 3,
+      "clones": 36,
+      "unique_cloners": 23
+    },
+    {
+      "date": "2026-10-28",
       "views": 0,
       "uniques": 0,
       "clones": 0,
       "unique_cloners": 0
     },
     {
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "views": 0,
       "uniques": 0,
       "clones": 0,
@@ -318,13 +325,13 @@
       "open_issues": 1,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 19,
-      "uniques_14d": 13,
+      "views_14d": 16,
+      "uniques_14d": 11,
       "clones_14d": 11,
       "all_time_views": 80,
       "all_time_clones": 28,
       "clone_conversion_pct": 35.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "nathyBekele.github.io",
@@ -340,11 +347,11 @@
       "is_fork": false,
       "views_14d": 6,
       "uniques_14d": 2,
-      "clones_14d": 42,
+      "clones_14d": 39,
       "all_time_views": 73,
       "all_time_clones": 726,
       "clone_conversion_pct": 994.5,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "ir-studio",
@@ -362,9 +369,9 @@
       "uniques_14d": 3,
       "clones_14d": 8,
       "all_time_views": 20,
-      "all_time_clones": 24,
-      "clone_conversion_pct": 120.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "all_time_clones": 25,
+      "clone_conversion_pct": 125.0,
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "github-traffic-archive",
@@ -380,11 +387,11 @@
       "is_fork": false,
       "views_14d": 5,
       "uniques_14d": 3,
-      "clones_14d": 166,
+      "clones_14d": 184,
       "all_time_views": 69,
-      "all_time_clones": 605,
-      "clone_conversion_pct": 876.8,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "all_time_clones": 629,
+      "clone_conversion_pct": 911.6,
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "telecom-data-analysis",
@@ -401,13 +408,13 @@
       "open_issues": 0,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 3,
-      "uniques_14d": 1,
-      "clones_14d": 6,
-      "all_time_views": 9,
-      "all_time_clones": 19,
-      "clone_conversion_pct": 211.1,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "views_14d": 4,
+      "uniques_14d": 2,
+      "clones_14d": 7,
+      "all_time_views": 10,
+      "all_time_clones": 20,
+      "clone_conversion_pct": 200.0,
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "redash-chatbot-add-on",
@@ -431,13 +438,13 @@
       "open_issues": 1,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 2,
-      "uniques_14d": 2,
-      "clones_14d": 16,
-      "all_time_views": 15,
+      "views_14d": 3,
+      "uniques_14d": 3,
+      "clones_14d": 15,
+      "all_time_views": 16,
       "all_time_clones": 41,
-      "clone_conversion_pct": 273.3,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "clone_conversion_pct": 256.2,
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "contract-advisor-rag",
@@ -460,7 +467,7 @@
       "all_time_views": 6,
       "all_time_clones": 27,
       "clone_conversion_pct": 450.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "reproducing-gtta",
@@ -476,11 +483,11 @@
       "is_fork": false,
       "views_14d": 2,
       "uniques_14d": 1,
-      "clones_14d": 66,
+      "clones_14d": 67,
       "all_time_views": 2,
-      "all_time_clones": 66,
-      "clone_conversion_pct": 3300.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "all_time_clones": 67,
+      "clone_conversion_pct": 3350.0,
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "geometry-of-dormant-defection",
@@ -500,7 +507,31 @@
       "all_time_views": 83,
       "all_time_clones": 146,
       "clone_conversion_pct": 175.9,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
+    },
+    {
+      "name": "semantic-image-and-text-alignment",
+      "full_name": "nathyBekele/semantic-image-and-text-alignment",
+      "html_url": "https://github.com/nathyBekele/semantic-image-and-text-alignment",
+      "description": "Utilizing image-to-text generating machine learning models, the project automates the creation of visually engaging storyboards from ad descriptions. The repo includes data analysis, asset generation, composition, and storyboard construction. ",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "ad-generator",
+        "image-generation",
+        "semantic-image-synthesis"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 1,
+      "uniques_14d": 1,
+      "clones_14d": 4,
+      "all_time_views": 7,
+      "all_time_clones": 10,
+      "clone_conversion_pct": 142.9,
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "nathyBekele",
@@ -518,11 +549,11 @@
       "is_fork": false,
       "views_14d": 1,
       "uniques_14d": 1,
-      "clones_14d": 10,
+      "clones_14d": 11,
       "all_time_views": 6,
-      "all_time_clones": 116,
-      "clone_conversion_pct": 1933.3,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "all_time_clones": 118,
+      "clone_conversion_pct": 1966.7,
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "logistics-dApp-on-ethereum",
@@ -544,11 +575,11 @@
       "is_fork": false,
       "views_14d": 1,
       "uniques_14d": 1,
-      "clones_14d": 13,
+      "clones_14d": 14,
       "all_time_views": 3,
-      "all_time_clones": 38,
-      "clone_conversion_pct": 1266.7,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "all_time_clones": 39,
+      "clone_conversion_pct": 1300.0,
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "algo-certify-dApp-nft",
@@ -573,7 +604,7 @@
       "all_time_views": 1,
       "all_time_clones": 16,
       "clone_conversion_pct": 1600.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "heart-beat",
@@ -591,9 +622,9 @@
       "uniques_14d": 0,
       "clones_14d": 26,
       "all_time_views": 32,
-      "all_time_clones": 73,
-      "clone_conversion_pct": 228.1,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "all_time_clones": 75,
+      "clone_conversion_pct": 234.4,
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "cursor-spend-tracker",
@@ -609,11 +640,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 7,
+      "clones_14d": 9,
       "all_time_views": 11,
-      "all_time_clones": 15,
-      "clone_conversion_pct": 136.4,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "all_time_clones": 17,
+      "clone_conversion_pct": 154.5,
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "custom-data-warehouse",
@@ -636,35 +667,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 9,
+      "clones_14d": 8,
       "all_time_views": 10,
       "all_time_clones": 53,
       "clone_conversion_pct": 530.0,
-      "last_synced": "2026-10-28T02:57:50Z"
-    },
-    {
-      "name": "semantic-image-and-text-alignment",
-      "full_name": "nathyBekele/semantic-image-and-text-alignment",
-      "html_url": "https://github.com/nathyBekele/semantic-image-and-text-alignment",
-      "description": "Utilizing image-to-text generating machine learning models, the project automates the creation of visually engaging storyboards from ad descriptions. The repo includes data analysis, asset generation, composition, and storyboard construction. ",
-      "language": "Jupyter Notebook",
-      "topics": [
-        "ad-generator",
-        "image-generation",
-        "semantic-image-synthesis"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 1,
-      "is_private": false,
-      "is_fork": false,
-      "views_14d": 0,
-      "uniques_14d": 0,
-      "clones_14d": 6,
-      "all_time_views": 6,
-      "all_time_clones": 10,
-      "clone_conversion_pct": 166.7,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "vitalAI",
@@ -690,7 +697,7 @@
       "all_time_views": 4,
       "all_time_clones": 24,
       "clone_conversion_pct": 600.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "hate-speech-detection-in-amharic-language",
@@ -714,7 +721,7 @@
       "all_time_views": 4,
       "all_time_clones": 1,
       "clone_conversion_pct": 25.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "news-site-rpa-bot",
@@ -737,11 +744,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 6,
+      "clones_14d": 5,
       "all_time_views": 1,
       "all_time_clones": 12,
       "clone_conversion_pct": 1200.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "streamlit-app-for-simplified-ai-recruiting",
@@ -763,11 +770,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 5,
+      "clones_14d": 3,
       "all_time_views": 1,
       "all_time_clones": 12,
       "clone_conversion_pct": 1200.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "a2sv-jan-practice-problem-solutions-cpp",
@@ -790,7 +797,7 @@
       "all_time_views": 0,
       "all_time_clones": 11,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "a2sv-mar-contest-solutions-cpp",
@@ -814,7 +821,7 @@
       "all_time_views": 0,
       "all_time_clones": 8,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "a2sv-mar-practice-problems-solutions-cpp",
@@ -833,11 +840,11 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 5,
+      "clones_14d": 6,
       "all_time_views": 0,
-      "all_time_clones": 11,
+      "all_time_clones": 12,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "dsa-problems-using-cpp",
@@ -861,7 +868,7 @@
       "all_time_views": 0,
       "all_time_clones": 15,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "slack-workspace-data-analysis",
@@ -882,9 +889,9 @@
       "uniques_14d": 0,
       "clones_14d": 7,
       "all_time_views": 0,
-      "all_time_clones": 35,
+      "all_time_clones": 36,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "a2sv-jan-contest-solutions-cpp",
@@ -908,7 +915,7 @@
       "all_time_views": 0,
       "all_time_clones": 8,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "abrehot-space-booking",
@@ -931,7 +938,7 @@
       "all_time_views": 0,
       "all_time_clones": 10,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "code-to-learn",
@@ -954,7 +961,7 @@
       "all_time_views": 0,
       "all_time_clones": 10,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "internet-package-tracker",
@@ -974,7 +981,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "miscellaneous-automation-scripts",
@@ -998,7 +1005,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "mock-uis",
@@ -1018,7 +1025,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "novel",
@@ -1038,7 +1045,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "squid-game",
@@ -1062,7 +1069,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "to-do-app",
@@ -1085,7 +1092,7 @@
       "all_time_views": 0,
       "all_time_clones": 12,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     },
     {
       "name": "vula-arbiter",
@@ -1105,7 +1112,7 @@
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-28T02:57:50Z"
+      "last_synced": "2026-10-29T03:24:12Z"
     }
   ],
   "top_referrers": [
@@ -1187,8 +1194,8 @@
     {
       "path": "/nathyBekele/redash-chatbot-add-on",
       "title": "Overview",
-      "count": 12,
-      "uniques": 10
+      "count": 13,
+      "uniques": 11
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/pulse",
