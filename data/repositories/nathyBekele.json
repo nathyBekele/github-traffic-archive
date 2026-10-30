@@ -20,7 +20,7 @@
   "created_at": "2025-05-18T16:56:25Z",
   "updated_at": "2026-10-11T10:15:13Z",
   "pushed_at": "2026-10-12T13:51:27Z",
-  "last_synced": "2026-10-29T03:24:12Z",
+  "last_synced": "2026-10-30T03:26:18Z",
   "summary": {
     "all_time_views": 6,
     "all_time_uniques": 3,
@@ -31,7 +31,7 @@
     "clones_14d": 11,
     "unique_cloners_14d": 10,
     "clone_conversion_pct": 1966.7,
-    "days_tracked": 37
+    "days_tracked": 38
   },
   "views": [
     {
@@ -216,6 +216,11 @@
     },
     {
       "date": "2026-10-27",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-28",
       "count": 0,
       "uniques": 0
     }
@@ -405,6 +410,11 @@
       "date": "2026-10-27",
       "count": 2,
       "uniques": 2
+    },
+    {
+      "date": "2026-10-28",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [
@@ -425,7 +435,7 @@
       "total_uniques": 2,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-29"
+      "last_seen": "2026-10-30"
     },
     {
       "path": "/nathyBekele/nathyBekeleH",

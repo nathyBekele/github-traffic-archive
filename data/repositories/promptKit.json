@@ -35,18 +35,18 @@
   "created_at": "2024-01-16T14:57:57Z",
   "updated_at": "2026-10-11T10:13:26Z",
   "pushed_at": "2025-05-12T20:54:03Z",
-  "last_synced": "2026-10-29T03:24:12Z",
+  "last_synced": "2026-10-30T03:26:18Z",
   "summary": {
-    "all_time_views": 80,
-    "all_time_uniques": 55,
+    "all_time_views": 81,
+    "all_time_uniques": 56,
     "all_time_clones": 28,
     "all_time_unique_cloners": 26,
-    "views_14d": 16,
-    "uniques_14d": 11,
-    "clones_14d": 11,
-    "unique_cloners_14d": 10,
-    "clone_conversion_pct": 35.0,
-    "days_tracked": 40
+    "views_14d": 14,
+    "uniques_14d": 10,
+    "clones_14d": 10,
+    "unique_cloners_14d": 9,
+    "clone_conversion_pct": 34.6,
+    "days_tracked": 41
   },
   "views": [
     {
@@ -248,6 +248,11 @@
       "date": "2026-10-27",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-28",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "clones": [
@@ -450,6 +455,11 @@
       "date": "2026-10-27",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-28",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [
@@ -468,9 +478,9 @@
       "title": "Overview",
       "total_count": 25,
       "total_uniques": 8,
-      "latest_count": 8,
-      "latest_uniques": 5,
-      "last_seen": "2026-10-29"
+      "latest_count": 7,
+      "latest_uniques": 4,
+      "last_seen": "2026-10-30"
     },
     {
       "path": "/nathyBekele/promptKit/pulls",
@@ -479,7 +489,7 @@
       "total_uniques": 6,
       "latest_count": 4,
       "latest_uniques": 3,
-      "last_seen": "2026-10-29"
+      "last_seen": "2026-10-30"
     },
     {
       "path": "/nathyBekele/promptKit/issues",
@@ -488,7 +498,7 @@
       "total_uniques": 7,
       "latest_count": 4,
       "latest_uniques": 3,
-      "last_seen": "2026-10-29"
+      "last_seen": "2026-10-30"
     },
     {
       "path": "/nathyBekele/promptKit/commit/ed4dc432d4c34b7cca670ef72dfec8df556409b7",
@@ -587,7 +597,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-29"
+      "last_seen": "2026-10-30"
     },
     {
       "path": "/nathyBekele/promptKit/blob/main/requirements.txt",
@@ -596,7 +606,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-29"
+      "last_seen": "2026-10-30"
     }
   ]
 }
