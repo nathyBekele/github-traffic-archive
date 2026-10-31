@@ -25,18 +25,18 @@
   "created_at": "2024-04-18T07:36:28Z",
   "updated_at": "2025-05-12T20:36:49Z",
   "pushed_at": "2024-04-26T09:49:14Z",
-  "last_synced": "2026-10-30T03:26:18Z",
+  "last_synced": "2026-10-31T03:11:24Z",
   "summary": {
-    "all_time_views": 1,
-    "all_time_uniques": 1,
+    "all_time_views": 2,
+    "all_time_uniques": 2,
     "all_time_clones": 12,
     "all_time_unique_cloners": 11,
-    "views_14d": 0,
-    "uniques_14d": 0,
+    "views_14d": 1,
+    "uniques_14d": 1,
     "clones_14d": 5,
     "unique_cloners_14d": 4,
-    "clone_conversion_pct": 1200.0,
-    "days_tracked": 41
+    "clone_conversion_pct": 600.0,
+    "days_tracked": 42
   },
   "views": [
     {
@@ -243,6 +243,11 @@
       "date": "2026-10-28",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-29",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "clones": [
@@ -450,9 +455,23 @@
       "date": "2026-10-28",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-29",
+      "count": 0,
+      "uniques": 0
     }
   ],
-  "referrers": [],
+  "referrers": [
+    {
+      "referrer": "aocr.org",
+      "total_count": 1,
+      "total_uniques": 1,
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-31"
+    }
+  ],
   "paths": [
     {
       "path": "/nathyBekele/news-site-rpa-bot/pulls",
@@ -462,6 +481,15 @@
       "latest_count": 1,
       "latest_uniques": 1,
       "last_seen": "2026-10-28"
+    },
+    {
+      "path": "/nathyBekele/news-site-rpa-bot",
+      "title": "Overview",
+      "total_count": 1,
+      "total_uniques": 1,
+      "latest_count": 1,
+      "latest_uniques": 1,
+      "last_seen": "2026-10-31"
     }
   ]
 }

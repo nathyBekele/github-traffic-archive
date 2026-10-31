@@ -16,20 +16,20 @@
   "is_private": false,
   "is_fork": false,
   "created_at": "2026-10-02T19:03:58Z",
-  "updated_at": "2026-10-29T03:25:08Z",
-  "pushed_at": "2026-10-29T03:25:03Z",
-  "last_synced": "2026-10-30T03:26:18Z",
+  "updated_at": "2026-10-30T03:27:14Z",
+  "pushed_at": "2026-10-30T03:27:10Z",
+  "last_synced": "2026-10-31T03:11:24Z",
   "summary": {
     "all_time_views": 69,
     "all_time_uniques": 15,
-    "all_time_clones": 634,
-    "all_time_unique_cloners": 346,
-    "views_14d": 5,
-    "uniques_14d": 3,
+    "all_time_clones": 638,
+    "all_time_unique_cloners": 348,
+    "views_14d": 3,
+    "uniques_14d": 1,
     "clones_14d": 171,
     "unique_cloners_14d": 98,
-    "clone_conversion_pct": 918.8,
-    "days_tracked": 40
+    "clone_conversion_pct": 924.6,
+    "days_tracked": 41
   },
   "views": [
     {
@@ -229,6 +229,11 @@
     },
     {
       "date": "2026-10-28",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-29",
       "count": 0,
       "uniques": 0
     }
@@ -433,6 +438,11 @@
       "date": "2026-10-28",
       "count": 5,
       "uniques": 3
+    },
+    {
+      "date": "2026-10-29",
+      "count": 4,
+      "uniques": 2
     }
   ],
   "referrers": [
@@ -453,7 +463,7 @@
       "total_uniques": 2,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-30"
+      "last_seen": "2026-10-31"
     },
     {
       "path": "/nathyBekele/github-traffic-archive/graphs/traffic",
@@ -462,7 +472,7 @@
       "total_uniques": 1,
       "latest_count": 3,
       "latest_uniques": 1,
-      "last_seen": "2026-10-30"
+      "last_seen": "2026-10-31"
     },
     {
       "path": "/nathyBekele/github-traffic-archive/pulse",
@@ -471,7 +481,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-30"
+      "last_seen": "2026-10-31"
     },
     {
       "path": "/nathyBekele/github-traffic-archive/actions/workflows/traffic.yml",
