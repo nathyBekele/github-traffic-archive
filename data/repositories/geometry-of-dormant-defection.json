@@ -18,7 +18,7 @@
   "created_at": "2026-09-28T14:11:48Z",
   "updated_at": "2026-10-11T10:14:13Z",
   "pushed_at": "2026-10-01T19:18:39Z",
-  "last_synced": "2026-10-31T03:11:24Z",
+  "last_synced": "2026-11-01T03:07:06Z",
   "summary": {
     "all_time_views": 83,
     "all_time_uniques": 16,
@@ -29,7 +29,7 @@
     "clones_14d": 8,
     "unique_cloners_14d": 6,
     "clone_conversion_pct": 175.9,
-    "days_tracked": 42
+    "days_tracked": 43
   },
   "views": [
     {
@@ -239,6 +239,11 @@
     },
     {
       "date": "2026-10-29",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-30",
       "count": 0,
       "uniques": 0
     }
@@ -453,6 +458,11 @@
       "date": "2026-10-29",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-30",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [
@@ -462,7 +472,7 @@
       "total_uniques": 1,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-31"
+      "last_seen": "2026-11-01"
     },
     {
       "referrer": "medium.com",
@@ -497,7 +507,7 @@
       "total_uniques": 6,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-31"
+      "last_seen": "2026-11-01"
     },
     {
       "path": "/nathyBekele/geometry-of-dormant-defection/graphs/traffic",

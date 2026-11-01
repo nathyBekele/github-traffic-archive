@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-31T03:11:24Z",
+  "updated_at": "2026-11-01T03:07:06Z",
   "total_repositories_tracked": 35,
   "kpis": {
-    "all_time_views": 444,
-    "all_time_uniques": 177,
-    "all_time_clones": 2246,
-    "all_time_unique_cloners": 1266,
-    "views_14d": 48,
-    "clones_14d": 490,
+    "all_time_views": 445,
+    "all_time_uniques": 178,
+    "all_time_clones": 2261,
+    "all_time_unique_cloners": 1277,
+    "views_14d": 38,
+    "clones_14d": 457,
     "total_stars": 35,
     "total_forks": 4,
     "total_open_issues": 3
@@ -309,13 +309,20 @@
     },
     {
       "date": "2026-10-30",
+      "views": 1,
+      "uniques": 1,
+      "clones": 15,
+      "unique_cloners": 11
+    },
+    {
+      "date": "2026-10-31",
       "views": 0,
       "uniques": 0,
       "clones": 0,
       "unique_cloners": 0
     },
     {
-      "date": "2026-10-31",
+      "date": "2026-11-01",
       "views": 0,
       "uniques": 0,
       "clones": 0,
@@ -342,10 +349,10 @@
       "views_14d": 13,
       "uniques_14d": 9,
       "clones_14d": 11,
-      "all_time_views": 81,
-      "all_time_clones": 29,
-      "clone_conversion_pct": 35.8,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "all_time_views": 82,
+      "all_time_clones": 30,
+      "clone_conversion_pct": 36.6,
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "nathyBekele.github.io",
@@ -363,9 +370,32 @@
       "uniques_14d": 2,
       "clones_14d": 40,
       "all_time_views": 73,
-      "all_time_clones": 729,
-      "clone_conversion_pct": 998.6,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "all_time_clones": 730,
+      "clone_conversion_pct": 1000.0,
+      "last_synced": "2026-11-01T03:07:06Z"
+    },
+    {
+      "name": "telecom-data-analysis",
+      "full_name": "nathyBekele/telecom-data-analysis",
+      "html_url": "https://github.com/nathyBekele/telecom-data-analysis",
+      "description": "A Python package for comprehensive telecom data analytics, focusing on four key areas: User Overview, User Engagement, User Experience, and User Satisfaction. Designed to provide actionable insights to improve telecom services and customer retention through detailed data analysis.",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "data-analysis-python",
+        "telecom-data-analysis"
+      ],
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 4,
+      "uniques_14d": 2,
+      "clones_14d": 6,
+      "all_time_views": 10,
+      "all_time_clones": 20,
+      "clone_conversion_pct": 200.0,
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "ir-studio",
@@ -379,13 +409,13 @@
       "open_issues": 0,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 6,
-      "uniques_14d": 3,
-      "clones_14d": 6,
+      "views_14d": 3,
+      "uniques_14d": 2,
+      "clones_14d": 5,
       "all_time_views": 20,
       "all_time_clones": 25,
       "clone_conversion_pct": 125.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "redash-chatbot-add-on",
@@ -409,79 +439,13 @@
       "open_issues": 1,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 4,
-      "uniques_14d": 4,
+      "views_14d": 3,
+      "uniques_14d": 3,
       "clones_14d": 14,
       "all_time_views": 17,
-      "all_time_clones": 42,
-      "clone_conversion_pct": 247.1,
-      "last_synced": "2026-10-31T03:11:24Z"
-    },
-    {
-      "name": "telecom-data-analysis",
-      "full_name": "nathyBekele/telecom-data-analysis",
-      "html_url": "https://github.com/nathyBekele/telecom-data-analysis",
-      "description": "A Python package for comprehensive telecom data analytics, focusing on four key areas: User Overview, User Engagement, User Experience, and User Satisfaction. Designed to provide actionable insights to improve telecom services and customer retention through detailed data analysis.",
-      "language": "Jupyter Notebook",
-      "topics": [
-        "data-analysis-python",
-        "telecom-data-analysis"
-      ],
-      "stars": 2,
-      "forks": 0,
-      "open_issues": 0,
-      "is_private": false,
-      "is_fork": false,
-      "views_14d": 4,
-      "uniques_14d": 2,
-      "clones_14d": 7,
-      "all_time_views": 10,
-      "all_time_clones": 20,
-      "clone_conversion_pct": 200.0,
-      "last_synced": "2026-10-31T03:11:24Z"
-    },
-    {
-      "name": "github-traffic-archive",
-      "full_name": "nathyBekele/github-traffic-archive",
-      "html_url": "https://github.com/nathyBekele/github-traffic-archive",
-      "description": "https://nathybekele.github.io/github-traffic-archive/",
-      "language": "JavaScript",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "is_private": false,
-      "is_fork": false,
-      "views_14d": 3,
-      "uniques_14d": 1,
-      "clones_14d": 171,
-      "all_time_views": 69,
-      "all_time_clones": 638,
-      "clone_conversion_pct": 924.6,
-      "last_synced": "2026-10-31T03:11:24Z"
-    },
-    {
-      "name": "contract-advisor-rag",
-      "full_name": "nathyBekele/contract-advisor-rag",
-      "html_url": "https://github.com/nathyBekele/contract-advisor-rag",
-      "description": "This project aims to develop an autonomous contract bot. It focuses on building, evaluating, and refining a RAG system for Contract Q&A, enabling independent contract drafting, review, and negotiation.",
-      "language": "Jupyter Notebook",
-      "topics": [
-        "python-rag",
-        "rag-chatbot"
-      ],
-      "stars": 1,
-      "forks": 0,
-      "open_issues": 0,
-      "is_private": false,
-      "is_fork": false,
-      "views_14d": 2,
-      "uniques_14d": 2,
-      "clones_14d": 17,
-      "all_time_views": 6,
-      "all_time_clones": 32,
-      "clone_conversion_pct": 533.3,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "all_time_clones": 44,
+      "clone_conversion_pct": 258.8,
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "reproducing-gtta",
@@ -501,7 +465,7 @@
       "all_time_views": 2,
       "all_time_clones": 67,
       "clone_conversion_pct": 3350.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "geometry-of-dormant-defection",
@@ -521,7 +485,7 @@
       "all_time_views": 83,
       "all_time_clones": 146,
       "clone_conversion_pct": 175.9,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "custom-data-warehouse",
@@ -548,7 +512,7 @@
       "all_time_views": 11,
       "all_time_clones": 53,
       "clone_conversion_pct": 481.8,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "semantic-image-and-text-alignment",
@@ -572,29 +536,30 @@
       "all_time_views": 7,
       "all_time_clones": 12,
       "clone_conversion_pct": 171.4,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
-      "name": "nathyBekele",
-      "full_name": "nathyBekele/nathyBekele",
-      "html_url": "https://github.com/nathyBekele/nathyBekele",
-      "description": "A portfolio of projects by Natnael, featuring full-stack and AI-driven applications. Projects include enterprise LLM solutions, healthcare support, AI-powered recruitment, and chatbot-based restaurant review platforms, demonstrating expertise in backend architecture, infrastructure, prompt engineering, CI/CD, and modern web technolog",
-      "language": "Other",
+      "name": "contract-advisor-rag",
+      "full_name": "nathyBekele/contract-advisor-rag",
+      "html_url": "https://github.com/nathyBekele/contract-advisor-rag",
+      "description": "This project aims to develop an autonomous contract bot. It focuses on building, evaluating, and refining a RAG system for Contract Q&A, enabling independent contract drafting, review, and negotiation.",
+      "language": "Jupyter Notebook",
       "topics": [
-        "readme-profile"
+        "python-rag",
+        "rag-chatbot"
       ],
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "open_issues": 0,
       "is_private": false,
       "is_fork": false,
       "views_14d": 1,
       "uniques_14d": 1,
-      "clones_14d": 11,
+      "clones_14d": 16,
       "all_time_views": 6,
-      "all_time_clones": 118,
-      "clone_conversion_pct": 1966.7,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "all_time_clones": 32,
+      "clone_conversion_pct": 533.3,
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "vitalAI",
@@ -620,7 +585,7 @@
       "all_time_views": 5,
       "all_time_clones": 24,
       "clone_conversion_pct": 480.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "logistics-dApp-on-ethereum",
@@ -642,11 +607,11 @@
       "is_fork": false,
       "views_14d": 1,
       "uniques_14d": 1,
-      "clones_14d": 16,
+      "clones_14d": 18,
       "all_time_views": 3,
-      "all_time_clones": 41,
-      "clone_conversion_pct": 1366.7,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "all_time_clones": 43,
+      "clone_conversion_pct": 1433.3,
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "news-site-rpa-bot",
@@ -673,32 +638,27 @@
       "all_time_views": 2,
       "all_time_clones": 12,
       "clone_conversion_pct": 600.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
-      "name": "algo-certify-dApp-nft",
-      "full_name": "nathyBekele/algo-certify-dApp-nft",
-      "html_url": "https://github.com/nathyBekele/algo-certify-dApp-nft",
-      "description": " AlgoCertify is a certification platform harnessing the power of Web3 technologies. Built on the secure Algorand Blockchain, it issues and verifies Non-Fungible Token (NFT) certificates, providing an upgraded alternative to static PDFs.",
-      "language": "Jupyter Notebook",
-      "topics": [
-        "algorand",
-        "blockchain",
-        "dapp",
-        "nfts"
-      ],
-      "stars": 3,
+      "name": "github-traffic-archive",
+      "full_name": "nathyBekele/github-traffic-archive",
+      "html_url": "https://github.com/nathyBekele/github-traffic-archive",
+      "description": "https://nathybekele.github.io/github-traffic-archive/",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
       "forks": 0,
       "open_issues": 0,
       "is_private": false,
       "is_fork": false,
-      "views_14d": 1,
-      "uniques_14d": 1,
-      "clones_14d": 8,
-      "all_time_views": 1,
-      "all_time_clones": 17,
-      "clone_conversion_pct": 1700.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "views_14d": 0,
+      "uniques_14d": 0,
+      "clones_14d": 138,
+      "all_time_views": 69,
+      "all_time_clones": 643,
+      "clone_conversion_pct": 931.9,
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "heart-beat",
@@ -716,9 +676,9 @@
       "uniques_14d": 0,
       "clones_14d": 26,
       "all_time_views": 32,
-      "all_time_clones": 79,
-      "clone_conversion_pct": 246.9,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "all_time_clones": 81,
+      "clone_conversion_pct": 253.1,
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "cursor-spend-tracker",
@@ -734,11 +694,33 @@
       "is_fork": false,
       "views_14d": 0,
       "uniques_14d": 0,
-      "clones_14d": 8,
+      "clones_14d": 9,
       "all_time_views": 11,
-      "all_time_clones": 18,
-      "clone_conversion_pct": 163.6,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "all_time_clones": 19,
+      "clone_conversion_pct": 172.7,
+      "last_synced": "2026-11-01T03:07:06Z"
+    },
+    {
+      "name": "nathyBekele",
+      "full_name": "nathyBekele/nathyBekele",
+      "html_url": "https://github.com/nathyBekele/nathyBekele",
+      "description": "A portfolio of projects by Natnael, featuring full-stack and AI-driven applications. Projects include enterprise LLM solutions, healthcare support, AI-powered recruitment, and chatbot-based restaurant review platforms, demonstrating expertise in backend architecture, infrastructure, prompt engineering, CI/CD, and modern web technolog",
+      "language": "Other",
+      "topics": [
+        "readme-profile"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 0,
+      "uniques_14d": 0,
+      "clones_14d": 10,
+      "all_time_views": 6,
+      "all_time_clones": 118,
+      "clone_conversion_pct": 1966.7,
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "hate-speech-detection-in-amharic-language",
@@ -762,7 +744,32 @@
       "all_time_views": 4,
       "all_time_clones": 1,
       "clone_conversion_pct": 25.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
+    },
+    {
+      "name": "algo-certify-dApp-nft",
+      "full_name": "nathyBekele/algo-certify-dApp-nft",
+      "html_url": "https://github.com/nathyBekele/algo-certify-dApp-nft",
+      "description": " AlgoCertify is a certification platform harnessing the power of Web3 technologies. Built on the secure Algorand Blockchain, it issues and verifies Non-Fungible Token (NFT) certificates, providing an upgraded alternative to static PDFs.",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "algorand",
+        "blockchain",
+        "dapp",
+        "nfts"
+      ],
+      "stars": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "is_private": false,
+      "is_fork": false,
+      "views_14d": 0,
+      "uniques_14d": 0,
+      "clones_14d": 9,
+      "all_time_views": 1,
+      "all_time_clones": 18,
+      "clone_conversion_pct": 1800.0,
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "streamlit-app-for-simplified-ai-recruiting",
@@ -788,7 +795,7 @@
       "all_time_views": 1,
       "all_time_clones": 13,
       "clone_conversion_pct": 1300.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "a2sv-jan-practice-problem-solutions-cpp",
@@ -811,7 +818,7 @@
       "all_time_views": 0,
       "all_time_clones": 11,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "a2sv-mar-contest-solutions-cpp",
@@ -835,7 +842,7 @@
       "all_time_views": 0,
       "all_time_clones": 8,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "a2sv-mar-practice-problems-solutions-cpp",
@@ -858,7 +865,7 @@
       "all_time_views": 0,
       "all_time_clones": 12,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "dsa-problems-using-cpp",
@@ -882,7 +889,7 @@
       "all_time_views": 0,
       "all_time_clones": 15,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "slack-workspace-data-analysis",
@@ -905,7 +912,7 @@
       "all_time_views": 0,
       "all_time_clones": 38,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "a2sv-jan-contest-solutions-cpp",
@@ -929,7 +936,7 @@
       "all_time_views": 0,
       "all_time_clones": 8,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "abrehot-space-booking",
@@ -952,7 +959,7 @@
       "all_time_views": 0,
       "all_time_clones": 11,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "code-to-learn",
@@ -975,7 +982,7 @@
       "all_time_views": 0,
       "all_time_clones": 10,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "internet-package-tracker",
@@ -995,7 +1002,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "miscellaneous-automation-scripts",
@@ -1019,7 +1026,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "mock-uis",
@@ -1039,7 +1046,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "novel",
@@ -1059,7 +1066,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "squid-game",
@@ -1083,7 +1090,7 @@
       "all_time_views": 0,
       "all_time_clones": 0,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "to-do-app",
@@ -1106,7 +1113,7 @@
       "all_time_views": 0,
       "all_time_clones": 13,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     },
     {
       "name": "vula-arbiter",
@@ -1126,7 +1133,7 @@
       "all_time_views": 0,
       "all_time_clones": 4,
       "clone_conversion_pct": 0.0,
-      "last_synced": "2026-10-31T03:11:24Z"
+      "last_synced": "2026-11-01T03:07:06Z"
     }
   ],
   "top_referrers": [
@@ -1171,8 +1178,8 @@
     {
       "path": "/nathyBekele/promptKit",
       "title": "Overview",
-      "count": 25,
-      "uniques": 8
+      "count": 26,
+      "uniques": 9
     },
     {
       "path": "/nathyBekele/nathyBekele.github.io/actions",

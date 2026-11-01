@@ -18,18 +18,18 @@
   "created_at": "2026-10-12T15:56:00Z",
   "updated_at": "2026-10-12T18:50:25Z",
   "pushed_at": "2026-10-12T18:50:21Z",
-  "last_synced": "2026-10-31T03:11:24Z",
+  "last_synced": "2026-11-01T03:07:06Z",
   "summary": {
     "all_time_views": 20,
     "all_time_uniques": 6,
     "all_time_clones": 25,
     "all_time_unique_cloners": 16,
-    "views_14d": 6,
-    "uniques_14d": 3,
-    "clones_14d": 6,
-    "unique_cloners_14d": 6,
+    "views_14d": 3,
+    "uniques_14d": 2,
+    "clones_14d": 5,
+    "unique_cloners_14d": 5,
     "clone_conversion_pct": 125.0,
-    "days_tracked": 31
+    "days_tracked": 32
   },
   "views": [
     {
@@ -184,6 +184,11 @@
     },
     {
       "date": "2026-10-29",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "date": "2026-10-30",
       "count": 0,
       "uniques": 0
     }
@@ -343,6 +348,11 @@
       "date": "2026-10-29",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "date": "2026-10-30",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "referrers": [
@@ -352,7 +362,7 @@
       "total_uniques": 2,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-31"
+      "last_seen": "2026-11-01"
     }
   ],
   "paths": [
@@ -363,7 +373,7 @@
       "total_uniques": 1,
       "latest_count": 3,
       "latest_uniques": 1,
-      "last_seen": "2026-10-31"
+      "last_seen": "2026-11-01"
     },
     {
       "path": "/nathyBekele/ir-studio/graphs/traffic",
@@ -372,7 +382,7 @@
       "total_uniques": 1,
       "latest_count": 2,
       "latest_uniques": 1,
-      "last_seen": "2026-10-31"
+      "last_seen": "2026-11-01"
     },
     {
       "path": "/nathyBekele/ir-studio",
@@ -381,7 +391,7 @@
       "total_uniques": 2,
       "latest_count": 1,
       "latest_uniques": 1,
-      "last_seen": "2026-10-31"
+      "last_seen": "2026-11-01"
     },
     {
       "path": "/nathyBekele/ir-studio/pulls",
